@@ -43,9 +43,9 @@ We have provided all the materials used in the evaluation process located at a f
 * __Execution Time__: This sheet includes the execution time of each components of Darcy for all Java-9 applications within our dataset.
 
 ## References: ##
-[1]: F.-J. Elmer, "Classycle: Analysing Tools for Java Class and Package Dependencies," How Classycle works, 2012.
+[1] F.-J. Elmer, "Classycle: Analysing Tools for Java Class and Package Dependencies," How Classycle works, 2012.
 
-[2]: R.Valle ́e-Rai,P.Co,E.Gagnon, L.Hendren, P.Lam, and V.Sundaresan, "Soot: A Java bytecode optimization framework," in CASCON First Decade High Impact Papers. IBM Corp., 2010, pp. 214–224.
+[2] R.Valle ́e-Rai,P.Co,E.Gagnon, L.Hendren, P.Lam, and V.Sundaresan, "Soot: A Java bytecode optimization framework," in CASCON First Decade High Impact Papers. IBM Corp., 2010, pp. 214–224.
 
-[3]: "ANTLR," http://www.antlr.org, 2018.
+[3] "ANTLR," http://www.antlr.org, 2018.
 
