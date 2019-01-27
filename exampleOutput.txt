@@ -1,0 +1,452 @@
+======== Constructing modules.txt and module-infos.txt ========
+======== Static Analysis Using Classycle ========
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 17 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 10 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 14 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 19 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 13 ms: 1 classes analysed.
+condense class graph ... done after 4 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 17 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 13 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 1 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 14 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 14 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 15 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 10 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 13 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 14 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 13 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 15 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 13 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 1 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 13 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 10 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 10 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 15 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 14 ms: 1 classes analysed.
+condense class graph ... done after 1 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 2 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 12 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 13 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 11 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 1 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 0 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+============= Classycle V1.4.2 =============
+========== by Franz-Josef Elmer ==========
+read class files and create class graph ... done after 13 ms: 1 classes analysed.
+condense class graph ... done after 2 ms: 1 strong components found.
+calculate class layer indices ... done after 0 ms.
+create package graph ... done after 1 ms: 1 packages.
+condense package graph ... done after 1 ms: 1 strong components found.
+calculate package layer indices ... done after 0 ms.
+-------- Classycle Static Analysis Finished --------
+======== Parsing XML Files ========
+(':::: Number of Packages = ', 48, ' ::::')
+-------- Finished Parsing XML Files --------
+======== Checking for Inconsistencies ========
+::::: STATS ::::
+# of Modules: 6
+# of requires: 27
+# of exports: 3
+# of opens: 3
+# of uses: 0
+# of provides: 0
+# of total directives: 33
+FOUND INCONSISTENCIES:
+Requires-JDK- com.mechanitis.demo.sense.client : java.logging
+Exports to- com.mechanitis.demo.sense.client, com.mechanitis.demo.sense.client to [javafx.graphics]
+Opens to- com.mechanitis.demo.sense.client, com.mechanitis.demo.sense.client.mood to [javafx.fxml]
+Opens to- com.mechanitis.demo.sense.client, com.mechanitis.demo.sense.client.user to [javafx.base, javafx.fxml]
+Opens to- com.mechanitis.demo.sense.client, com.mechanitis.demo.sense.client to [javafx.fxml]
+Exports- com.mechanitis.demo.sense.flow, com.mechanitis.demo.sense.flow
+Requires- com.mechanitis.demo.sense.mood : com.mechanitis.demo.sense.flow
+Requires-JDK- com.mechanitis.demo.sense.mood : java.logging
+Requires- com.mechanitis.demo.sense.user : com.mechanitis.demo.sense.flow
+-------- Finished Checking Inconsistencies --------
+======== Checking for opens Inconsistencies: Java Reflection Analysis ========
+total number of possible methods to analyze: 0
+Number of reflections found: 0
+=================================================
+=================================================
+-------- Finished Checking opens Inconsistencies --------
+======== Checking for uses Inconsistencies: Java Reflection Analysis ========
+total number of possible methods to analyze: 0
+=========================Excess uses========================
+=================================================
+Number of Service Loader Usage found: 0
+-------- Finished Checking uses Inconsistencies --------
+======== Repairing: Transforming module-info Files ========
+line 1:457 extraneous input '<EOF>' expecting {'requires', 'exports', 'opens', 'uses', 'provides', '}'}
+module com . mechanitis . demo . sense . client { 
+requires com . mechanitis . demo . sense . service ; 
+module com . mechanitis . demo . sense . mood { 
+requires com . mechanitis . demo . sense . service ; 
+requires reactor . core ; 
+requires reactive . streams ; 
+} 
+module com . mechanitis . demo . sense . user { 
+requires com . mechanitis . demo . sense . service ; 
+} 
+-------- Finished Repairing --------
+======== Stats ========
+pre-process: 95 ms
+Static Analysis (Classycle): 10360 ms
+Parsing XML: 212 ms
+Checking Inconsistencies: 331 ms
+Reflection Analysis: 1905 ms
+Uses Analysis: 1434 ms
+Repair: 636 ms
+Total Time: 15141 ms
