@@ -29,7 +29,9 @@ cd Darcy
 ./runAll.sh
 ```
 2. When it asks for "_Project Path_", enter the following address:
+
 `/home/negar/Desktop/Darcy/Java9-Module-Inconsistencies/dataset_projects/sense-nine-start-point`
+
 The output for this example input is provided in `exampleOutPut.txt` in the root directory.
 
 ## 3. Evaluation Artifacts ##
