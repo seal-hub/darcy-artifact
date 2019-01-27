@@ -36,7 +36,7 @@ cd Darcy
 
 `/home/negar/Desktop/Darcy/Java9-Module-Inconsistencies/dataset_projects/sense-nine-start-point`
 
-The output for this example input is provided in `exampleOutPut.txt` in the root directory.
+The output for this example input is provided in `exampleOutput.txt` in the root directory.
 
 ## 3. Evaluation Artifacts ##
 We have provided all the materials used in the evaluation process located at a folder named `evaluation` in the root directory of this repo. There is an excel file `results.xlsx` in the `evaluation` folder that contains all the evaluation results presented in the paper (Table 2-6) along with their calculations. Each table’s result is represented in a separate sheet:
