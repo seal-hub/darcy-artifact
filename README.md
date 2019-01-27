@@ -22,7 +22,11 @@ Username: negar
 password : "1"
 ```
 ## 2. Input Data ##
-This repository also contains the input data for executing Darcy; this data were used in evaluating Darcy as reported in the paper. This input data contains open-source Java-9 applications which are located in a folder named “dataset_projects” at the Darcy directory in this repo. You  can use any of the Java projects within this folder, however, for more convenience, you can use the following example input:
+This repository also contains the input data for executing Darcy; this data were used in evaluating Darcy as reported in the paper. This input data contains open-source Java-9 applications which are located in a folder named `dataset_projects`:
+```
+Darcy/dataset_projects
+```
+You  can use any of the Java projects within this folder, however, for more convenience, you can use the following example input:
 1. First go to `Darcy` directory and run the script:
 ```
 cd Darcy
@@ -32,7 +36,7 @@ cd Darcy
 
 `/home/negar/Desktop/Darcy/Java9-Module-Inconsistencies/dataset_projects/sense-nine-start-point`
 
-The output for this example input is provided in `exampleOutPut.txt` in the root directory.
+The output for this example input is provided in `exampleOutput.txt` in the root directory.
 
 ## 3. Evaluation Artifacts ##
 We have provided all the materials used in the evaluation process located at a folder named `evaluation` in the root directory of this repo. There is an excel file `results.xlsx` in the `evaluation` folder that contains all the evaluation results presented in the paper (Table 2-6) along with their calculations. Each table’s result is represented in a separate sheet:
