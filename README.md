@@ -22,7 +22,7 @@ Username: negar
 password : "1"
 ```
 ## 2. Input Data ##
-This repository also contains the input data for executing Darcy; these input data contain  these data were used in evaluating Darcy as reported in the paper. This input data contains open-source Java-9 applications which are located in a folder named “dataset_projects” at the Darcy directory in this repo. You  can use any of the Java projects within this directory, however, for more convenience, you can use the following example input:
+This repository also contains the input data for executing Darcy; this data were used in evaluating Darcy as reported in the paper. This input data contains open-source Java-9 applications which are located in a folder named “dataset_projects” at the Darcy directory in this repo. You  can use any of the Java projects within this folder, however, for more convenience, you can use the following example input:
 1. First go to `Darcy` directory and run the script:
 ```
 cd Darcy
