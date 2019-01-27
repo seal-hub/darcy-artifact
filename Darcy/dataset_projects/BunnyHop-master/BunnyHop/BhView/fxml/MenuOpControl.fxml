@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.*?>
+<?import net.seapanda.bunnyhop.common.*?>
+
+<VBox
+	xmlns:fx="http://javafx.com/fxml"
+	fx:controller="net.seapanda.bunnyhop.control.MenuOperationController"
+	fx:id="menuViewBase">
+	<fx:define>
+		<Rem fx:id="widenSize" rem="2.0"/>
+		<Rem fx:id="narrowSize" rem="2.0"/>
+		<Rem fx:id="zoomSize" rem="2.0"/>
+		<Rem fx:id="undoRedoSize" rem="2.0"/>
+		<Rem fx:id="startSize" rem="2.0"/>
+		<Rem fx:id="stopSize" rem="2.0"/>
+	</fx:define>
+	<FlowPane
+		fx:id="menuOpViewUpper"
+		styleClass="menuOpFlowPane">
+		<Button text="コピー" fx:id="copyBtn" styleClass="menuOpFlatButtons"/>
+		<Button text="カット" fx:id="cutBtn" styleClass="menuOpFlatButtons"/>
+		<Button text="貼り付け" fx:id="pasteBtn" styleClass="menuOpFlatButtons"/>
+		<Button text="消去" fx:id="deleteBtn" styleClass="menuOpFlatButtons"/>
+		<Separator fx:id="menuOpSeparator0" orientation="VERTICAL" styleClass="menuSeparator"/>
+		<Button fx:id="undoBtn" styleClass="menuOpFlatButtons"> <!-- 元に戻す -->
+			<graphic>
+				<ImageView>
+					<Image url="@../images/undo.png" smooth="true" requestedWidth="$zoomSize.rem" requestedHeight="$zoomSize.rem"/>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Button fx:id="redoBtn" styleClass="menuOpFlatButtons"> <!-- やり直す -->
+			<graphic>
+				<ImageView>
+					<Image url="@../images/redo.png" smooth="true" requestedWidth="$zoomSize.rem" requestedHeight="$zoomSize.rem"/>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Separator fx:id="menuOpSeparator1" orientation="VERTICAL" styleClass="menuOpSeparator"/>
+		
+		<Button fx:id="zoomInBtn" styleClass="menuOpFlatButtons"> <!-- 拡大 -->
+			<graphic>
+				<ImageView>
+					<Image url="@../images/zoomIn.png" smooth="true" requestedWidth="$zoomSize.rem" requestedHeight="$zoomSize.rem"/>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Button fx:id="zoomOutBtn" styleClass="menuOpFlatButtons"> <!-- 縮小 -->
+			<graphic>
+				<ImageView>
+					<Image url="@../images/zoomOut.png" smooth="true" requestedWidth="$zoomSize.rem" requestedHeight="$zoomSize.rem"/>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Separator fx:id="menuOpSeparator2" orientation="VERTICAL" styleClass="menuOpSeparator"/>
+		
+		<Button text="ワークスペースの追加" fx:id="addWorkspaceBtn" styleClass="menuOpFlatButtons"/>
+		<Button fx:id="widenBtn" styleClass="menuOpFlatButtons"> <!-- 広げる -->
+			<graphic>
+				<ImageView>
+					<Image url="@../images/widen.png" requestedWidth="$widenSize.rem" requestedHeight="$widenSize.rem"/>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Button fx:id="narrowBtn" styleClass="menuOpFlatButtons"> <!-- 狭める -->
+			<graphic>
+				<ImageView>
+					<Image url="@../images/narrow.png" requestedWidth="$narrowSize.rem" requestedHeight="$narrowSize.rem"/>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Separator fx:id="menuOpSeparator3" orientation="VERTICAL" styleClass="menuOpeSeparator"/>
+		
+		<Button fx:id="executeBtn" styleClass="menuOpFlatButtons"> <!-- 実行 -->
+			<graphic>
+				<ImageView>
+					<Image url="@../images/start.png" smooth="true" requestedWidth="$startSize.rem" requestedHeight="$startSize.rem"/>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Button fx:id="terminateBtn" styleClass="menuOpFlatButtons">
+			<graphic>
+				<ImageView>
+					<Image url="@../images/stop.png" smooth="true" requestedWidth="$stopSize.rem" requestedHeight="$stopSize.rem"/>
+				</ImageView>
+			</graphic>
+		</Button>
+		
+		<Button text="接続" fx:id="connectBtn" styleClass="menuOpFlatButtons"/>
+		<Button text="切断" fx:id="disconnectBtn" styleClass="menuOpFlatButtons"/>
+		
+		<Separator fx:id="menuOpSeparator4" orientation="VERTICAL" styleClass="menuOpeSeparator"/>
+	</FlowPane>
+	
+	<FlowPane
+		fx:id="menuOpViewLower"
+		styleClass="menuOpFlowPane">
+		<ToggleButton fx:id="remotLocalSelectBtn" text="ローカル" styleClass="menuOpButtons"/>
+		
+		<!-- <Label text="IPアドレス:" styleClass="loginInfoLabel">
+			<FlowPane.margin>
+				<Insets left="15.0"/>
+			</FlowPane.margin>
+		</Label> -->
+		<TextField fx:id="ipAddrTextField" disable="true" promptText="IPアドレス"/>
+		
+		<!-- <Label text="ユーザー名:" styleClass="loginInfoLabel">
+			<FlowPane.margin>
+				<Insets left="15.0"/>
+			</FlowPane.margin>
+		</Label> -->
+		<TextField fx:id="unameTextField" disable="true" promptText="ユーザー名"/>
+		
+		<!-- <Label text="パスワード:" styleClass="loginInfoLabel">
+			<FlowPane.margin>
+				<Insets left="15.0"/>
+			</FlowPane.margin>
+		</Label> -->
+		<PasswordField fx:id="passwordTextField" disable="true" promptText="パスワード"/>
+		
+		<Separator fx:id="menuSeparator4" orientation="VERTICAL" styleClass="menuOpSeparator"/>
+		<TextField fx:id="stdInTextField" promptText="標準入力"/>
+		<Button text="送信" fx:id="sendBtn" styleClass="menuOpButtons"/>
+	</FlowPane>
+</VBox>

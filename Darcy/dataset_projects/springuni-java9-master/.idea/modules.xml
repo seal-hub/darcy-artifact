@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springuni-chat-client/springuni-chat-client.iml" filepath="$PROJECT_DIR$/springuni-chat-client/springuni-chat-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springuni-chat-model/springuni-chat-model.iml" filepath="$PROJECT_DIR$/springuni-chat-model/springuni-chat-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springuni-chat-service/springuni-chat-service.iml" filepath="$PROJECT_DIR$/springuni-chat-service/springuni-chat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springuni-java9.iml" filepath="$PROJECT_DIR$/springuni-java9.iml" />
+    </modules>
+  </component>
+</project>

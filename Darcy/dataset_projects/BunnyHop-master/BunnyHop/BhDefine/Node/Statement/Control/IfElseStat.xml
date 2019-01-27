@@ -1,0 +1,59 @@
+<Node type="connective"
+	bhNodeID="idIfElseStat"
+	name="IfElseStat"
+	nodeStyleID="IfElseStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		
+		<PrivateConnector
+			bhConnectorID="idIfElseStat.prvCnctr0"
+			name="Moshi"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idIfElseStat.prvNode0"
+				name="Moshi"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="もし">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idBoolExpCnctr" name="CondExp"/>
+
+		<PrivateConnector
+			bhConnectorID="idIfElseStat.prvCnctr1"
+			name="Nara"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idIfElseStat.prvNode1"
+				name="Nara"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="なら">
+			</Node>
+		</PrivateConnector>
+
+		<Connector bhConnectorID="idStatCnctr" name="ThenStat"/>
+
+		<PrivateConnector
+			bhConnectorID="idIfElseStat.prvCnctr2"
+			name="Sodenakereba"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idIfElseStat.prvNode2"
+				name="Sodenakereba"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="そうでなければ">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idStatCnctr" name="ElseStat"/>
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ModuleInfoTransformer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ModuleInfoTransformer_jar</output-path>
+    <root id="archive" name="ModuleInfoTransformer.jar">
+      <element id="module-output" name="ModuleInfoTransformer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../antlr-4.7.1-complete.jar" path-in-jar="/" />
+      <element id="library" level="project" name="java9" />
+    </root>
+  </artifact>
+</component>

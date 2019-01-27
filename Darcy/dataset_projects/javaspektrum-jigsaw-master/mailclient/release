@@ -1,0 +1,2 @@
+#Mon Jun 27 14:41:44 CEST 2016
+MODULES=Mail,MailClient,MailAPI,java.base

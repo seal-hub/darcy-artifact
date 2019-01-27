@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>firemage.constantin</groupId>
+		<artifactId>Projekt_Constantin</artifactId>
+		<version>0.1</version>
+	</parent>
+	<groupId>firemage.constantin</groupId>
+	<artifactId>Core</artifactId>
+	<version>0.1</version>
+	<name>Core</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<build>
+		<sourceDirectory>src/main/java/firemage.constantin.core</sourceDirectory>
+		<testSourceDirectory>src/test/java/firemage.constantin.core</testSourceDirectory>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>firemage.constantin</groupId>
+			<artifactId>Input</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>firemage.constantin</groupId>
+			<artifactId>Output</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>firemage.constantin</groupId>
+			<artifactId>Database</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>1.6</version>
+		</dependency>
+	</dependencies>
+</project>

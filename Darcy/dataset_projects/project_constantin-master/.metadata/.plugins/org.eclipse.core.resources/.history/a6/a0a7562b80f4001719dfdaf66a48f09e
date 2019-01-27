@@ -1,0 +1,7 @@
+package firemage.constantin.core.properties;
+
+public enum CorePropertyName {
+
+	
+	final String propertyKey;
+}

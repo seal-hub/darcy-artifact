@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Java9TestLib">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Java9TestLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

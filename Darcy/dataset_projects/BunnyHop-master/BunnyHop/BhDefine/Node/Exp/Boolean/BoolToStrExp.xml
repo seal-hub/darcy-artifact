@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<Node type="connective"
+	  bhNodeID="idBoolToStrExp"
+	  name="BoolToStrExp"
+	  nodeStyleID="BoolToStrExp.json"
+	  onMovedFromChildToWS=""
+	  onMovedToChild="">
+    
+    <ConnectorSection name="StringExpSctn">
+        <Connector bhConnectorID="idBoolExpCnctr" name="Arg0"/>
+    </ConnectorSection>
+</Node>

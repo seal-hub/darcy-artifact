@@ -1,0 +1,13 @@
+<Node type="connective"
+	  bhNodeID="idBoolOutArg"
+	  name="BoolOutArg"
+	  nodeStyleID="BoolArg.json"
+	  onMovedFromChildToWS=""
+	  onMovedToChild="">
+    
+    <ConnectorSection>
+        <Connector bhConnectorID="idVarNameCnctr" name="VarName" imitCnctPos="imitPosVarName"/>
+        <Connector bhConnectorID="idBoolVarCnctr" name="Arg"/>
+        <Connector bhConnectorID="idArgCnctr" name="NextArg" imitCnctPos="imitPosNextArg"/>
+    </ConnectorSection>    
+</Node>

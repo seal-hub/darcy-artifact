@@ -1,0 +1,4 @@
+--patch-module
+firemage.constantin.core=_
+--add-reads
+firemage.constantin.core=ALL-UNNAMED

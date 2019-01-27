@@ -1,0 +1,24 @@
+{
+	"topMargin" : 1.0,
+	"bottomMargin" : 1.0,
+	"leftMargin" : 1.0,
+	"rightMargin" : 1.0,
+	"connectorPos" : "Left",
+	"connectorShift" : 0.0,
+	"connectorWidth" : 0.0,
+	"connectorHeight" : 0.0,
+	"connectorShape" : "NONE",
+	"connectorBoundsRate" : 0.0,
+	"cssClass" : "strType",
+
+	"connective" : {
+		"inner" : {
+			"arrangement" : "Row",
+			"interval" : 2.0,
+			"connectorList" : ["ListName", "ListSign", "Arg"]
+		},
+		"outer" : {
+			"connectorList" : ["NextArg"]
+		}
+	}
+}

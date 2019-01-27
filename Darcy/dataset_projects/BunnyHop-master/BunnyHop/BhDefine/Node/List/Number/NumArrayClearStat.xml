@@ -1,0 +1,28 @@
+<Node
+	type="connective"
+	bhNodeID="idNumArrayClearStat"
+	name="NumArrayClearStat"
+	nodeStyleID="NumArrayClearStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		<Connector bhConnectorID="idNumListCnctr" name="Arg0"/>
+		
+		<PrivateConnector
+			bhConnectorID="idNumArrayClearStat.prvCnctr0"
+			name="noYosoWoSubeteKesu"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idNumArrayClearStat.prvNode0"
+				name="noYosoWoSubeteKesu"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="の要素を全て消す">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>

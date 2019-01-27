@@ -1,0 +1,24 @@
+{
+	"topMargin" : 1.0,
+	"bottomMargin" : 1.0,
+	"leftMargin" : 5.5,
+	"rightMargin" : 1.5,
+	"connectorPos" : "Top",
+	"connectorShift" : 1.0,
+	"connectorWidth" : 3.5,
+	"connectorHeight" : 3.5,
+	"connectorShape" : "ARROW",
+	"connectorBoundsRate" : 1.25,
+	"cssClass" : "strType",
+
+	"connective" : {
+		"inner" : {
+			"arrangement" : "Row",
+			"interval" : 2.0,
+			"connectorList" : ["Arg0", "woShuturyokuSuru"]
+		},
+		"outer" : {
+			"connectorList" : ["NextStat"]
+		}
+	}
+}

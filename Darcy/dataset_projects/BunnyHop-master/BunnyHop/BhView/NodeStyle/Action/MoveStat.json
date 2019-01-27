@@ -1,0 +1,44 @@
+{
+	"topMargin" : 1.0,
+	"bottomMargin" : 1.0,
+	"leftMargin" : 5.5,
+	"rightMargin" : 1.5,
+	"connectorPos" : "Top",
+	"connectorShift" : 1.0,
+	"connectorWidth" : 3.5,
+	"connectorHeight" : 3.5,
+	"connectorShape" : "ARROW",
+	"connectorBoundsRate" : 1.25,
+	"cssClass" : "actionType",
+
+	"connective" : {
+		"inner" : {
+			"arrangement" : "Column",
+			"interval" : 1.5,
+			"subGroup0" : {
+				"arrangement" : "Row",
+				"interval" : 1.0,
+				"connectorList" : ["hayasa", "Arg0", "de"]
+			},
+			"subGroup1" : {
+				"arrangement" : "Row",
+				"interval" : 3.0,			
+
+				"subGroup0" : {
+					"arrangement" : "Row",
+					"interval" : 1.0,
+					"connectorList" : ["Arg1", "byokan"]
+				},
+				"subGroup1" : {
+					"arrangement" : "Row",
+					"interval" : 1.0,
+					"connectorList" : ["Option0", "suru"]
+				},
+			}
+		},
+
+		"outer" : {
+			"connectorList" : ["NextStat"]
+		}
+	}
+}

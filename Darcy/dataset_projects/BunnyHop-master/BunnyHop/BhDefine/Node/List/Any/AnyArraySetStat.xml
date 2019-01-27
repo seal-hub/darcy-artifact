@@ -1,0 +1,28 @@
+<Node
+	type="connective"
+	bhNodeID="idAnyArraySetStat"
+	name="AnyArraySetStat"
+	nodeStyleID="AnyArraySetStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		<Connector bhConnectorID="idAnyListCnctr" name="AnyArray"/>
+		
+		<PrivateConnector
+			bhConnectorID="idAnyArraySetStat.prvCnctr0"
+			name="noMatuBanmeWoBatsuNiKakikaeru"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idAnyArraySetStat.prvNode0"
+				name="noMatuBanmeWoBatsuNiKakikaeru"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="の○番目を×に書き換える">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>

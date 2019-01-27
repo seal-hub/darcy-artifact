@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root
+	xmlns:fx="http://javafx.com/fxml"
+	type="Tab">
+	<ScrollPane
+		fx:id="scrollPane"
+		HbarPolicy="AS_NEEDED"
+		VbarPolicy="AS_NEEDED"
+		FitToWidth="false"
+		FitToHeight="false">
+		<Pane fx:id="wsWrapper">
+			<Pane fx:id="wsPane"/>
+		</Pane>
+	</ScrollPane>
+</fx:root>

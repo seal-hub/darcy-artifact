@@ -1,0 +1,21 @@
+{
+	"topMargin" : 1.0,
+	"bottomMargin" : 1.0,
+	"leftMargin" : 2.5,
+	"rightMargin" : 1.5,
+	"connectorPos" : "Left",
+	"connectorShift" : 0.0,
+	"connectorWidth" : 3.5,
+	"connectorHeight" : 3.5,
+	"connectorShape" : "DIAMOND",
+	"connectorBoundsRate" : 1.25,
+	"cssClass" : "numType",
+
+	"connective" : {
+		"inner" : {
+			"arrangement" : "Row",
+			"interval" : 2.0,
+			"connectorList" : ["Array", "noSaizu"]
+		},
+	}
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="java-reflection-analysis">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Reflection/java-reflection-analysis" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Reflection/java-reflection-analysis" />
+    </SOURCES>
+  </library>
+</component>

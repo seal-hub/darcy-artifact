@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="label"
+	bhNodeID="idNumEmptyList"
+	name="NumEmptyList"
+	nodeStyleID="NumEmptyList.json"
+	nodeInputControl="Label.fxml"
+	onMovedFromChildToWS="onDefaultLiteralMovedToWS.js"
+	initString="[...]">
+</Node>
+

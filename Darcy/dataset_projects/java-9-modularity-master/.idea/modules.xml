@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/easytext.analysis.firstprovider/easytext.analysis.firstprovider.iml" filepath="$PROJECT_DIR$/easytext.analysis.firstprovider/easytext.analysis.firstprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easytext.analysis.service/easytext.analysis.service.iml" filepath="$PROJECT_DIR$/easytext.analysis.service/easytext.analysis.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easytext.cli/easytext.cli.iml" filepath="$PROJECT_DIR$/easytext.cli/easytext.cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easytext.counter/easytext.counter.iml" filepath="$PROJECT_DIR$/easytext.counter/easytext.counter.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="firemage.constantin.database.basic.DBObject"/>
+    <fullyQualifiedTypeName name="firemage.constantin.database.basic.DBEmotion"/>
+    <fullyQualifiedTypeName name="firemage.constantin.core.EmotionPool"/>
+    <fullyQualifiedTypeName name="java.util.Hashtable"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="firemage.constantin.core.Association"/>
+    <fullyQualifiedTypeName name="firemage.constantin.core.AssociationFinder"/>
+    <fullyQualifiedTypeName name="firemage.constantin.core.properties.UserProperties"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration.Configuration"/>
+    <fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration.ConfigurationException"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="firemage.constantin.core.properties.CorePropertyName"/>
+    <fullyQualifiedTypeName name="firemage.constantin.core.properties.CoreProperties"/>
+</qualifiedTypeNameHistroy>

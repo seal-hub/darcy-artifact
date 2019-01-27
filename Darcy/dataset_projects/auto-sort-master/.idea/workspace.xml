@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5745906-0ca4-455c-ae6e-5197a0ecffd7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Check_Consistency/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Check_Consistency/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Check_Consistency/out/production/Check_Consistency/DependenciesChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Check_Consistency/out/production/Check_Consistency/DependenciesChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Check_Consistency/src/DependenciesChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Check_Consistency/src/DependenciesChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class_pkg_graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../class_pkg_graph.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Base/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Base/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Config/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Config/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Http/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Http/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/JavaFX/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/JavaFX/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Mail/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Mail/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Resources/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Resources/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../The-Message-v2.x-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../The-Message-v2.x-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../The-Message-v2.x-master/net.leo.message.base/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../The-Message-v2.x-master/net.leo.message.base/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../The-Message-v2.x-master/net.leo.message.client/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../The-Message-v2.x-master/net.leo.message.client/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autosort/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/autosort/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map-converter-service/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/map-converter-service/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-bookstore-master/src/br.com.casadocodigo.http/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-bookstore-master/src/br.com.casadocodigo.http/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-bookstore-master/src/br.com.casadocodigo.nf/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-bookstore-master/src/br.com.casadocodigo.nf/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-modularity-master/easytext.analysis.service/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-modularity-master/easytext.analysis.service/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-spring-maven-master/admin/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-spring-maven-master/admin/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-spring-maven-master/app/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-spring-maven-master/app/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-spring-maven-master/users/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-spring-maven-master/users/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Client/sample.client/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Client/sample.client/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Plugin/sample.plugin0/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Plugin/sample.plugin0/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Plugin1/sample.plugin1/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Plugin1/sample.plugin1/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/api/sample.api/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/api/sample.api/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-demo-master/ModulDemo2BankImpl/src/modul.demo.bank.impl/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-demo-master/ModulDemo2BankImpl/src/modul.demo.bank.impl/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-junit-test-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-junit-test-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-junit-test-master/src/media.movies.model/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-junit-test-master/src/media.movies.model/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-junit-test-master/src/media.movies.nfo.test/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-junit-test-master/src/media.movies.nfo.test/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-junit-test-master/src/media.movies.nfo/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-junit-test-master/src/media.movies.nfo/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-labs-master/jigsaw/War_Java9_Maven/blog/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-labs-master/jigsaw/War_Java9_Maven/blog/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-labs-master/jigsaw/War_Java9_Maven/cms/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-labs-master/jigsaw/War_Java9_Maven/cms/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-master/java9test/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-master/java9test/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-master/out/production/java9test/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-master/out/production/java9test/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-modules-master-tlb/main-module/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-modules-master-tlb/main-module/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-modules-master/modulesExample/com.timeteller.main/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-modules-master/modulesExample/com.timeteller.main/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_9_lab-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_9_lab-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_9_lab-master/src/http_client/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_9_lab-master/src/http_client/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_9_lab-master/src/othergreeter/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_9_lab-master/src/othergreeter/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javahttpserv-master/app2/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javahttpserv-master/app2/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javahttpserv-master/app3/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javahttpserv-master/app3/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jigsaw-resources-are-not-exported-master/app/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jigsaw-resources-are-not-exported-master/app/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jigsaw-test/src/org.astro/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jigsaw-test/src/org.astro/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtgen-master/generator/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwtgen-master/generator/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtgen-master/testjava/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwtgen-master/testjava/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.be/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.be/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.chr/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.chr/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.en/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.en/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-ui-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../music-ui-start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-ui-start/giselle.common/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../music-ui-start/giselle.common/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-ui-start/out/production/giselle.common/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../music-ui-start/out/production/giselle.common/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../number-to-text_jdk9/number_main/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../number-to-text_jdk9/number_main/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/alpha-protocol/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/alpha-protocol/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/banking-server/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/banking-server/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/demo-application/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/demo-application/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/fix-protocol/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/fix-protocol/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/.idea/project_constantin-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/.idea/project_constantin-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/main/java/firemage.constantin.core/firemage.constantin.core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/main/java/firemage.constantin.core/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/main/java/firemage.constantin.core/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/test/java/firemage.constantin.core/firemage/constantin/core/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/test/java/firemage.constantin.core/firemage/constantin/core/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Database/src/main/java/firemage.constantin.database/firemage.constantin.database.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Database/src/main/java/firemage.constantin.database/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Database/src/main/java/firemage.constantin.database/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/main/java/firemage.constantin.input/firemage.constantin.input.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/main/java/firemage.constantin.input/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/main/java/firemage.constantin.input/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/test/java/firemage/constantin/input/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/test/java/firemage/constantin/input/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Output/src/main/java/firemage.constantin.output/firemage.constantin.output.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Output/src/main/java/firemage.constantin.output/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Output/src/main/java/firemage.constantin.output/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Output/src/test/java/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage.constantin.core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/Association.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/AssociationFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/BackgroundAssociationWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/Emotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/EmotionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/Mind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/TextAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/properties/CoreProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/properties/CorePropertyName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage.constantin.database.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage/constantin/database/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage/constantin/database/basic/Connector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage/constantin/database/basic/DBEmotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage/constantin/database/basic/DBObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.input/firemage.constantin.input.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.input/firemage/constantin/input/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.input/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.output/firemage.constantin.output.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.output/firemage/constantin/output/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.output/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/TEST-firemage.constantin.core.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/TEST-firemage.constantin.database.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/TEST-firemage.constantin.output.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/firemage.constantin.core.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/firemage.constantin.database.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/firemage.constantin.output.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/test-classes/META-INF/jpms.args" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/test/firemage/constantin/output/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rahmnathan-utils-master/directory-monitor/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rahmnathan-utils-master/directory-monitor/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rahmnathan-utils-master/http-client/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rahmnathan-utils-master/http-client/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rahmnathan-utils-master/video-converter/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rahmnathan-utils-master/video-converter/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/.idea/modules/com.mechanitis.demo.sense.mood.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/.idea/modules/com.mechanitis.demo.sense.mood.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/.idea/modules/com.mechanitis.demo.sense.twitter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/.idea/modules/com.mechanitis.demo.sense.twitter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.client/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.client/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.mood/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.mood/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.service/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.service/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.twitter/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.twitter/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.user/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.user/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/tweetdata60-mins.txt.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-client/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-client/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-model/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-model/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-service/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-service/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vstreamer/pl.azarnow.vstreamer.player.iface/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vstreamer/pl.azarnow.vstreamer.player.iface/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../excessDirectives.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../excessDirectives.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interface_abstract_classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../interface_abstract_classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__ca_mcgill_sable_jasmin_2_5_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__ca_mcgill_sable_jasmin_3_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__ca_mcgill_sable_java_cup_0_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__ca_mcgill_sable_polyglot_2006.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__ca_mcgill_sable_soot_3_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__heros_heros_0_0_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__heros_heros_1_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__java_j2ee_j2ee_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__javax_mail_mail_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_apache_ant_ant_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_functionaljava_functionaljava_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_javassist_javassist_3_18_2_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_jboss_jboss_common_core_2_5_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_jboss_logging_jboss_logging_spi_2_1_2_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_mockito_mockito_all_1_10_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_ow2_asm_asm_debug_all_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_ow2_asm_asm_debug_all_6_0_BETA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_api_mockito_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_api_mockito_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_api_support_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_api_support_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_classloading_base_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_classloading_base_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_core_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_core_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_junit3_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_junit3_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_junit4_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_junit4_common_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_junit4_common_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_junit4_legacy_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_junit4_legacy_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_junit4_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_testng_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_testng_common_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_module_testng_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_reflect_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_powermock_powermock_reflect_sources_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_smali_dexlib2_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_smali_util_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__org_testng_testng_6_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__pxb_android_axml_2_0_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_4d_b4_min.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-reflection-analysis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/out/production/java-reflection-analysis/edu/uci/seal/MethodConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/out/production/java-reflection-analysis/edu/uci/seal/ReflectUsageIdentifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/out/production/java-reflection-analysis/edu/uci/seal/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/out/production/java-reflective-field-usage-master/edu/uci/seal/ics/darcy/reflect/MethodConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/out/production/java-reflective-field-usage-master/edu/uci/seal/ics/darcy/reflect/ReflectFieldUsageTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/out/production/java-reflective-field-usage-master/edu/uci/seal/ics/darcy/reflect/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/out/production/uses-provides-analysis/edu/uci/seal/ServiceLoaderIdentifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-reflection-analysis/out/production/uses-provides-analysis/edu/uci/seal/UsesAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../memory-usage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../memory-usage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module-infos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../module-infos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../modules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../paths_for_prov_use_analysis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../paths_for_prov_use_analysis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pkg_graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg_graph.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../runAll.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../runAll.sh" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/unification-service/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/map-converter-service/target/" />
+    <ignored path="$PROJECT_DIR$/autosort/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map-converter-service/src/main/java/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unification-service/src/main/java/module-info.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/autosort/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/map-converter-service/src/main/java/module-info.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="809" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="autosort-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-sort-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autosort-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-sort-master" type="462c0819:PsiDirectoryNode" />
+              <item name="unification-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autosort-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-sort-master" type="462c0819:PsiDirectoryNode" />
+              <item name="unification-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autosort-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-sort-master" type="462c0819:PsiDirectoryNode" />
+              <item name="unification-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autosort-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-sort-master" type="462c0819:PsiDirectoryNode" />
+              <item name="unification-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in map-converter-service (1)">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in map-converter-service (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="map-converter-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in map-converter-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="map-converter-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in map-converter-service" />
+      <item itemvalue="JUnit.All in map-converter-service (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in map-converter-service (1)" />
+        <item itemvalue="JUnit.All in map-converter-service" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5745906-0ca4-455c-ae6e-5197a0ecffd7" name="Default" comment="" />
+      <created>1519692431250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519692431250</updated>
+      <workItem from="1519692432428" duration="70000" />
+      <workItem from="1520871065243" duration="11000" />
+      <workItem from="1521224698544" duration="9000" />
+      <workItem from="1546725643005" duration="97000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_map-converter-service - 2018.03.12 at 09h 11m 12s.xml">
+      <configuration name="All in map-converter-service" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_map-converter-service_(1) - 2018.03.16 at 11h 25m 04s.xml">
+      <configuration name="All in map-converter-service (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="187000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="809" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3299712" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/autosort/src/main/java/de/thatsich/autosort/cli/JUPreferencesPersistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-converter-service/src/main/java/de/thatsich/map/XMLEncoderConverterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autosort/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-converter-service/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unification-service/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

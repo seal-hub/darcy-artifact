@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+
+<Connector 
+	bhConnectorID="idNumVarCnctr"
+	defaultBhNodeID="idNumVarVoid"
+	onReplaceabilityChecked="NumVarCnct.js"/>
+

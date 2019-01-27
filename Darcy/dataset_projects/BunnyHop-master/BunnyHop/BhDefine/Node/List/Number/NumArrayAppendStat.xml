@@ -1,0 +1,44 @@
+<Node
+	type="connective"
+	bhNodeID="idNumArrayAppendStat"
+	name="NumArrayAppendStat"
+	nodeStyleID="NumArrayAppendStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		<Connector bhConnectorID="idNumListCnctr" name="Arg0"/>
+
+		<PrivateConnector
+			bhConnectorID="idNumArrayAppendStat.prvCnctr0"
+			name="ni"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idNumArrayAppendStat.prvNode0"
+				name="ni"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="に">
+			</Node>
+		</PrivateConnector>
+
+		<Connector bhConnectorID="idNumListCnctr" name="Arg1"/>
+		
+		<PrivateConnector
+			bhConnectorID="idNumArrayAppendStat.prvCnctr1"
+			name="noYosoWoSubeteTsuikaSuru"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idNumArrayAppendStat.prvNode1"
+				name="noYosoWoSubeteTsuikaSuru"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="の要素を全て追加する">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>

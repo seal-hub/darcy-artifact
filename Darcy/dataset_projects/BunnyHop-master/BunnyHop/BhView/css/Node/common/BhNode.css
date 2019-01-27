@@ -1,0 +1,24 @@
+
+.BhNode {
+    -fx-stroke: black;
+	-fx-stroke-width: 0.15em;
+}
+
+.BhNode:selected {
+	-fx-stroke: gold;
+}
+
+.BhNode-Pane:selected{
+    -fx-effect: dropshadow( two-pass-box , #202020 , 10, 0.3, 6 , 6);
+}
+
+.BhNode:highlightImit {
+    -fx-stroke: gold;
+    -fx-effect: dropshadow( two-pass-box , #606060 , 10, 0.3, 6 , 6);
+}
+
+.BhNode-Pane:highlightImit{}
+
+.BhNode:overlapped {
+	-fx-stroke: magenta;
+}

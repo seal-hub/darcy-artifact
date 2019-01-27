@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jasmin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jasmin_jar</output-path>
+    <root id="archive" name="jasmin.jar">
+      <element id="module-output" name="jasmin" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libs/jasmin/libs/java_cup.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

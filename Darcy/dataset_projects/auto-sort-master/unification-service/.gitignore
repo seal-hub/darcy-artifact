@@ -1,0 +1,6 @@
+# exclude everything
+/*
+
+!src
+!pom.xml
+!.gitignore

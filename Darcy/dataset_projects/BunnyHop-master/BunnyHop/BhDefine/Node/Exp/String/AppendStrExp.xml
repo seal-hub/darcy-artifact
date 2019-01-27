@@ -1,0 +1,39 @@
+<Node type="connective"
+	bhNodeID="idAppendStrExp"
+	name="AppendStrExp"
+	nodeStyleID="AppendStrExp.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<ConnectorSection name="StringExpSctn">
+		<Connector bhConnectorID="idStrExpCnctr" name="LeftExp"/>
+		
+		<PrivateConnector 
+			bhConnectorID="idAppendStrExp.prvCnctr0"
+			name="Operator"
+    		fixed="true">
+			<Node
+				type="noView"
+				bhNodeID="idAppendStrExp.prvNode0"
+				name="StrAppendOpe"
+				initString="add">
+			</Node>
+		</PrivateConnector>
+
+		<PrivateConnector 
+			bhConnectorID="idAppendStrExp.prvCnctr1"
+			name="OperatorView"
+    		fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idAppendStrExp.prvNode1"
+				name="StrAppendOpeView"
+				nodeStyleID="SignLabel.json"
+				nodeInputControl="Label.fxml"
+				initString="＋">
+			</Node>
+		</PrivateConnector>
+
+		<Connector bhConnectorID="idStrExpCnctr" name="RightExp"/>
+	</ConnectorSection>
+</Node>

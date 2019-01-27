@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pl.azarnow.vstreamer.movies.core" />
+        <module name="pl.azarnow.vstreamer.movies.iface" />
+        <module name="pl.azarnow.vstreamer.people.iface" />
+        <module name="pl.azarnow.vstreamer.player.core" />
+        <module name="pl.azarnow.vstreamer.player.iface" />
+        <module name="vstreamer-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pl.azarnow.vstreamer.movies.core" target="9" />
+      <module name="pl.azarnow.vstreamer.movies.iface" target="9" />
+      <module name="pl.azarnow.vstreamer.people.iface" target="9" />
+      <module name="pl.azarnow.vstreamer.player.core" target="9" />
+      <module name="pl.azarnow.vstreamer.player.iface" target="9" />
+      <module name="vstreamer" target="9" />
+      <module name="vstreamer-app" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

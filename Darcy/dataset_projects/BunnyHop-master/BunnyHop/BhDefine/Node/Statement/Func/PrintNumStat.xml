@@ -1,0 +1,27 @@
+<Node type="connective"
+	bhNodeID="idPrintNumStat"
+	name="PrintNumStat"
+	nodeStyleID="PrintStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		<Connector bhConnectorID="idNumExpCnctr" name="Arg0"/>
+		
+		<PrivateConnector 
+			bhConnectorID="idPrintNumStat.prvCnctr0"
+			name="woShuturyokuSuru"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idPrintNumStat.prvNode0"
+				name="woShuturyokuSuru"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="を出力する">
+			</Node>
+		</PrivateConnector>
+
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>

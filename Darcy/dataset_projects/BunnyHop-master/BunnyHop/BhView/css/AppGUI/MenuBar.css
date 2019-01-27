@@ -1,0 +1,15 @@
+.menu-bar {
+	-fx-font-size: 1.1em;
+	-fx-font-family: "Meiryo UI";
+	-fx-background-color: transparent;
+}
+
+.menu-button:pressed {
+	-fx-background-color: #D0D0D0;
+}
+
+.dialog-pane * {
+	-fx-font-size: 1.1em;
+	-fx-font-family: "Meiryo UI";
+}
+

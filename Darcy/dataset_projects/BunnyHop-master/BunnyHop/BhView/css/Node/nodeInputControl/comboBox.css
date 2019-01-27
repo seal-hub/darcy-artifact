@@ -1,0 +1,28 @@
+.defaultComboBox {
+	-fx-font-family: "Meiryo UI";
+	-fx-font-size: 2.0em;
+}
+
+.defaultComboBox > .arrow-button {
+	-fx-padding: 0.0 0.2em 0.0 0.0;
+}
+
+.defaultComboBox > .list-cell {
+    -fx-padding: 0.0 0.2em 0.0 0.2em;
+	-fx-alignment: center;
+}
+
+.wordComboBox {
+	-fx-font-family: "Meiryo UI";
+	-fx-font-size: 1.5em;
+}
+
+.wordComboBox > .arrow-button {
+	-fx-padding: 0.0 0.2em 0.0 0.0;
+}
+
+.wordComboBox > .list-cell {
+    -fx-padding: 0.0 0.2em 0.0 0.2em;
+	-fx-alignment: center;
+}
+

@@ -1,0 +1,10 @@
+plugins {
+	id 'org.gradle.java.experimental-jigsaw' version '0.1.1'
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_9
+javaModule.name = 'by.jprof.impl.en'
+
+dependencies {
+	compile project(':by.jprof.api')
+}

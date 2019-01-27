@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <modelVersion>4.0.0</modelVersion>
+ <parent>
+  <groupId>com.ymmihw.core</groupId>
+  <artifactId>java9</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+ </parent>
+ <groupId>com.ymmihw.core</groupId>
+ <artifactId>httpclient</artifactId>
+ <version>0.0.1-SNAPSHOT</version>
+ <name>httpclient</name>
+ <url>http://maven.apache.org</url>
+ <properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <java9.home>D:\programs\Java-bak\jdk-9.0.4</java9.home>
+ </properties>
+ <dependencies>
+ </dependencies>
+ <build>
+  <plugins>
+   <plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>1.6.0</version>
+    <executions>
+     <execution>
+      <goals>
+       <goal>exec</goal>
+      </goals>
+     </execution>
+    </executions>
+    <configuration>
+     <executable>${java9.home}/bin/java</executable>
+     <arguments>
+      <argument>--module-path</argument>
+      <modulepath />
+      <argument>-m</argument>
+      <argument>com.ymmihw.httpclient/com.ymmihw.core.java9.HttpClientExample</argument>
+     </arguments>
+    </configuration>
+   </plugin>
+  </plugins>
+ </build>
+</project>

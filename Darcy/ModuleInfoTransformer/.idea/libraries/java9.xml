@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="java9">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../ANTLR_grammar/java9" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../ANTLR_grammar/java9" />
+      <root url="file://$PROJECT_DIR$/../../ANTLR_grammar/java9/examples" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,9 @@
+.root {
+	numTypeCol: #84ff0a;
+	strTypeCol: #f6bfbc;
+	boolTypeCol: #a0522d;
+	voidTypeCol: #00ffff;
+	controlTypeCol: #e0F0d0;
+	actionTypeCol: #6495ed;
+	anyTypeCol: linear-gradient(from 0em 0em to 0.0em 1.0em, repeat, #E0E0E0 70%, #FFFFFF 0em);
+}

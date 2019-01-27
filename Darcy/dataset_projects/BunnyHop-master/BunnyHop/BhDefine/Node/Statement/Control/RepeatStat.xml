@@ -1,0 +1,29 @@
+<Node type="connective"
+	bhNodeID="idRepeatStat"
+	name="RepeatStat"
+	nodeStyleID="RepeatStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+
+		<Connector bhConnectorID="idNumExpCnctr" name="CondExp"/>
+
+		<PrivateConnector
+			bhConnectorID="idRepeatStat.prvCnctr0"
+			name="kaiKurikaesu"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idRepeatStat.prvNode0"
+				name="kaiKurikaesu"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="回くり返す">
+			</Node>
+		</PrivateConnector>
+
+		<Connector bhConnectorID="idStatCnctr" name="LoopStat"/>
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>

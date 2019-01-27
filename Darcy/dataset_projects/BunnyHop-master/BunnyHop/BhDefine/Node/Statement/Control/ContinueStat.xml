@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="label"
+	bhNodeID="idContinueStat"
+	name="ContinueStat"
+	nodeStyleID="ContinueStat.json"
+	nodeInputControl="Label.fxml"
+	initString="繰り返しの初めに戻る"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+</Node>
+

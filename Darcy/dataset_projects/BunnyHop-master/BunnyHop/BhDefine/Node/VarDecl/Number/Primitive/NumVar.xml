@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="connective"
+	bhNodeID="idNumVar"
+	name="NumVar"
+	nodeStyleID="NumVar.json"
+    imitScopeName="VarScopeSctn"
+    onMovedFromChildToWS=""
+	onMovedToChild="onVarMovedToChild.js">
+    
+  	<ConnectorSection name="NumberExpSctn">
+		<Connector bhConnectorID="idVarNameCnctr" name="VarName" imitCnctPos="imitPosVarName"/>
+	</ConnectorSection>
+
+</Node>

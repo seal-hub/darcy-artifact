@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Check_Consistency:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Check_Consistency_jar</output-path>
+    <root id="archive" name="Check_Consistency.jar">
+      <element id="module-output" name="Check_Consistency" />
+    </root>
+  </artifact>
+</component>

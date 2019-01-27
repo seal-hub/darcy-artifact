@@ -1,0 +1,15 @@
+
+#nodeSelectionPanel {
+	-fx-background-color: transparent;
+	-fx-padding: 3em 3em 3em 3em;
+}
+
+#nodeSelectionPanelBase {
+	-fx-background-color: transparent;
+	/*-fx-max-width: 45em;*/
+	-fx-translate-y: 2.5em;
+}
+
+#nodeSelectionPanelBase > .viewport {
+	-fx-background: rgba(200, 200, 200, 0.5);
+}

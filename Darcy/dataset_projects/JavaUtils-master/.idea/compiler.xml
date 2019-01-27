@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="utils.base" />
+        <module name="utils.config" />
+        <module name="utils.http" />
+        <module name="utils.javafx" />
+        <module name="utils.mail" />
+        <module name="utils.resources" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="utils" target="1.5" />
+      <module name="utils.base" target="9" />
+      <module name="utils.config" target="9" />
+      <module name="utils.http" target="9" />
+      <module name="utils.javafx" target="9" />
+      <module name="utils.mail" target="9" />
+      <module name="utils.resources" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alpha-protocol/alpha-protocol.iml" filepath="$PROJECT_DIR$/alpha-protocol/alpha-protocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banking-server/banking-server.iml" filepath="$PROJECT_DIR$/banking-server/banking-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-application/demo-application.iml" filepath="$PROJECT_DIR$/demo-application/demo-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fix-protocol/fix-protocol.iml" filepath="$PROJECT_DIR$/fix-protocol/fix-protocol.iml" />
+    </modules>
+  </component>
+</project>

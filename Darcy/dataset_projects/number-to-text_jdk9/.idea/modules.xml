@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/number_api/number_api.iml" filepath="$PROJECT_DIR$/number_api/number_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/number_kata.iml" filepath="$PROJECT_DIR$/number_kata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/number_main/number_main.iml" filepath="$PROJECT_DIR$/number_main/number_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/number_provider/number_provider.iml" filepath="$PROJECT_DIR$/number_provider/number_provider.iml" />
+    </modules>
+  </component>
+</project>

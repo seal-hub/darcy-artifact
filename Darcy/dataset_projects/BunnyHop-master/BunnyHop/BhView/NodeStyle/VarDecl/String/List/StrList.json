@@ -1,0 +1,21 @@
+{
+	"topMargin" : 1.25,
+	"bottomMargin" : 1.25,
+	"leftMargin" : 1.5,
+	"rightMargin" : 4.0,
+	"connectorPos" : "Left",
+	"connectorShift" : 0.0,
+	"connectorWidth" : 6.5,
+	"connectorHeight" : 6.5,
+	"connectorShape" : "INV_TRIANGLE",
+	"connectorBoundsRate" : 1.0,
+	"cssClass" : "strType",
+
+	"connective" : {
+		"inner" : {
+			"arrangement" : "Row",
+			"interval" : 2.0,
+			"connectorList" : ["ListName", "ListSign"]
+		}
+	}
+}

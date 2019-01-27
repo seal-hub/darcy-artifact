@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaReflectivedFieldUsage.iml" filepath="$PROJECT_DIR$/JavaReflectivedFieldUsage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../handleflowdroid/handleflowdroid.iml" filepath="$PROJECT_DIR$/../handleflowdroid/handleflowdroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../seal-utils/seal-utils.iml" filepath="$PROJECT_DIR$/../seal-utils/seal-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../soot-infoflow/soot-infoflow.iml" filepath="$PROJECT_DIR$/../soot-infoflow/soot-infoflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../soot-infoflow-android/soot-infoflow-android.iml" filepath="$PROJECT_DIR$/../soot-infoflow-android/soot-infoflow-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../soot/soot-j9.iml" filepath="$PROJECT_DIR$/../soot/soot-j9.iml" />
+    </modules>
+  </component>
+</project>

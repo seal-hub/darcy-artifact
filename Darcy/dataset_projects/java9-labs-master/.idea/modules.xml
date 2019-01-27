@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jigsaw/War_Java9_Maven/blog/blog.iml" filepath="$PROJECT_DIR$/jigsaw/War_Java9_Maven/blog/blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jigsaw/War_Java9_Maven/cms/cms.iml" filepath="$PROJECT_DIR$/jigsaw/War_Java9_Maven/cms/cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jigsaw/com.eudriscabrera.examples.greetings/com.eudriscabrera.examples.greetings.iml" filepath="$PROJECT_DIR$/jigsaw/com.eudriscabrera.examples.greetings/com.eudriscabrera.examples.greetings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jigsaw/com.eudriscabrera.examples.greetings.client/com.eudriscabrera.examples.greetings.client.iml" filepath="$PROJECT_DIR$/jigsaw/com.eudriscabrera.examples.greetings.client/com.eudriscabrera.examples.greetings.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jigsaw/War_Java9_Maven/cms/src/test/test.iml" filepath="$PROJECT_DIR$/jigsaw/War_Java9_Maven/cms/src/test/test.iml" />
+    </modules>
+  </component>
+</project>

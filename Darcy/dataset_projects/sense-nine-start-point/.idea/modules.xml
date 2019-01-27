@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.client.iml" filepath="$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.flow.iml" filepath="$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.mood.iml" filepath="$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.mood.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.service.iml" filepath="$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.twitter.iml" filepath="$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.twitter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.user.iml" filepath="$PROJECT_DIR$/.idea/modules/com.mechanitis.demo.sense.user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sense-nine.iml" filepath="$PROJECT_DIR$/sense-nine.iml" />
+    </modules>
+  </component>
+</project>

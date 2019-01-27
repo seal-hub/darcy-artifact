@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+  <title>Classycle: User Guide: 1.2 Dependency Checker</title>
+  <meta name="author" content="Franz-Josef Elmer">
+  <meta name="keywords" 
+        content="Java, class dependencies, open-source tool">
+  <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td class="left-column" valign="top">
+<!-- ======== Left column =========================== -->
+<a href="index.html"><img src="images/logo.png" border="0" 
+alt="Classycle logo" width="200" height="135"></a>
+<p>
+<ul><li><a href="index.html">Home</a>
+    <li><a href="examples.html">Examples</a>
+    <li><a href="http://sourceforge.net/project/showfiles.php?group_id=79058">Download</a>
+    <li><a href="userGuide.html">User Guide</a><br>
+    	<ol><li><a href="usage.html">Usage</a><br>
+    			1.1 <a href="usageAnalyser.html">Analyser</a><br>
+    			1.2 <b>Dependency Checker</b>
+        	<li><a href="works.html">How Classycle works</a>
+         	<li><a href="measures.html">What Classycle's Analyser measures</a>
+         	<li><a href="ddf.html">Dependency Definition File</a>
+         	<li><a href="design.html">Hints to improve design</a>
+        </ol>
+    <li><a href="apidoc/index.html">API documentation</a>
+    <li><a href="http://sourceforge.net/projects/classycle">SourceForge
+        project page</a>
+</ul>
+<!-- ================================================ -->
+
+</td>
+<td class="right-column" valign="top">
+<!-- ======== Right column =========================== -->
+<h1>1.2 Dependency Checker</h1>
+
+Classycle's Dependency Checker can be used as a <a href="#command">command-line 
+tool</a> and as an <a href="#ant">Ant Task</a>.
+
+<h2><a name="command">1.2 Command Line Tool</a></h2>
+
+Analyser is called from the command line as follows:
+<tt>
+<pre>
+java -cp classycle.jar classycle.dependency.DependencyChecker \
+                        [-mergeInnerClasses] \
+                        [-includingClasses=&lt;pattern1>[,&lt;pattern2>,...]] \
+                        [-excludingClasses=&lt;pattern1>[,&lt;pattern2>,...]] \
+                        [-reflectionPattern=[&lt;pattern1>,&lt;pattern2>,...]] \
+                        [-renderer=&lt;fully qualified class name>] \
+                        -dependencies=&lt;description>|@&lt;description file> \
+                        &lt;class files, zip/jar/war/ear files, or folders&gt;
+</pre>
+</tt>
+The argument is a list of sources for class files to be analyzed:
+<ul><li>Particular <tt>.class</tt> file
+    <li>zip/jar/war/ear files: All class files in such a compressed file
+    <li>Folder: All class files in the folder (including all subfolders) and
+        all class files in zip/jar/war/ear files of the folder 
+</ul>      
+<p>
+The options have the following meaning:
+<dl><dt><tt>-mergeInnerClasses</tt></dt>
+    <dd>Inner class vertices will be merged with their outer classes.</dd>
+    <dt><tt>-includingClasses</tt></dt>
+    <dd>Comma-separated list of one or more wild-card patterns for 
+        fully-qualified class names of classes which are included in the graph.
+        Only '*' is interpreted as wild-card character.</dd>
+    <dt><tt>-excludingClasses</tt></dt>
+    <dd>Comma-separated list of one or more wild-card patterns for 
+        fully-qualified class names of classes which are excluded from the graph.
+        Only '*' is interpreted as wild-card character.</dd>
+    <dt><tt>-reflectionPattern</tt></dt>
+    <dd>Comma-separated list of zero or more wild-card patterns for 
+        fully-qualified class names which are referred in the class file
+        by plain string constants. For more details see 
+        <a href="usageAnalyser.html#command">section&nbsp;1.1.1</a>.
+        </dd>
+    <dt><tt>-renderer</tt></dt>
+    <dd>The fully-qualified class name of a 
+        <a href="apidoc/classycle/dependency/ResultRenderer.html">
+        <tt>ResultRenderer</tt></a>. By default
+        <a href="apidoc/classycle/dependency/DefaultResultRenderer.html">
+        <tt>DefaultResultRenderer</tt></a> is used. 
+        <a href="apidoc/classycle/dependency/XMLResultRenderer.html">
+        <tt>classycle.dependency.XMLResultRenderer</tt></a>
+        renders the result as XML.
+    </dd>
+    <dt><tt>-dependencies</tt></dt>
+    <dd>Either a <a href="ddf.html">dependency definition file</a>
+        (if preceeded by a '@') or a description with syntax of 
+        dependency definition files. 
+        Note, that this is a mandatory option.
+    </dd>
+</dl>
+
+<h2><a name="ant">1.2.2 Ant Task</a></h2>
+
+The ant task works similar as the 
+<a href="usageAnalyser.html#ant">ant task for Analyser</a>.
+Here is a simple example showing its usage:
+<pre>
+<tt>
+&lt;project name="DependencyCheckingTaskTest" default="test" 
+         basedir="temporaryTestDirectory">
+         
+  &lt;property name="package" value="classycle"/&gt>
+
+  &lt;target name="test">
+    &lt;taskdef name="classycleDependencyCheck" 
+             classname="classycle.ant.DependencyCheckingTask"/>
+	
+    &lt;classycleDependencyCheck failOnUnwantedDependencies="true"
+                              excludingClasses="*Test,*.All*Tests">
+      &lt;fileset dir="../classes">
+        &lt;include name="**/*.class"/>
+      &lt;/fileset>
+      <font color="#a00">show allResults
+      [util] = ${package}.util.*
+      [notUtil] = ${package}.A* excluding [util]
+      check [util] independentOf [notUtil]
+      check [notUtil] independentOf [util]</font>
+    &lt;/classycleDependencyCheck>
+  &lt;/target>
+&lt;/project&gt;  
+</tt>
+</pre>
+The source of class files can be specified by filesets and zipfilesets.
+
+The dependency definitions commands (red lines) are embedded in the task. 
+For their syntax see <a href="ddf.html">section 4</a>. Instead of embedding
+one can also specify a dependency definition file with the attribute
+<tt>definitionFile</tt>. All embedded definition commands will be ignored
+if this attribute is specified.
+For the attributes and their meaning see the API documentation of 
+<a href="apidoc/classycle/ant/DependencyCheckingTask.html">
+<tt>DependencyCheckingTask</tt></a>.
+<p>
+Running this example build file on the console yields 
+<pre>
+<tt>
+Buildfile: dependencyCheckingTaskTestBuild.xml
+
+test:
+[classycleDependencyCheck] show onlyShortestPaths allResults
+[classycleDependencyCheck] check [util] independentOf [notUtil] OK
+[classycleDependencyCheck] check [notUtil] independentOf [util]
+[classycleDependencyCheck]   Dependency found:
+[classycleDependencyCheck]   classycle.AnalyserCommandLine
+[classycleDependencyCheck]     -> classycle.CommandLine
+[classycleDependencyCheck]       -> classycle.util.StringPatternSequence
+[classycleDependencyCheck]       -> classycle.util.StringPattern
+[classycleDependencyCheck]       -> classycle.util.AndStringPattern
+[classycleDependencyCheck]       -> classycle.util.WildCardPattern
+[classycleDependencyCheck]       -> classycle.util.NotStringPattern
+[classycleDependencyCheck]       -> classycle.util.TrueStringPattern
+[classycleDependencyCheck]   classycle.Analyser
+[classycleDependencyCheck]     -> classycle.util.StringPattern
+[classycleDependencyCheck]     -> classycle.util.TrueStringPattern
+[classycleDependencyCheck]     -> classycle.util.Text
+
+BUILD FAILED
+/home/fj/dev/Classycle/dependencyCheckingTaskTestBuild.xml:8: 
+        Unwanted dependencies found. See output for details.
+
+Total time: 2 seconds
+</tt>
+</pre>
+<p>
+
+<!-- ================================================ -->
+
+</td>
+</tr>
+<tr class="footer">
+<td colspan="2">
+<center>
+Java and all Java-based trademarks and logos are trademarks or registered 
+trademarks of Oracle in the U.S. and other countries.
+<br>
+(C) 2003-2011 <a href="mailto:fjelmer@users.sourceforge.net?subject=Classycle">
+Franz-Josef Elmer</a>. All rights reserved. Last modified: 9/9/2012
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>

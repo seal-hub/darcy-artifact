@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Other/Other.iml" filepath="$PROJECT_DIR$/Other/Other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModulDemo0/src/modul.demo.a/modul.demo.a.iml" filepath="$PROJECT_DIR$/ModulDemo0/src/modul.demo.a/modul.demo.a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModulDemo2Bank/src/modul.demo.bank/modul.demo.bank.iml" filepath="$PROJECT_DIR$/ModulDemo2Bank/src/modul.demo.bank/modul.demo.bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModulDemo2BankClient/src/modul.demo.bank.client/modul.demo.bank.client.iml" filepath="$PROJECT_DIR$/ModulDemo2BankClient/src/modul.demo.bank.client/modul.demo.bank.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModulDemo2BankImpl/src/modul.demo.bank.impl/modul.demo.bank.impl.iml" filepath="$PROJECT_DIR$/ModulDemo2BankImpl/src/modul.demo.bank.impl/modul.demo.bank.impl.iml" />
+    </modules>
+  </component>
+</project>

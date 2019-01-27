@@ -1,0 +1,16 @@
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.default.color=224,226,228
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.deprecatedKey.color=224,226,228
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.keyword.color=147,199,99
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.number.color=255,205,34
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.punctuation.color=224,226,228
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.string.color=236,118,0
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.task.color=255,139,255
+eclipse.preferences.version=1
+overriddenByCSS=,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.default.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.keyword.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.task.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.deprecatedKey.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.number.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.string.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.punctuation.color,
+predarkestdark.com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.default.color=224,226,228
+predarkestdark.com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.deprecatedKey.color=224,226,228
+predarkestdark.com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.keyword.color=147,199,99
+predarkestdark.com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.number.color=255,205,34
+predarkestdark.com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.punctuation.color=224,226,228
+predarkestdark.com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.string.color=236,118,0
+predarkestdark.com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.task.color=255,139,255

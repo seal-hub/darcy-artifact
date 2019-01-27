@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cb-api/cb-api.iml" filepath="$PROJECT_DIR$/cb-api/cb-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cb-gui/cb-gui.iml" filepath="$PROJECT_DIR$/cb-gui/cb-gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cb-sessions/cb-sessions.iml" filepath="$PROJECT_DIR$/cb-sessions/cb-sessions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cb-speaker/cb-speaker.iml" filepath="$PROJECT_DIR$/cb-speaker/cb-speaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+    </modules>
+  </component>
+</project>

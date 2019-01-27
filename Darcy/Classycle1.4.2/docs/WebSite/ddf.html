@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+  <title>Classycle: User Guide: 4. Dependency Definition File</title>
+  <meta name="author" content="Franz-Josef Elmer">
+  <meta name="keywords" 
+        content="Java, class dependencies, open-source tool">
+  <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td class="left-column" valign="top">
+<!-- ======== Left column =========================== -->
+<a href="index.html"><img src="images/logo.png" border="0" 
+alt="Classycle logo" width="200" height="135"></a>
+<p>
+<ul><li><a href="index.html">Home</a>
+    <li><a href="examples.html">Examples</a>
+    <li><a href="http://sourceforge.net/project/showfiles.php?group_id=79058">Download</a>
+    <li><a href="userGuide.html">User Guide</a><br>
+    	<ol><li><a href="usage.html">Usage</a><br>
+        	<li><a href="works.html">How Classycle works</a>
+         	<li><a href="measures.html">What Classycle's Analyser measures</a>
+         	<li><b>Dependency Definition File</b><br>
+         		<a href="#example">4.1 Example</a><br>
+         	    <a href="#syntax">4.1 Syntax</a>
+         	<li><a href="design.html">Hints to improve design</a>
+        </ol>
+    <li><a href="apidoc/index.html">API documentation</a>
+    <li><a href="http://sourceforge.net/projects/classycle">SourceForge
+        project page</a>
+</ul>
+<!-- ================================================ -->
+
+</td>
+<td class="right-column" valign="top">
+<!-- ======== Right column =========================== -->
+<h1>4. Dependency Definition File</h1>
+
+Classycle's Dependency Checker uses a dependency definition file (file type 
+<tt>.ddf</tt>) in order to check unwanted dependencies. 
+Dependency definition files are text files (with a syntax as explained
+<a href="#syntax">below</a>) which define sets of classes 
+and independency relations between them. 
+These relations are checked and reported if they fail. 
+
+<h2><a name="example">4.1 Example</a></h2>
+
+The following example file contains all types of commands:
+
+<pre><tt>
+#
+# This is an example of a dependency definition file
+#
+show allResults
+
+{package} = classycle
+
+[util] = ${package}.util.*
+[non-util] = ${package}.* excluding [util]
+[class-file] = ${package}.classfile.*
+
+check sets [util] [non-util] [class-file]
+
+check [util] independentOf [non-util]
+check [class-file] independentOf [util]
+check ${package}.ant.* independentOf java.util.* java.awt.* \
+                                     javax.swing.*
+
+check absenceOfClassCycles > 1 in [util]
+check absenceOfPackageCycles > 1 in ${package}.*
+
+layer basic = [class-file] [util]
+layer dependency = ${package}.dependency.*
+
+check layeringOf basic dependency
+</tt></pre>
+
+With the default result renderer the output reads
+<pre><tt>show onlyShortestPaths allResults
+Set [util] has 8 classes.
+Set [non-util] has 78 classes.
+Set [class-file] has 14 classes.
+check [util] independentOf [non-util]   OK
+check [class-file] independentOf [util] OK
+check classycle.ant.* independentOf java.util.*
+  Dependency found:
+  classycle.ant.ClassycleTask
+    -> java.util.LinkedList
+    -> java.util.ArrayList
+    -> java.util.Iterator
+  classycle.ant.ReportTask
+    -> java.util.HashSet
+  classycle.ant.DependencyCheckingTask
+    -> java.util.Map
+    -> java.util.Hashtable
+    -> java.util.Properties
+check classycle.ant.* independentOf java.awt.*  OK
+check classycle.ant.* independentOf javax.swing.*       OK
+check absenceOfClassCycles > 1 in [util]        OK
+check absenceOfPackageCycles > 1 in classycle.*
+  classycle.renderer et al. contains 2 packages:
+    classycle.renderer
+    classycle
+check [class-file] directlyIndependentOf [util] OK
+check [util] directlyIndependentOf [class-file] OK
+check [class-file] directlyIndependentOf classycle.dependency.* OK
+check [util] directlyIndependentOf classycle.dependency.*       OK
+</tt></pre>
+
+<h2><a name="syntax">4.2 Syntax</a></h2>
+
+<ul><li>Lines starting with '#' and empty lines are ignored.
+	<li>A command occupies one line. It can be wrapped
+	    on several lines if the previous line ends with '\'.
+	<li>There are two types of commands: 
+		<br>
+		Definitions:
+		<ul><li><a href="#property">Property Definition</a>
+		    <li><a href="#set">Set Definition</a>
+		    <li><a href="#layer">Layer Definition</a>
+		</ul>
+		and Statements:
+		<ul><li><a href="#preference">Set Display Preference</a>
+			<li><a href="#checkSets">Check Sets</a>
+			<li><a href="#checkCycles">Check Cycles</a>
+			<li><a href="#checkDependency">Check Classes Dependency</a>
+			<li><a href="#checkLayer">Check Layering</a>
+		</ul>
+	    Statements are executed by the DependencyProcessor.
+	    They return either ok or they fail.
+</ul>
+
+<h3><a name="definitions">4.2.1 Definitions</a></h3>
+
+<h4><a name="property">4.2.1.1 Property Definition</a></h4>
+
+<dl><dt><u>Synopsis</u>:</dt>
+	<dd>Defines a property which can be used in any following line.</dd>
+	<dt><u>Syntax</u>:</dt>
+	<dd><pre>       {<i>&lt;property name&gt;</i>} = <i>&lt;any string&gt;</i></pre>
+		where <tt><i>&lt;property name&gt;</i></tt> is the name of the 
+		property and <i>&lt;any string&gt;</i> is any string without
+		leading and trailing spaces.
+		<p>
+		Properties are referred by 
+		<pre>       ${<i>&lt;property name&gt;</i>}</pre>
+		</dd>
+	<dt><u>Semantic</u>:</dt>
+	<dd>Properties can be used after their definition. 
+	    Before a line in the file is parsed possible property references are
+	    resolved. Refering an undefined property leads to an error.
+	    Properties can be redefined. 
+	    <p>
+	    In a dependency definition file all system properties are available
+	    as default properties. Their can be set by the Java VM command line
+	    argument 
+	    <pre>       -D<i>&lt;property name&gt;</i>=<i>&lt;any string&gt;</i></pre>
+	    <p>
+	    In the case of embedded dependency definition commands in 
+	    a <a href="usageDChecker.html#ant">DependencyCheckingTask</a> the
+	    properties defined in the ant script are available as 
+	    default properties (see 
+	    <a href="usageDChecker.html#ant">Chapter 1.2.2.</a> for an example).
+	    <p>
+	    Note: Redefining default properties do not alter the original
+	    system properties or ant properties.
+	</dd>
+</dl>
+	
+<h4><a name="set">4.2.1.2 Set Definition</a></h4>
+
+<dl><dt><u>Synopsis</u>:</dt>
+	<dd>Defines a set of classes.</dd>
+	<dt><u>Syntax</u>:</dt>
+	<dd><pre>       [<i>&lt;set name&gt;</i>] = <i>&lt;term&gt;</i><sub>1..*</sub></pre>
+		or
+		<pre>       [<i>&lt;set name&gt;</i>] = <i>&lt;term&gt;</i><sub>0..*</sub> excluding <i>&lt;term&gt;</i><sub>1..*</sub> </pre>
+		where <tt><i>&lt;set name&gt;</i></tt> is the unique name of the set. 
+		It should not contain '[', ']', or whitespaces. 
+		<tt><i>&lt;term&gt;</i></tt> is either a set denoted by 
+		its name and brackets or a wild-card pattern for a 
+		fully-qualified class name. Note, that only '*' is allowed as 
+		a wild-card character. The subscripts 
+		<tt><sub>1..*</sub></tt> denotes one-or-many terms.
+		</dd>
+	<dt><u>Semantic</u>:</dt>
+	<dd>Each term defines a set of classes. The sequence of terms means 
+		the union set of these terms. The <tt>excluding</tt> operation 
+		means the creation of a difference set. Note, that a set may also 
+		include external classes.
+	</dd>
+</dl>
+	
+<h4><a name="layer">4.2.1.3 Layer Definition</a></h4>
+
+<dl><dt><u>Synopsis</u>:</dt>
+	<dd>Defines a layer as a set of sets of classes.</dd>
+	<dt><u>Syntax</u>:</dt>
+	<dd><pre>       layer <i>&lt;layer name&gt;</i> = <i>&lt;term&gt;</i><sub>1..*</sub></pre>
+		where <tt><i>&lt;layer name&gt;</i></tt> is the unique name of the 
+		layer. It should not contain whitespaces. 
+		<tt><i>&lt;term&gt;</i></tt> is either the name of a set as defined
+		in a <a href="#set">set definition</a> or a wild-card pattern.
+ 	</dd>
+	<dt><u>Semantic</u>:</dt>
+	<dd>Each term defines a set of classes. The layer is a set of such sets.
+	</dd>
+</dl>
+
+<h3><a name="statements">4.2.2 Statements</a></h3>
+
+All statements yield a result which is either ok or not ok. 
+
+<h4><a name="preference">4.2.2.1 Set Display Preference</a></h4>
+
+<dl><dt><u>Synopsis</u>:</dt>
+	<dd>Define display preferences.</dd>
+	<dt><u>Syntax</u>:</dt>
+	<dd><pre>       show <i>&lt;preference&gt;</i></pre>
+		where <tt><i>&lt;preference&gt;</i></tt> is a preference recognized
+		by the used ResultRenderer. Currently all ResultRenderers take care
+		of preferenced created by the
+		<a href="apidoc/classycle/dependency/DefaultPreferenceFactory.html">
+		<tt>DefaultPreferenceFactory</tt></a>.
+ 	</dd>
+	<dt><u>Semantic</u>:</dt>
+	<dd>The display preference controls rendering of the results of all
+		statements following this statement. The result of this statement
+		type is always ok.
+	</dd>
+</dl>
+
+<h4><a name="checkSets">4.2.2.2 Check Sets</a></h4>
+
+<dl><dt><u>Synopsis</u>:</dt>
+	<dd>Checks whether sets of classes are empty or not.</dd>
+	<dt><u>Syntax</u>:</dt>
+	<dd><pre>       check sets <i>&lt;set&gt;</i><sub>1..*</sub></pre>
+		where <tt><i>&lt;set&gt;</i></tt> is either the name of a set as 
+		defined in a <a href="#set">set definition</a> or a wild-card pattern.
+ 	</dd>
+	<dt><u>Semantic</u>:</dt>
+	<dd>Checks whether the specified sets are empty or not.
+	    The result is ok if each set contains at least one class. 
+	    <p>
+	    The main
+	    purpose of this command is to find out missspelled set definitions.
+	</dd>
+</dl>
+
+<h4><a name="checkCycles">4.2.2.3 Check Cycles</a></h4>
+
+<dl><dt><u>Synopsis</u>:</dt>
+	<dd>Checks whether a set of classes has a class/package cycles exceeding 
+		a defined size.
+	</dd>
+	<dt><u>Syntax</u>:</dt>
+	<dd><pre>       check absenceOfClassCycles &gt; <i>&lt;maximum size&gt;</i> in <i>&lt;set&gt;</i></pre>
+		or
+		<pre>       check absenceOfPackageCycles &gt; <i>&lt;maximum size&gt;</i> in <i>&lt;set&gt;</i></pre>
+		where <tt><i>&lt;maximum size&gt;</i></tt> is the maximum number of
+		classes/package a cycle (more precisely: a strong component) is
+		allowed to have. It must be a positive number.
+		<tt><i>&lt;set&gt;</i></tt> is either the name of 
+		a set as defined in a <a href="#set">set definition</a> 
+		or a wild-card pattern.
+ 	</dd>
+	<dt><u>Semantic</u>:</dt>
+	<dd>If there are no cycles in the specified set exceeding the maximum
+		size the result is ok.
+		<p>
+		Note that strong components might not be detected 
+		if they are only partially covered by the specified set.
+	</dd>
+</dl>
+
+<h4><a name="checkDependency">4.2.2.4 Check Classes Dependency</a></h4>
+
+<dl><dt><u>Synopsis</u>:</dt>
+	<dd>Checks whether sets of classes are dependent/independent from other sets
+	    of classes.</dd>
+	<dt><u>Syntax</u>:</dt>
+	<dd><pre>       check <i>&lt;set&gt;</i><sub>1..*</sub> independentOf <i>&lt;set&gt;</i><sub>1..*</sub></pre>
+		or
+		<pre>       check <i>&lt;set&gt;</i><sub>1..*</sub> directlyIndependentOf <i>&lt;set&gt;</i><sub>1..*</sub></pre>
+		or
+		<pre>       check <i>&lt;set&gt;</i><sub>1..*</sub> dependentOnlyOn <i>&lt;set&gt;</i><sub>1..*</sub></pre>
+		where <tt><i>&lt;set&gt;</i></tt> is either the name of a set as 
+		defined in a <a href="#set">set definition</a> or a wild-card pattern.
+ 	</dd>
+	<dt><u>Semantic</u>:</dt>
+	<dd>
+	  <ul><li><tt>independentOf/directlyIndependentOf</tt>:
+      It checks whether a path is found from a class in a set
+	    defined by the sets in the left group to a class in a set of the
+      right group. The result is ok if no path is found. The operation 
+      <tt>directlyIndependentOf</tt> does a weaker check: It looks only
+	  	for direct references from classes in the left sets to classes in the
+	  	right sets. If dependencies are found the subgraph will be stored
+      in the result.
+      <p>
+      If groups of sets are specified either left or right the statement
+      will be broken down to statements for pairs where one set is from the
+      left group and the other one from the right group. Thus a original
+      statement with <i>n</i> left sets and <i>m</i> right sets turns into
+      <i>n</i> times <i>m</i> statements.
+      <li><tt>dependentOnlyOn</tt>:
+      It checks whether each set of the left group depends directly only 
+      on itself or on the union of all sets of the right group. That is,
+      the check fails if there is a class of one of the sets of the left
+      group which directly depends on a class which is neither in its
+      defining set nor in one of the sets of the right group.
+      <p>
+      If the left group has more than one set the statement will be broken
+      down to <i>n</i> statements, where <i>n</i> is the number of sets
+      in the left group. Each statement checks the dependency of only one set.
+    </ul> 
+	</dd>
+</dl>
+
+<h4><a name="checkLayer">4.2.2.5 Check Layering</a></h4>
+
+<dl><dt><u>Synopsis</u>:</dt>
+	<dd>Checks a layer architecture.</dd>
+	<dt><u>Syntax</u>:</dt>
+	<dd><pre>       check layeringOf <i>&lt;layer&gt;</i><sub>1..*</sub></pre>
+		or
+		<pre>       check strictLayeringOf <i>&lt;layer&gt;</i><sub>1..*</sub></pre>
+		where <tt><i>&lt;layer&gt;</i></tt> denotes a name of a layer defined 
+		in a <a href="#layer">layer definition</a>.
+ 	</dd>
+	<dt><u>Semantic</u>:</dt>
+	<dd>This is a convenient statement for checking whether a stack of layers
+	    build a layered architecture or not. 
+	    The left-most (right-most) layer is the bottom (top) layer.
+	    The statement is turned into several statements of the type 
+	    <a href="#checkDependency">checking direct independency</a> 
+	    (<tt>directlyIndependentOf</tt>) for the following
+	    dependencies which are all not allowed:
+	    <ul><li>Between the sets defining a layer.
+	    	<li>From a lower layer to an upper layer.
+	    	<li>From an upper layer to a layer not directly underneath 
+	    		if <tt>strictLayeringOf</tt> is used.
+	    </ul>
+	    Here is an example with five sets organized in three layers. The
+	    arrows show the allowed direct dependencies. All other direct
+	    dependencies are forbidden. The dashed arrows show forbidden 
+	    dependencies in the case of strict layering.
+	    <center><img src="images/layers.png"></center>
+	</dd>
+</dl>
+
+<em><font size="-1">
+This article has been translated to <a href="
+http://science.webhostinggeeks.com/dependency-definition">Serbo-Croatian</a>
+language by Anja Skrba from <a href="http://webhostinggeeks.com/">
+Webhostinggeeks.com</a>.
+</font>
+</em>
+<!-- ================================================ -->
+
+</td>
+</tr>
+<tr class="footer">
+<td colspan="2">
+<center>
+Java and all Java-based trademarks and logos are trademarks or registered 
+trademarks of Oracle in the U.S. and other countries.
+<br>
+(C) 2003-2011 <a href="mailto:fjelmer@users.sourceforge.net?subject=Classycle">
+Franz-Josef Elmer</a>. All rights reserved. Last modified: 3/25/2013
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>

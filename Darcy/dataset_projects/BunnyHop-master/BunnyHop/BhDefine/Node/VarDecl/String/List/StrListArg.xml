@@ -1,0 +1,28 @@
+<Node type="connective"
+	bhNodeID="idStrListArg"
+	name="StrListArg"
+	nodeStyleID="StrListArg.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<ConnectorSection>
+		<Connector bhConnectorID="idListNameCnctr" name="ListName" imitCnctPos="imitPosListName"/>
+		
+		<PrivateConnector
+			bhConnectorID="idStrListArg.prvCnctr0"
+			name="ListSign"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idStrListArg.prvNode0"
+				name="ListSign"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="[...]">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idStrListCnctr" name="Arg"/>
+		<Connector bhConnectorID="idArgCnctr" name="NextArg" imitCnctPos="imitPosNextArg"/>
+	</ConnectorSection>
+</Node>

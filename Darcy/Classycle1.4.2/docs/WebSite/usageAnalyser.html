@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+  <title>Classycle: User Guide: 1.1 Analyser</title>
+  <meta name="author" content="Franz-Josef Elmer">
+  <meta name="keywords" 
+        content="Java, class dependencies, open-source tool">
+  <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td class="left-column" valign="top">
+<!-- ======== Left column =========================== -->
+<a href="index.html"><img src="images/logo.png" border="0" 
+alt="Classycle logo" width="200" height="135"></a>
+<p>
+<ul><li><a href="index.html">Home</a>
+    <li><a href="examples.html">Examples</a>
+    <li><a href="http://sourceforge.net/project/showfiles.php?group_id=79058">Download</a>
+    <li><a href="userGuide.html">User Guide</a><br>
+    	<ol><li><a href="usage.html">Usage</a><br>
+    			1.1 <b>Analyser</b><br>
+    			1.2 <a href="usageDChecker.html">Dependency Checker</a>
+        	<li><a href="works.html">How Classycle works</a>
+         	<li><a href="measures.html">What Classycle's Analyser measures</a>
+         	<li><a href="ddf.html">Dependency Definition File</a>
+         	<li><a href="design.html">Hints to improve design</a>
+        </ol>
+    <li><a href="apidoc/index.html">API documentation</a>
+    <li><a href="http://sourceforge.net/projects/classycle">SourceForge
+        project page</a>
+</ul>
+<!-- ================================================ -->
+
+</td>
+<td class="right-column" valign="top">
+<!-- ======== Right column =========================== -->
+<h1>1.1 Analyser</h1>
+
+Classycle's Analyser can be used as a <a href="#command">command-line tool</a> 
+and as an <a href="#ant">Ant Task</a>.
+
+<h2><a name="command">1.1.1 Command Line Tool</a></h2>
+
+Analyser is called from the command line as follows:
+<tt>
+<pre>
+java -jar classycle.jar [-raw] [-cycles|-strong] [-packagesOnly]\
+                        [-mergeInnerClasses]\
+                        [-includingClasses=&lt;pattern1>[,&lt;pattern2>,...]]\
+                        [-excludingClasses=&lt;pattern1>[,&lt;pattern2>,...]] \
+                        [-reflectionPattern=[&lt;pattern1>,&lt;pattern2>,...]] \
+                        [-xmlFile=&lt;file&gt;] [-csvFile=&lt;file&gt;] \ 
+                        [-title=&lt;title&gt;] \
+                        &lt;class files, zip/jar/war/ear files, or folders&gt;
+</pre>
+</tt>
+The argument is a list of sources for class files to be analyzed:
+<ul><li>Particular <tt>.class</tt> file
+    <li>zip/jar/war/ear files: All class files in such a compressed file
+    <li>Folder: All class files in the folder (including all subfolders) and
+        all class files in zip/jar/war/ear files of the folder 
+</ul>      
+<p>
+The options have the following meaning:
+<dl><dt><tt>-raw</tt></dt>
+    <dd>The complete digraph will be printed onto the console.</dd>
+    <dt><tt>-cycles</tt></dt>
+    <dd>All cycles and their containing classes are printed onto the console.
+    </dd>
+    <dt><tt>-strong</tt></dt>
+    <dd>Like <tt>-cycles</tt> but also the strong components with only one
+        member are printed onto the console. Thus all classes are printed.
+    </dd>
+    <dt><tt>-packagesOnly</tt></dt>
+    <dd>Only package dependencies are calculated.</dd>
+    <dt><tt>-mergeInnerClasses</tt></dt>
+    <dd>Inner class vertices will be merged with their outer classes.</dd>
+    <dt><tt>-includingClasses</tt></dt>
+    <dd>Comma-separated list of one or more wild-card patterns for 
+        fully-qualified class names of classes which are included in the graph.
+        Only '*' is interpreted as wild-card character.</dd>
+    <dt><tt>-excludingClasses</tt></dt>
+    <dd>Comma-separated list of one or more wild-card patterns for 
+        fully-qualified class names of classes which are excluded from the graph.
+        Only '*' is interpreted as wild-card character.</dd>
+    <dt><tt>-reflectionPattern</tt></dt>
+    <dd>Comma-separated list of zero or more wild-card patterns for 
+        fully-qualified class names which are referred in the class file
+        by plain string constants. 
+        Only '*' is interpreted as wild-card character.
+        <p>
+        This allows e.g. that a class with the
+        following line of code has a reference to <tt>java.lang.Thread</tt>:
+        <pre>Class clazz = Thread.class;</pre>
+        The following code has the same effect:
+        <pre>String className = "java.lang.Thread";</pre>
+        If no pattern is defined all strings which are valid class names 
+        (like <tt>hello</tt>, <tt>www.w3c.org</tt>) would
+        be treated like class references.
+        </dd>
+    <dt><tt>-xmlFile=&lt;file&gt;</tt></dt>
+    <dd>Creates the specified file with an XML report.</dd>
+    <dt><tt>-csvFile=&lt;file&gt;</tt></dt>
+    <dd>Creates the specified comma-separated-value (CSV) file containing 
+        a table with all classes but no dependencies.</dd>
+    <dt><tt>-title=&lt;title&gt;</tt></dt>
+    <dd>Value of the <tt>title</tt> element of the XML report. If the title
+        is not specified the first argument of the list of class files will
+        be used.
+    </dd>
+</dl>
+Without any options only a brief summary is printed onto the console.
+<p>
+The XML report refers to the XSL transformation <tt>reportXMLtoHTML.xsl</tt>.
+Modern Web browser are able to render the XML report with the help of this
+XSL transformation. Otherwise an XSLT processor 
+(like <a href="http://xml.apache.org/xalan-j/index.html">xalan</a>) 
+is needed to create an HTML document from the XML report. 
+In any case the folder <tt>images</tt> is needed in the same 
+directory as the report (and the XSL file).
+
+<h2><a name="ant">1.1.2 Ant Task</a></h2>
+
+I wrote an Ant Task based on the Ant Task written by Boris Gruschko (see 
+<a href="http://sourceforge.net/tracker/index.php?func=detail&aid=977610&group_id=79058&atid=555375">
+Patch 977610: Ant task for classycle</a>). 
+Here is a simple build file showing its usage:
+<pre>
+<tt>
+&lt;?xml version="1.0"?&gt;
+&lt;project name="Classycle Ant Task Example" default="report" basedir="."&gt;
+  &lt;taskdef name="classycleReport" classname="classycle.ant.ReportTask"/&gt;
+
+  &lt;target name="report"&gt;
+    &lt;classycleReport reportFile="classycle.xml"&gt;
+      &lt;fileset dir="."&gt;
+        &lt;include name="classycle.jar"/&gt;
+      &lt;/fileset&gt;
+    &lt;/classycleReport&gt;
+  &lt;/target&gt;
+&lt;/project&gt;  
+</tt>
+</pre>
+The source of class files can be specified by filesets and zipfilesets.
+
+For the attributes and their meaning see the API documentation of 
+<a href="apidoc/classycle/ant/ReportTask.html"><tt>ReportTask</tt></a>.
+Running this example build file on the console yields 
+<pre>
+<tt>
+Buildfile: exampleBuild.xml
+
+report:
+[classycleReport] ============= Classycle V1.0 =============
+[classycleReport] ========== by Franz-Josef Elmer ==========
+[classycleReport] read class files and create class graph ... done after ...
+[classycleReport] condense class graph ... done after ...
+[classycleReport] calculate class layer indices ... done after ...
+[classycleReport] create package graph ... done after ...
+[classycleReport] condense package graph ... done after ...
+[classycleReport] calculate package layer indices ... done after ...
+
+BUILD SUCCESSFUL
+Total time: 1 second
+</tt>
+</pre>
+and a file <tt>classycle.xml</tt> with the XML report of the analysis of
+<tt>classycle.jar</tt>.
+<p>
+To run with Ant 1.6 type:
+<pre>
+<tt>
+ant -lib classycle.jar -f <i>&lt;build file&gt;</i>  <i>&lt;target&gt;</i> 
+</tt>
+</pre>
+
+For earlier Ant versions the option <tt>-lib</tt> does not work and 
+you must copy <tt>classycle.jar</tt> into the
+folder <tt>lib</tt> of the home directory of your Ant installation.
+<p>
+The Ant task has been tested with Ant 1.5.3 and 1.6.1.
+
+<!-- ================================================ -->
+
+</td>
+</tr>
+<tr class="footer">
+<td colspan="2">
+<center>
+Java and all Java-based trademarks and logos are trademarks or registered 
+trademarks of Oracle in the U.S. and other countries.
+<br>
+(C) 2003-2008 <a href="mailto:fjelmer@users.sourceforge.net?subject=Classycle">
+Franz-Josef Elmer</a>. All rights reserved. Last modified: 9/9/2012
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>

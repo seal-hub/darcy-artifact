@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="movie">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="title" type="xs:string"></xs:element>
+				<xs:element name="originaltitle" type="xs:string"></xs:element>
+				<xs:element name="set" type="xs:string"></xs:element>
+				<xs:element name="sorttitle" type="xs:string"></xs:element>
+				<xs:element name="rating" type="xs:double"></xs:element>
+				<xs:element name="year" type="xs:int"></xs:element>
+				<xs:element name="top250" type="xs:int"></xs:element>
+				<xs:element name="votes" type="xs:int"></xs:element>
+				<xs:element name="outline" type="xs:string"></xs:element>
+				<xs:element name="plot" type="xs:string"></xs:element>
+				<xs:element name="tagline" type="xs:string"></xs:element>
+				<xs:element name="runtime" type="xs:int"></xs:element>
+				<xs:element name="thumb" type="xs:string"></xs:element>
+				<xs:element name="fanart" type="xs:string"></xs:element>
+				<xs:element name="mpaa" type="xs:string"></xs:element>
+				<xs:element name="certification" type="xs:string"></xs:element>
+				<xs:element name="id" type="xs:string"></xs:element>
+				<xs:element name="ids">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="entry" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="key" type="xs:string"></xs:element>
+										<xs:element name="value" type="xs:string">
+											<!-- <xs:complexType>
+												<xs:attribute name="xmlns:xs" type="xs:string"></xs:attribute>
+												<xs:attribute name="xmlns:xsi" type="xs:string"></xs:attribute>
+												<xs:attribute name="xsi:type" type="xs:string"></xs:attribute>
+											</xs:complexType> -->
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="tmdbId" type="xs:int"></xs:element>
+				<xs:element name="trailer" type="xs:string"></xs:element>
+				<xs:element name="country" type="xs:string"></xs:element>
+				<xs:element name="premiered" type="xs:date"></xs:element>
+				<xs:element name="fileinfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="streamdetails">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="video">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="codec" type="xs:string"></xs:element>
+													<xs:element name="aspect" type="xs:double"></xs:element>
+													<xs:element name="width" type="xs:int"></xs:element>
+													<xs:element name="height" type="xs:int"></xs:element>
+													<xs:element name="durationinseconds" type="xs:int"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="audio" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="codec" type="xs:string"></xs:element>
+													<xs:element name="language" type="xs:string"></xs:element>
+													<xs:element name="channels" type="xs:int"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="subtitle">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="language"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="watched" type="xs:boolean"></xs:element>
+				<xs:element name="playcount" type="xs:int"></xs:element>
+				<xs:element name="genre" maxOccurs="unbounded" type="xs:string"></xs:element>
+				<xs:element name="studio" maxOccurs="unbounded" type="xs:string"></xs:element>
+				<xs:element name="credits" maxOccurs="unbounded" type="xs:string"></xs:element>
+				<xs:element name="director" type="xs:string"></xs:element>
+				<xs:element name="actor" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"></xs:element>
+							<xs:element name="role" type="xs:string"></xs:element>
+							<xs:element name="thumb" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="producer" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"></xs:element>
+							<xs:element name="role" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="languages" type="xs:string"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

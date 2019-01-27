@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="heros:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/heros_jar</output-path>
+    <root id="archive" name="heros.jar">
+      <element id="module-output" name="heros" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libs/heros/junit.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libs/heros/slf4j-simple-1.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libs/heros/org.hamcrest.core_1.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libs/heros/slf4j-api-1.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libs/heros/guava-18.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libs/heros/mockito-all-1.9.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

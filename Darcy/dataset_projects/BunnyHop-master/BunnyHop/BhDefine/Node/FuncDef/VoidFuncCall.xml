@@ -1,0 +1,45 @@
+<Node type="connective"
+	  bhNodeID="idVoidFuncCall"
+	  name="VoidFuncCall"
+	  nodeStyleID="VoidFuncCall.json"
+	  onMovedFromChildToWS="onStatMovedToWS.js"
+	  onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		<Connector bhConnectorID="idFuncNameCnctr" name="FuncName" imitCnctPos="imitPosFuncName"/>
+		
+		<PrivateConnector 
+			bhConnectorID="idVoidFuncCall.prvCnctr0"
+			name="nyuryoku"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idVoidFuncCall.prvNode0"
+				name="nyuryoku"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="入力">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idArgCnctr" name="Arg" imitCnctPos="imitPosArg"/>
+		
+		<PrivateConnector
+			bhConnectorID="idVoidFuncCall.prvCnctr1"
+			name="shuturyoku"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idVoidFuncCall.prvNode1"
+				name="shuturyoku"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="出力">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idArgCnctr" name="OutArg" imitCnctPos="imitPosOutArg"/>
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>
+

@@ -1,0 +1,39 @@
+<Node type="connective"
+	bhNodeID="idNumRoundExp"
+	name="NumRoundExp"
+	nodeStyleID="NumRoundExp.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<ConnectorSection name="NumberExpSctn">
+		<Connector bhConnectorID="idNumExpCnctr" name="Arg0"/>
+		
+		<PrivateConnector
+			bhConnectorID="idNumRoundExp.prvCnctr0"
+			name="noShosutenIka"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idNumRoundExp.prvNode0"
+				name="noShosutenIka"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="の小数点以下">
+			</Node>
+		</PrivateConnector>
+		
+		<PrivateConnector
+			bhConnectorID="idNumRoundExp.prvCnctr1"
+			name="Option0"
+    		fixed="true">
+			<Node
+				type="comboBox"
+				bhNodeID="idNumRoundExp.prvNode1"
+				name="NumRoundOpe"
+				nodeStyleID="WordComboBox.json"
+				nodeInputControl="NumRoundOpe.fxml">
+			</Node>
+		</PrivateConnector>
+		
+	</ConnectorSection>
+</Node>

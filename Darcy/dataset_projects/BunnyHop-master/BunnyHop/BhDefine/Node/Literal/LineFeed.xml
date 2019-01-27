@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="label"
+	bhNodeID="idLineFeed"
+	name="LineFeed"
+	nodeStyleID="LineFeed.json"
+	nodeInputControl="Label.fxml"
+	initString="改行">
+</Node>
+

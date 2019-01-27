@@ -1,0 +1,9 @@
+target/*
+.idea/
+Utils.iml
+Base/target
+Config/target
+Http/target
+JavaFX/target
+Mail/target
+Resources/target

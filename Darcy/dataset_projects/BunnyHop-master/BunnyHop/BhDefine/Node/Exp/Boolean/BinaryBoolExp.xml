@@ -1,0 +1,26 @@
+<Node type="connective"
+	bhNodeID="idBinaryBoolExp"
+	name="BinaryBoolExp"
+	nodeStyleID="BinaryBoolExp.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<ConnectorSection name="BooleanExpSctn">
+		<Connector bhConnectorID="idBoolExpCnctr" name="LeftExp"/>
+		
+		<PrivateConnector
+			bhConnectorID="idBinaryBoolExp.prvCnctr0"
+			name="Operator"
+    		fixed="true">
+			<Node
+				bhNodeID="idBinaryBoolExp.prvNode0"
+				type="comboBox"
+				name="BinaryBoolOpe"
+				nodeStyleID="WordComboBox.json"
+				nodeInputControl="BinaryBoolOpe.fxml">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idBoolExpCnctr" name="RightExp"/>
+	</ConnectorSection>
+</Node>

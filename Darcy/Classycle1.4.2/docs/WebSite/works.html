@@ -1,0 +1,368 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+  <title>Classycle: User Guide: 2. How Classycle works</title>
+  <meta name="author" content="Franz-Josef Elmer">
+  <meta name="keywords"
+        content="Java, class dependencies, open-source tool">
+  <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td class="left-column" valign="top">
+<!-- ======== Left column =========================== -->
+<a href="index.html"><img src="images/logo.png" border="0"
+alt="Classycle logo" width="200" height="135"></a>
+<p>
+<ul><li><a href="index.html">Home</a>
+    <li><a href="examples.html">Examples</a>
+    <li><a href="http://sourceforge.net/project/showfiles.php?group_id=79058">Download</a>
+    <li><a href="userGuide.html">User Guide</a><br>
+    	<ol><li><a href="usage.html">Usage</a><br>
+        	<li><b>How Classycle works</b><br>
+         	<li><a href="measures.html">What Classycle's Analyser measures</a><br>
+         	<li><a href="ddf.html">Dependency Definition File</a>
+         	<li><a href="design.html">Hints to improve design</a>
+        </ol>
+    <li><a href="apidoc/index.html">API documentation</a>
+    <li><a href="http://sourceforge.net/projects/classycle">SourceForge
+        project page</a>
+</ul>
+<!-- ================================================ -->
+
+</td>
+<td class="right-column" valign="top">
+<!-- ======== Right column =========================== -->
+<h1>2. How Classycle works</h1>
+
+Classycle Analyser performs the analysis in five steps:
+<ol><li><a href="#2.1">Reading the class files</a>
+    <li><a href="#2.2">Creating the dependency graph of classes</a>
+    <li><a href="#2.3">Creating the dependency graph of packages</a>
+    <li><a href="#2.4">Detecting cycles</a>
+    <li><a href="#2.5">Calculating layer indices</a>
+    <li><a href="#2.6">Writing a report</a>
+</ol>
+The first two are also done by the Dependency Checker.
+
+<h2><a name="2.1">2.1 Reading the Class Files</a></h2>
+
+The analysis relies on <tt>.class</tt> files and not on <tt>.java</tt> source
+files. Classycle extracts from a class file the so-called <em>constant pool</em>
+which contains references to other classes.
+
+<h2><a name="2.2">2.2 Creating the Dependency Graph of Classes</a></h2>
+
+In order to detect class dependencies Classycle analyses the constant pool.
+A constant pool contains different types of constants (for more details see
+Chapter&nbsp;4 of <a href=
+"http://java.sun.com/docs/books/vmspec/2nd-edition/html/VMSpecTOC.doc.html">
+The Java Virtual Machine Specification</a>).
+Classycle evaluates two or three of them:
+<ul><li>Class constant: Refers to a UFT8 constant which contains the
+        fully-qualified class name with '/' instead of '.' as package 
+        name separator.
+    <li>UFT8 constant: Contains an arbitray unicode-encoded string.
+    <li>String constant (optionally): 
+    	Refers to a UFT8 constant which contains a string constant 
+    	from the Java code.
+</ul>
+It is not enough to evalute class constants to find all refered classes. 
+For example, the constant pool of
+<tt>
+<pre>
+class SimpleClass {
+  String a;
+}
+</pre>
+</tt>
+contains only class constants for the class itself (<tt>SimpleClass</tt>) and
+the superclass (<tt>java.lang.Object</tt>). But there is no class constant
+for <tt>java.lang.String</tt>. Instead, there is a UTF8 constant with the value
+<tt>Ljava/lang/String;</tt>. This is a so-called <em>descriptor</em> which
+represents the type of a field or method. Unfortunately, there is no
+special constant type for such descriptors. Classycle has to analyse each
+UTF8 constant whether it is a descriptor or not. Fortunately, descriptors
+are specified by a grammer (see Section&nbsp;4.3 of the Java VM Specifications).
+Thus, if the UTF8 constant is a descriptor in accordance with this grammer
+Classycle extracts the class names from this descriptor. Otherwise, the
+UTF8 constant will be ignored. Since version 1.3 Classycle can also handle
+the extended grammer for Java Generics signatures.
+<p>
+If the commandline option <tt>-reflectionPattern</tt> is used 
+also string constants in the pool are analysed. 
+A string constant (as it appears in the code of 
+a Java file) is handled as a class name if the following two
+conditions are fulfilled:
+<ol><li>The string is a syntactically valid fully-qualified class name.
+    <li>The string matches one of the specified patterns.
+</ol>
+If the option <tt>-reflectionPattern</tt> is used but no pattern has been 
+defined only the first condition has to be fulfilled. But is always recommended
+to specifiy at least one pattern. Otherwise strings like <tt>hello</tt> or
+<tt>www.w3c.org</tt> are handled as class references.
+<p>
+Note, that this reflection option is a must if a class with the following line
+of code should have a reference to <tt>java.lang.Thread</tt>:
+<pre>
+Class clazz = Thread.class;
+</pre>
+
+<p>
+This analysis leads to a direct dependency in the following cases:
+<ul><li>Superclass.
+    <li>Field type.
+    <li>Classes of parameters and return value of any method declared or
+        invoked.
+    <li>Class implementing an invoked method.
+    <li>String constants if the reflection option is used and the 
+    	above-mentioned conditions are fulfilled.
+</ul>
+Array types are not refered. Instead the element type is refered.
+Note, that some references in the source code do not appear in
+the class file:
+<ul><li>Local variables which are never used.
+    <li>Constants (i.e., <tt>static final</tt> declared fields) which can
+        by resolved at compile time.
+</ul>
+<p>
+Examples:
+<table class="smallTable" border=1 cellpadding=5 cellspacing=0>
+<tr>
+  <th>Source Code</th><th>Evaluated Constants</th><th>Refered Classes</th>
+</tr>
+
+<tr>
+<td valign="top"><tt><pre>
+class MyException 
+          extends Exception {
+  int left = java.awt.Label.LEFT;
+  MyException(String msg) {
+    super(msg);
+    Integer n = null;
+  }
+}
+</pre></tt>
+</td>
+<td valign="top">Class constants:<p>
+<tt>
+MyException<br>
+java/lang/Exception<br>
+</tt>
+<p>
+UFT8 constant with descriptor:<p>
+<tt>
+(Ljava/lang/String;)V
+</tt></td>
+<td valign="top"><tt>java.lang.Exception<br>
+java.lang.String
+</tt></td>
+</tr>
+
+<tr>
+<td valign="top"><tt><pre>
+class ExampleClass {
+  int[] counts = new int[5];
+  String[][] table
+      = new String[5][3];
+}
+</pre></tt>
+</td>
+<td valign="top">Class constants:<p>
+<tt>
+ExampleClass<br>
+java/lang/String<br>
+java/lang/Object<br>
+</tt>
+<p>
+UFT8 constants with descriptor:<p>
+<tt>
+[I<br>
+[[Ljava/lang/String;<br>
+()V
+</tt></td>
+<td valign="top"><tt>java.lang.Object<br>
+java.lang.String
+</tt></td>
+</tr>
+
+<tr>
+<td valign="top"><tt><pre>
+class ExampleClass {
+  boolean atLeastOneSystemProperty
+      = System.getProperties()
+              .keys()
+              .hasMoreElements();
+}
+</pre></tt>
+</td>
+<td valign="top">Class constants:<p>
+<tt>
+ExampleClass<br>
+java/lang/Object<br>
+java/lang/System<br>
+java/util/Hashtable<br>
+java/util/Enumeration
+</tt>
+<p>
+UFT8 constants with descriptor:<p>
+<tt>
+()V<br>
+()Ljava/util/Properties;<br>
+()Ljava/util/Enumeration;<br>
+()Z
+</tt></td>
+<td valign="top"><tt>java.lang.Object<br>
+java.lang.System<br>
+java.util.Hashtable<br>
+java.util.Enumeration<br>
+java.util.Properties
+</tt></td>
+</tr>
+
+<tr>
+<td valign="top"><tt><pre>
+abstract class 
+    ExampleClass&lt;T extends Set&lt;Byte&gt;&gt; 
+          implements Collection&lt;Short&gt;
+{ 
+  T handle(Map&lt;Long, 
+               ? extends Float[]&gt; map) 
+  { 
+    return null;
+  }
+}	
+</pre></tt>
+</td>
+<td valign="top">Class constants:<p>
+<tt>
+ExampleClass<br>
+java/lang/Object<br>
+java/util/Collection
+</tt>
+<p>
+UFT8 constants with descriptor:<p>
+<pre><tt>
+(Ljava/util/Map;)Ljava/util/Set;
+(Ljava/util/Map&lt;Ljava/lang/Long;
+   +[Ljava/lang/Float;&gt;;)TT;
+&lt;T::Ljava/util/Set
+      &lt;Ljava/lang/Byte;&gt;;&gt;
+   Ljava/lang/Object;
+   Ljava/util/Collection
+      &lt;Ljava/lang/Short;&gt;;
+</tt></pre></td>
+<td valign="top"><tt>java.lang.Object<br>
+java.util.Collection<br>
+java.util.Map<br>
+java.util.Set<br>
+java.lang.Long<br>
+java.lang.Float<br>
+java.lang.Byte<br>
+java.lang.Short
+</tt></td>
+</tr>
+</table>
+<p>
+After the analysis of the constant pools of all read class files Classycle
+creates a directed graph (short: digraph): Each vertex represents an
+analysed class. Vertices are connected by directed edges (usually represented
+by an arrow). A directed edge will be pointed from vertex A to vertex B
+if Classycle has detected that A is refering B.
+The edge is called an outgoing arc for A and an incoming arc for B.
+In general they will be outgoing arcs to external classes which are not
+in the set of classes analysed by Classycle. These outgoing arcs will be
+ignored in step 4 and 5 of the analysis.
+
+<h2><a name="2.3">2.3 Creating the Dependency Graph of Packages</a></h2>
+
+From the class dependency graph it is easy to get the package dependency
+graph. Classycle just parses the class graph and extracts the package name
+of a class from its fully qualified class name. If the class is not in a
+package a package node named <tt>(default package)</tt> will be associated with
+this class. Package <em>A</em> depends on package <em>B</em> if there is
+at least one class in <em>A</em> which depends on at least one class in
+<em>B</em>.
+
+<h2><a name="2.4">2.4 Detecting Cycles</a></h2>
+
+In a digraph one can walk along the arrows from vertex to vertex.
+Eventually one reaches either a vertex with no outgoing arc
+or an already visited vertex. In the later case one
+has detected a <b>cycle</b>. Classycle detects cycles with the help of Tarjan's
+algorithm for condensation of a digraph into an acyclic digraph of its
+so-called <em>strong components</em>:
+
+<center><img src="images/graphExample.png" width="401" height="205"></center>
+
+A group of vertices has the property of being <em>strongly connected</em>
+if each vertex of the group can be reached from each other vertex of the
+group. A <em>strong component</em> is a strongly connected group of
+vertices which looses the property of being strongly connected if a vertex
+outside the group is added. A special case is a strong component containing
+only one vertex (like the strong component b in the example which contains
+only vertex C). Classycle reports each strong component with more than one
+vertex as cycles. In the above example it would detect three cycles.
+<p>
+The condensation leads to a new digraph where each vertex is a strong component
+of the original digraph. A directed edge goes from strong component a to b
+if a directed edge goes from at least one vertex of a to at least one vertex of b.
+<p>
+Note, that the detection of package cycles done by
+<a href="http://www.clarkware.com/software/JDepend.html">JDepend</a> can be wrong.
+For example, JDepend would identify by mistake vertex C in the above-mentioned graph
+as cyclic. The reason is presumably that JDepend walks through the graph until
+it detects a vertex already visited. In this case it marks the starting vertex
+as cyclic.
+
+<h2><a name="2.5">2.5 Calculating Layer Indices</a></h2>
+
+After condensation of the dependency graph to an acyclic digraph of its
+strong components Classycle calculates the layer index for each strong
+component. The layer index of a vertex in an acyclic digraph is the number
+of edges of the longest possible walk starting at this vertex. All class/package
+vertices of a cycle have the same layer index. For example, the classes
+D, G, and I in the above example have all the layer index 0.
+<p>
+Grouping the classes of an application in layers suggests a layered
+architecture of the application. In general this is not the case. The layers
+introduced by the analysis of Classycle are of finer granularity and they
+violates in general the rule that a layer should only know the layer
+one level deeper. This rule would forbid the arrows from d to b and c
+in the example.
+<p>
+To get a layering in this strict sense one should do a further condensation by
+grouping the strong components in such a way that all edges pointing from
+a vertex with layer index n to a vertex with index n-1. Unfortunately, there
+is in general no unique way to do this. For example, one can condense
+the above example further by forming two groups: One group contains d and
+the other one c. But a and b may be both either in the d or c group or a
+in the d group and b in the c group.
+
+<h2><a name="2.6">2.6 Writing a Report</a></h2>
+
+Finally Classycle writes the result of the analysis in a report. The most
+extended report is the XML report. It lists all cycles, layers, classes and
+packages. With this report it is possible to reconstruct the original 
+class/package digraph. Chapter&nbsp;<a href="measures.html">3</a> explains 
+the measures listed in the XML report.
+
+<!-- ================================================ -->
+
+</td>
+</tr>
+<tr class="footer">
+<td colspan="2">
+<center>
+Java and all Java-based trademarks and logos are trademarks or registered
+trademarks of Oracle in the U.S. and other countries.
+<br>
+(C) 2003-2008 <a href="mailto:fjelmer@users.sourceforge.net?subject=Classycle">
+Franz-Josef Elmer</a>. All rights reserved. Last modified: 9/30/2006
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>

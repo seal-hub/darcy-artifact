@@ -1,0 +1,18 @@
+# exclude all
+/*
+
+# include projects
+!pom.xml
+!unification-service/
+!map-converter-service/
+!autosort/
+
+# include README.md and meta files
+!README.md
+!LICENSE
+
+# include git important files
+!.gitignore
+
+# include build related files
+!.circleci

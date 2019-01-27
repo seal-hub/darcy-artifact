@@ -1,0 +1,16 @@
+
+#In this step we use another module
+mkdir -p mods/org.astro
+
+/usr/java/jdk-9/bin/javac -d mods -modulesourcepath src $(find src -name "*.java")
+
+/usr/java/jdk-9/bin/java -mp mods -m com.greetings/com.greetings.Main
+
+
+#Create jars
+/usr/java/jdk-9/bin/jar --create --file=mlib/org.astro@1.0.jar --module-version=1.0 -C mods/org.astro .
+/usr/java/jdk-9/bin/jar --create --file=mlib/com.greetings@1.0.jar --module-version=1.0 --main-class=com.greetings.Main -C mods/com.greetings/  .
+/usr/java/jdk-9/bin/java -mp mlib -m com.greetings
+
+#To link
+/usr/java/jdk-9/bin/jlink --modulepath /usr/java/jdk-9/jmods:mlib --addmods com.greetings --output greetingsapp

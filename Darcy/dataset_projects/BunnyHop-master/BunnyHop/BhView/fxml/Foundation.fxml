@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox
+	xmlns:fx="http://javafx.com/fxml"
+	fx:id="foundationVBox"
+	fx:controller="net.seapanda.bunnyhop.control.FoundationController">
+	<fx:include fx:id="menuBar" source="MenuBar.fxml"/>
+	<Separator orientation="HORIZONTAL"/>
+	<fx:include fx:id="menuOperation" source="MenuOpControl.fxml"/>
+	<SplitPane fx:id="horizontalSplitter" VBox.vgrow="ALWAYS" dividerPositions="1">
+		<fx:include fx:id="workspaceSet" source="WorkspaceSet.fxml"/>
+		<fx:include fx:id="nodeCategoryList" source="NodeCategoryList.fxml"/>
+	</SplitPane>
+</VBox>

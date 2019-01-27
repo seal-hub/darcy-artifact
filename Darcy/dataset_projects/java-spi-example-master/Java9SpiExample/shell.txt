@@ -1,0 +1,12 @@
+javac -encoding "UTF-8" -d mod --module-source-path . sample.api/module-info.java sample.api/sample/plugin/Plugin.java
+jar --create --file=../lib/sample.api.jar -C mod/sample.api .
+
+
+javac -encoding "UTF-8" -d mod --module-path ../api/mod  --module-source-path . sample.client/module-info.java sample.client/sample/client/Main.java sample.client/sample/client/impl/HelloWorldPlugin.java
+jar --create --file=../lib/sample.client.jar -C mod/sample.client .
+
+javac -encoding "UTF-8" -d mod --module-path ../api/mod  --module-source-path . sample.plugin0/module-info.java sample.plugin0/sample/plugin0/impl/ChartPlugin.java
+jar --create --file=../lib/sample.plugin.jar -C mod/sample.plugin0 .
+
+javac -encoding "UTF-8" -d mod --module-path ../api/mod  --module-source-path . sample.plugin1/module-info.java sample.plugin1/sample/plugin1/impl/PluginProvider.java sample.plugin1/sample/plugin1/impl/WebViewPlugin.java
+jar --create --file=../lib/sample.plugin1.jar -C mod/sample.plugin1 .

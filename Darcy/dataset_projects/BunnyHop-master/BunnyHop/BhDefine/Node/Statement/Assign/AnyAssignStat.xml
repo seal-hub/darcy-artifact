@@ -1,0 +1,27 @@
+<Node type="connective"
+	bhNodeID="idAnyAssignStat"
+	name="AnyAssignStat"
+	nodeStyleID="AnyAssignStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		<Connector bhConnectorID="idAnyVarCnctr" name="LeftVar"/>
+
+		<PrivateConnector
+			bhConnectorID="idAnyAssignStat.prvCnctr0"
+			name="niAtaiWoDainyuSuru"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idAnyAssignStat.prvNode0"
+				name="ni"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="に値を代入する">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>

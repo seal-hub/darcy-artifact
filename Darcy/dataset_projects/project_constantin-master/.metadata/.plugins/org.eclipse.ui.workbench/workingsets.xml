@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1509040934394_1" label="Projekt_Constantin" name="Projekt_Constantin">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Output" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Database" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Input" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Projekt_Constantin" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1509039726654_0" label="Window Working Set" name="Aggregate for window 1509039726654"/>
+</workingSetManager>

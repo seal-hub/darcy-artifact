@@ -1,0 +1,1452 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='reportXMLtoHTML.xsl'?>
+<classycle title='Classycle 1.3.3' date='2008-05-24'>
+  <cycles>
+    <cycle name="classycle.classfile.Constant et al." size="13" longestWalk="0" girth="2" radius="2" diameter="3" bestFragmentSize="1">
+      <classes>
+        <classRef name="classycle.classfile.ClassConstant" eccentricity="3" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.UTF8Constant" eccentricity="3" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.Constant" eccentricity="2" maximumFragmentSize="1"/>
+        <classRef name="classycle.classfile.FieldRefConstant" eccentricity="2" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.RefConstant" eccentricity="2" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.NameAndTypeConstant" eccentricity="3" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.MethodRefConstant" eccentricity="2" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.InterfaceMethodRefConstant" eccentricity="2" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.StringConstant" eccentricity="3" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.IntConstant" eccentricity="3" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.FloatConstant" eccentricity="3" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.LongConstant" eccentricity="3" maximumFragmentSize="12"/>
+        <classRef name="classycle.classfile.DoubleConstant" eccentricity="3" maximumFragmentSize="12"/>
+      </classes>
+      <centerClasses>
+        <classRef name="classycle.classfile.Constant"/>
+        <classRef name="classycle.classfile.FieldRefConstant"/>
+        <classRef name="classycle.classfile.RefConstant"/>
+        <classRef name="classycle.classfile.MethodRefConstant"/>
+        <classRef name="classycle.classfile.InterfaceMethodRefConstant"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="classycle.classfile.Constant"/>
+      </bestFragmenters>
+    </cycle>
+    <cycle name="classycle.dependency.DefaultPreferenceFactory and inner classes" size="2" longestWalk="2" girth="2" radius="1" diameter="1" bestFragmentSize="1">
+      <classes>
+        <classRef name="classycle.dependency.DefaultPreferenceFactory" eccentricity="1" maximumFragmentSize="1"/>
+        <classRef name="classycle.dependency.DefaultPreferenceFactory$DefaultPreference" eccentricity="1" maximumFragmentSize="1"/>
+      </classes>
+      <centerClasses>
+        <classRef name="classycle.dependency.DefaultPreferenceFactory"/>
+        <classRef name="classycle.dependency.DefaultPreferenceFactory$DefaultPreference"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="classycle.dependency.DefaultPreferenceFactory"/>
+        <classRef name="classycle.dependency.DefaultPreferenceFactory$DefaultPreference"/>
+      </bestFragmenters>
+    </cycle>
+    <cycle name="classycle.graph.StrongComponent et al." size="3" longestWalk="3" girth="2" radius="1" diameter="2" bestFragmentSize="1">
+      <classes>
+        <classRef name="classycle.graph.StrongComponent" eccentricity="1" maximumFragmentSize="1"/>
+        <classRef name="classycle.graph.StrongComponent$GeometryAttributes" eccentricity="2" maximumFragmentSize="2"/>
+        <classRef name="classycle.graph.StrongComponentProcessor" eccentricity="2" maximumFragmentSize="2"/>
+      </classes>
+      <centerClasses>
+        <classRef name="classycle.graph.StrongComponent"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="classycle.graph.StrongComponent"/>
+      </bestFragmenters>
+    </cycle>
+    <cycle name="classycle.graph.LongestWalkProcessor and inner classes" size="2" longestWalk="4" girth="2" radius="1" diameter="1" bestFragmentSize="1">
+      <classes>
+        <classRef name="classycle.graph.LongestWalkProcessor$1" eccentricity="1" maximumFragmentSize="1"/>
+        <classRef name="classycle.graph.LongestWalkProcessor" eccentricity="1" maximumFragmentSize="1"/>
+      </classes>
+      <centerClasses>
+        <classRef name="classycle.graph.LongestWalkProcessor$1"/>
+        <classRef name="classycle.graph.LongestWalkProcessor"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="classycle.graph.LongestWalkProcessor$1"/>
+        <classRef name="classycle.graph.LongestWalkProcessor"/>
+      </bestFragmenters>
+    </cycle>
+    <cycle name="classycle.UnresolvedNode and inner classes" size="2" longestWalk="4" girth="2" radius="1" diameter="1" bestFragmentSize="1">
+      <classes>
+        <classRef name="classycle.UnresolvedNode" eccentricity="1" maximumFragmentSize="1"/>
+        <classRef name="classycle.UnresolvedNode$1" eccentricity="1" maximumFragmentSize="1"/>
+      </classes>
+      <centerClasses>
+        <classRef name="classycle.UnresolvedNode"/>
+        <classRef name="classycle.UnresolvedNode$1"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="classycle.UnresolvedNode"/>
+        <classRef name="classycle.UnresolvedNode$1"/>
+      </bestFragmenters>
+    </cycle>
+    <cycle name="classycle.PackageProcessor and inner classes" size="2" longestWalk="6" girth="2" radius="1" diameter="1" bestFragmentSize="1">
+      <classes>
+        <classRef name="classycle.PackageProcessor$Arc" eccentricity="1" maximumFragmentSize="1"/>
+        <classRef name="classycle.PackageProcessor" eccentricity="1" maximumFragmentSize="1"/>
+      </classes>
+      <centerClasses>
+        <classRef name="classycle.PackageProcessor$Arc"/>
+        <classRef name="classycle.PackageProcessor"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="classycle.PackageProcessor$Arc"/>
+        <classRef name="classycle.PackageProcessor"/>
+      </bestFragmenters>
+    </cycle>
+    <cycle name="classycle.Parser and inner classes" size="2" longestWalk="6" girth="2" radius="1" diameter="1" bestFragmentSize="1">
+      <classes>
+        <classRef name="classycle.Parser" eccentricity="1" maximumFragmentSize="1"/>
+        <classRef name="classycle.Parser$1" eccentricity="1" maximumFragmentSize="1"/>
+      </classes>
+      <centerClasses>
+        <classRef name="classycle.Parser"/>
+        <classRef name="classycle.Parser$1"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="classycle.Parser"/>
+        <classRef name="classycle.Parser$1"/>
+      </bestFragmenters>
+    </cycle>
+  </cycles>
+  <classes numberOfExternalClasses="66">
+    <class name="classycle.PackageVertex" sources="classycle.jar" type="class" innerClass="false" size="684" usedBy="1" usesInternal="4" usesExternal="1" layer="5" cycle="">
+      <classRef name="classycle.PackageProcessor" type="usedBy"/>
+      <classRef name="classycle.PackageAttributes" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.ClassAttributes" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.PackageProcessor$Arc" sources="classycle.jar" type="class" innerClass="true" size="850" usedBy="1" usesInternal="3" usesExternal="1" layer="6" cycle="classycle.PackageProcessor and inner classes">
+      <classRef name="classycle.PackageProcessor" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.PackageProcessor" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+    </class>
+    <class name="classycle.renderer.TemplateBasedStrongComponentRenderer" sources="classycle.jar" type="class" innerClass="false" size="1290" usedBy="0" usesInternal="2" usesExternal="4" layer="6" cycle="">
+      <classRef name="java.text.MessageFormat" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.renderer.AtomicVertexRenderer" sources="classycle.jar" type="interface" innerClass="false" size="244" usedBy="7" usesInternal="2" usesExternal="2" layer="4" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.XMLPackageRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLAtomicVertexRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLClassRenderer" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.graph.LongestWalkProcessor$1" sources="classycle.jar" type="class" innerClass="true" size="777" usedBy="1" usesInternal="2" usesExternal="2" layer="4" cycle="classycle.graph.LongestWalkProcessor and inner classes">
+      <classRef name="classycle.graph.LongestWalkProcessor" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.util.Comparator" type="usesExternal"/>
+      <classRef name="classycle.graph.LongestWalkProcessor" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.ResultContainer" sources="classycle.jar" type="class" innerClass="false" size="1537" usedBy="3" usesInternal="1" usesExternal="5" layer="1" cycle="">
+      <classRef name="classycle.dependency.DefaultResultRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usedBy"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+    </class>
+    <class name="classycle.util.AndStringPattern" sources="classycle.jar" type="class" innerClass="false" size="873" usedBy="3" usesInternal="2" usesExternal="3" layer="2" cycle="">
+      <classRef name="classycle.CommandLine" type="usedBy"/>
+      <classRef name="classycle.ant.ClassycleTask" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="classycle.util.StringPatternSequence" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.CheckSetStatement" sources="classycle.jar" type="class" innerClass="false" size="2000" usedBy="1" usesInternal="8" usesExternal="3" layer="4" cycle="">
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.graph.NameAttributes" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.dependency.TextResult" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.Statement" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="classycle.dependency.SetDefinitionRepository" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.graph.VertexCondition" sources="classycle.jar" type="interface" innerClass="false" size="179" usedBy="5" usesInternal="1" usesExternal="1" layer="2" cycle="">
+      <classRef name="classycle.dependency.DependencyPathsRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyResult" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.PatternVertexCondition" type="usedBy"/>
+      <classRef name="classycle.graph.PathsFinder" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+    </class>
+    <class name="classycle.graph.StrongComponentAnalyser" sources="classycle.jar" type="class" innerClass="false" size="1847" usedBy="2" usesInternal="5" usesExternal="4" layer="5" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentProcessor" type="usesInternal"/>
+      <classRef name="classycle.graph.LongestWalkProcessor" type="usesInternal"/>
+      <classRef name="java.util.HashMap" type="usesExternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.DependencyProperties" sources="classycle.jar" type="class" innerClass="false" size="1197" usedBy="3" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <classRef name="classycle.dependency.DependencyChecker" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyProcessor" type="usedBy"/>
+      <classRef name="java.util.HashMap" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+    </class>
+    <class name="classycle.util.OrStringPattern" sources="classycle.jar" type="class" innerClass="false" size="868" usedBy="2" usesInternal="2" usesExternal="3" layer="2" cycle="">
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.util.WildCardPattern" type="usedBy"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="classycle.util.StringPatternSequence" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.TextResult" sources="classycle.jar" type="class" innerClass="false" size="766" usedBy="2" usesInternal="1" usesExternal="2" layer="1" cycle="">
+      <classRef name="classycle.dependency.CheckSetStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.DefaultResultRenderer" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.Analyser" sources="classycle.jar" type="class" innerClass="false" size="12263" usedBy="3" usesInternal="20" usesExternal="21" layer="8" cycle="">
+      <classRef name="classycle.ant.DependencyCheckingTask" type="usedBy"/>
+      <classRef name="classycle.ant.ReportTask" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyChecker" type="usedBy"/>
+      <classRef name="classycle.util.TrueStringPattern" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponentAnalyser" type="usesInternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="java.lang.RuntimeException" type="usesExternal"/>
+      <classRef name="java.util.HashSet" type="usesExternal"/>
+      <classRef name="classycle.ClassAttributes" type="usesInternal"/>
+      <classRef name="classycle.PackageProcessor" type="usesInternal"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.renderer.PlainStrongComponentRenderer" type="usesInternal"/>
+      <classRef name="java.lang.IllegalStateException" type="usesExternal"/>
+      <classRef name="java.util.Date" type="usesExternal"/>
+      <classRef name="classycle.renderer.XMLStrongComponentRenderer" type="usesInternal"/>
+      <classRef name="classycle.renderer.XMLClassRenderer" type="usesInternal"/>
+      <classRef name="classycle.XMLPackageStrongComponentRenderer" type="usesInternal"/>
+      <classRef name="classycle.XMLPackageRenderer" type="usesInternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="classycle.AnalyserCommandLine" type="usesInternal"/>
+      <classRef name="java.io.PrintWriter" type="usesExternal"/>
+      <classRef name="java.io.FileWriter" type="usesExternal"/>
+      <classRef name="java.text.SimpleDateFormat" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.text.DateFormat" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="classycle.renderer.StrongComponentRenderer" type="usesInternal"/>
+      <classRef name="classycle.renderer.AtomicVertexRenderer" type="usesInternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="classycle.Parser" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="java.io.PrintStream" type="usesExternal"/>
+      <classRef name="classycle.util.Text" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="java.io.Writer" type="usesExternal"/>
+      <classRef name="java.io.OutputStream" type="usesExternal"/>
+    </class>
+    <class name="classycle.UnresolvedNode" sources="classycle.jar" type="class" innerClass="false" size="1819" usedBy="3" usesInternal="3" usesExternal="6" layer="4" cycle="classycle.UnresolvedNode and inner classes">
+      <classRef name="classycle.GraphBuilder" type="usedBy"/>
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.UnresolvedNode$1" type="usedBy"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="classycle.UnresolvedNode$1" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Comparable" type="usesExternal"/>
+      <classRef name="classycle.ClassAttributes" type="usesInternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.Iterator" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+    </class>
+    <class name="classycle.graph.StrongComponent$GeometryAttributes" sources="classycle.jar" type="class" innerClass="true" size="3040" usedBy="1" usesInternal="4" usesExternal="3" layer="3" cycle="classycle.graph.StrongComponent et al.">
+      <classRef name="classycle.graph.StrongComponent" type="usedBy"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.GraphAttributes" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="java.lang.Math" type="usesExternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+    </class>
+    <class name="classycle.Parser$1" sources="classycle.jar" type="class" innerClass="true" size="496" usedBy="1" usesInternal="1" usesExternal="3" layer="6" cycle="classycle.Parser and inner classes">
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.io.FileFilter" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="classycle.Parser" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.DefaultResultRenderer" sources="classycle.jar" type="class" innerClass="false" size="2751" usedBy="2" usesInternal="7" usesExternal="3" layer="3" cycle="">
+      <classRef name="classycle.ant.DependencyCheckingTask" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyCheckerCommandLine" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.dependency.TextResult" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.dependency.ResultContainer" type="usesInternal"/>
+      <classRef name="classycle.dependency.DefaultPreferenceFactory" type="usesInternal"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usesInternal"/>
+      <classRef name="classycle.dependency.PreferenceFactory" type="usesInternal"/>
+      <classRef name="classycle.dependency.Preference" type="usesInternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.DependencyProcessor" sources="classycle.jar" type="class" innerClass="false" size="1259" usedBy="1" usesInternal="6" usesExternal="2" layer="9" cycle="">
+      <classRef name="classycle.dependency.DependencyChecker" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.Statement" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.dependency.DependencyProperties" type="usesInternal"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.SetDefinitionRepository" sources="classycle.jar" type="class" innerClass="false" size="1618" usedBy="5" usesInternal="1" usesExternal="3" layer="1" cycle="">
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckSetStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usedBy"/>
+      <classRef name="java.util.HashMap" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.DependencyStatement" sources="classycle.jar" type="class" innerClass="false" size="3686" usedBy="2" usesInternal="11" usesExternal="3" layer="5" cycle="">
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usedBy"/>
+      <classRef name="classycle.graph.VertexCondition" type="usesInternal"/>
+      <classRef name="classycle.dependency.PatternVertexCondition" type="usesInternal"/>
+      <classRef name="classycle.dependency.ResultContainer" type="usesInternal"/>
+      <classRef name="classycle.graph.PathsFinder" type="usesInternal"/>
+      <classRef name="classycle.dependency.DependencyResult" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.Statement" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="classycle.dependency.SetDefinitionRepository" type="usesInternal"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.Statement" sources="classycle.jar" type="interface" innerClass="false" size="203" usedBy="7" usesInternal="2" usesExternal="1" layer="3" cycle="">
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckSetStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyProcessor" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.ShowStatement" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.CyclesResult" sources="classycle.jar" type="class" innerClass="false" size="2393" usedBy="1" usesInternal="6" usesExternal="6" layer="6" cycle="">
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="classycle.graph.NameAttributes" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.util.Iterator" type="usesExternal"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.graph.LongestWalkProcessor" sources="classycle.jar" type="class" innerClass="false" size="2242" usedBy="2" usesInternal="4" usesExternal="7" layer="4" cycle="classycle.graph.LongestWalkProcessor and inner classes">
+      <classRef name="classycle.graph.LongestWalkProcessor$1" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentAnalyser" type="usedBy"/>
+      <classRef name="java.lang.IllegalArgumentException" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.graph.LongestWalkProcessor$1" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="classycle.graph.GraphProcessor" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="java.lang.Math" type="usesExternal"/>
+      <classRef name="java.util.Arrays" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.Comparator" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.RefConstant" sources="classycle.jar" type="abstract class" innerClass="false" size="1462" usedBy="3" usesInternal="3" usesExternal="2" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.classfile.FieldRefConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.InterfaceMethodRefConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.MethodRefConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.ClassConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.NameAndTypeConstant" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.ant.ReportTask" sources="classycle.jar" type="class" innerClass="false" size="2795" usedBy="0" usesInternal="3" usesExternal="11" layer="9" cycle="">
+      <classRef name="org.apache.tools.ant.BuildException" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.Analyser" type="usesInternal"/>
+      <classRef name="java.io.PrintWriter" type="usesExternal"/>
+      <classRef name="java.io.FileWriter" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.util.HashSet" type="usesExternal"/>
+      <classRef name="classycle.ant.ClassycleTask" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.io.Writer" type="usesExternal"/>
+      <classRef name="java.lang.Throwable" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.DefaultPreferenceFactory$DefaultPreference" sources="classycle.jar" type="class" innerClass="true" size="1524" usedBy="1" usesInternal="2" usesExternal="5" layer="2" cycle="classycle.dependency.DefaultPreferenceFactory and inner classes">
+      <classRef name="classycle.dependency.DefaultPreferenceFactory" type="usedBy"/>
+      <classRef name="classycle.dependency.Preference" type="usesInternal"/>
+      <classRef name="java.lang.IllegalArgumentException" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.util.HashMap" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.dependency.DefaultPreferenceFactory" type="usesInternal"/>
+    </class>
+    <class name="classycle.renderer.XMLStrongComponentRenderer" sources="classycle.jar" type="class" innerClass="false" size="4365" usedBy="2" usesInternal="7" usesExternal="6" layer="6" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.XMLPackageStrongComponentRenderer" type="usedBy"/>
+      <classRef name="java.text.MessageFormat" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.graph.GraphAttributes" type="usesInternal"/>
+      <classRef name="classycle.graph.NameAttributes" type="usesInternal"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.text.FieldPosition" type="usesExternal"/>
+    </class>
+    <class name="classycle.renderer.TemplateBasedClassRenderer" sources="classycle.jar" type="class" innerClass="false" size="2167" usedBy="3" usesInternal="8" usesExternal="4" layer="6" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.XMLPackageRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLClassRenderer" type="usedBy"/>
+      <classRef name="java.text.MessageFormat" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.NameAndSourceAttributes" type="usesInternal"/>
+      <classRef name="classycle.ClassAttributes" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.renderer.AtomicVertexRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+    </class>
+    <class name="classycle.graph.StrongComponent" sources="classycle.jar" type="class" innerClass="false" size="5452" usedBy="17" usesInternal="5" usesExternal="7" layer="3" cycle="classycle.graph.StrongComponent et al.">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CyclesResult" type="usedBy"/>
+      <classRef name="classycle.graph.LongestWalkProcessor" type="usedBy"/>
+      <classRef name="classycle.graph.LongestWalkProcessor$1" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponent$GeometryAttributes" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentAnalyser" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentProcessor" type="usedBy"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.AtomicVertexRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.StrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLAtomicVertexRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponent$GeometryAttributes" type="usesInternal"/>
+      <classRef name="java.util.Vector" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="java.util.HashMap" type="usesExternal"/>
+      <classRef name="classycle.graph.StrongComponentProcessor" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="java.lang.Math" type="usesExternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.renderer.PlainClassRenderer" sources="classycle.jar" type="class" innerClass="false" size="1798" usedBy="1" usesInternal="6" usesExternal="4" layer="5" cycle="">
+      <classRef name="classycle.renderer.PlainStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.ClassAttributes" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.IllegalArgumentException" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.renderer.AtomicVertexRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.ShowStatement" sources="classycle.jar" type="class" innerClass="false" size="1263" usedBy="1" usesInternal="5" usesExternal="4" layer="4" cycle="">
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.Statement" type="usesInternal"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usesInternal"/>
+      <classRef name="classycle.dependency.Preference" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.Arrays" type="usesExternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.ConstantPoolPrinter" sources="classycle.jar" type="class" innerClass="false" size="1941" usedBy="0" usesInternal="1" usesExternal="9" layer="1" cycle="">
+      <classRef name="java.io.DataInputStream" type="usesExternal"/>
+      <classRef name="java.io.FileInputStream" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="java.io.PrintStream" type="usesExternal"/>
+      <classRef name="java.io.InputStream" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.DependencyCheckerCommandLine" sources="classycle.jar" type="class" innerClass="false" size="2879" usedBy="1" usesInternal="4" usesExternal="9" layer="5" cycle="">
+      <classRef name="classycle.dependency.DependencyChecker" type="usedBy"/>
+      <classRef name="classycle.dependency.DefaultResultRenderer" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="classycle.CommandLine" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.util.Text" type="usesInternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="java.io.PrintStream" type="usesExternal"/>
+      <classRef name="java.lang.Class" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.graph.Vertex" sources="classycle.jar" type="class" innerClass="false" size="2572" usedBy="23" usesInternal="1" usesExternal="5" layer="1" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.GraphBuilder" type="usedBy"/>
+      <classRef name="classycle.PackageProcessor" type="usedBy"/>
+      <classRef name="classycle.PackageProcessor$Arc" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyPathsRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyResult" type="usedBy"/>
+      <classRef name="classycle.dependency.PatternVertexCondition" type="usedBy"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usedBy"/>
+      <classRef name="classycle.graph.GraphAttributes" type="usedBy"/>
+      <classRef name="classycle.graph.GraphProcessor" type="usedBy"/>
+      <classRef name="classycle.graph.LongestWalkProcessor" type="usedBy"/>
+      <classRef name="classycle.graph.PathsFinder" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponent" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponent$GeometryAttributes" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentAnalyser" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentProcessor" type="usedBy"/>
+      <classRef name="classycle.graph.VertexCondition" type="usedBy"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLAtomicVertexRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLStrongComponentRenderer" type="usedBy"/>
+      <classRef name="java.util.Vector" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Comparable" type="usesExternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.CheckCyclesStatement" sources="classycle.jar" type="class" innerClass="false" size="3273" usedBy="1" usesInternal="12" usesExternal="5" layer="7" cycle="">
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="classycle.graph.NameAttributes" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.PackageProcessor" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponentAnalyser" type="usesInternal"/>
+      <classRef name="classycle.dependency.CyclesResult" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.Statement" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="classycle.dependency.SetDefinitionRepository" type="usesInternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.Result" sources="classycle.jar" type="interface" innerClass="false" size="135" usedBy="14" usesInternal="0" usesExternal="1" layer="0" cycle="">
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckSetStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CyclesResult" type="usedBy"/>
+      <classRef name="classycle.dependency.DefaultResultRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyChecker" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyProcessor" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyResult" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.ResultContainer" type="usedBy"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.ShowStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.Statement" type="usedBy"/>
+      <classRef name="classycle.dependency.TextResult" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.graph.PathsFinder" sources="classycle.jar" type="class" innerClass="false" size="3953" usedBy="1" usesInternal="3" usesExternal="3" layer="3" cycle="">
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="java.util.HashSet" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.VertexCondition" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="java.lang.Math" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.PreferenceFactory" sources="classycle.jar" type="interface" innerClass="false" size="206" usedBy="4" usesInternal="1" usesExternal="2" layer="1" cycle="">
+      <classRef name="classycle.dependency.DefaultPreferenceFactory" type="usedBy"/>
+      <classRef name="classycle.dependency.DefaultResultRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.dependency.Preference" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.DefaultPreferenceFactory" sources="classycle.jar" type="class" innerClass="false" size="1082" usedBy="2" usesInternal="3" usesExternal="2" layer="2" cycle="classycle.dependency.DefaultPreferenceFactory and inner classes">
+      <classRef name="classycle.dependency.DefaultPreferenceFactory$DefaultPreference" type="usedBy"/>
+      <classRef name="classycle.dependency.DefaultResultRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.DefaultPreferenceFactory$DefaultPreference" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.PreferenceFactory" type="usesInternal"/>
+      <classRef name="classycle.dependency.Preference" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.ant.DependencyCheckingTask" sources="classycle.jar" type="class" innerClass="false" size="3646" usedBy="0" usesInternal="7" usesExternal="19" layer="11" cycle="">
+      <classRef name="classycle.Analyser" type="usesInternal"/>
+      <classRef name="classycle.dependency.DependencyChecker" type="usesInternal"/>
+      <classRef name="java.io.PrintWriter" type="usesExternal"/>
+      <classRef name="org.apache.tools.ant.BuildException" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="classycle.dependency.DefaultResultRenderer" type="usesInternal"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usesInternal"/>
+      <classRef name="classycle.ant.ClassycleTask" type="usesInternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.lang.InstantiationException" type="usesExternal"/>
+      <classRef name="java.lang.IllegalAccessException" type="usesExternal"/>
+      <classRef name="java.lang.ClassNotFoundException" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="org.apache.tools.ant.Project" type="usesExternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="java.lang.Class" type="usesExternal"/>
+      <classRef name="classycle.util.Text" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.util.Hashtable" type="usesExternal"/>
+      <classRef name="java.util.Properties" type="usesExternal"/>
+      <classRef name="java.io.PrintStream" type="usesExternal"/>
+      <classRef name="java.io.OutputStream" type="usesExternal"/>
+      <classRef name="java.lang.Throwable" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.ant.ClassycleTask" sources="classycle.jar" type="abstract class" innerClass="false" size="3811" usedBy="2" usesInternal="5" usesExternal="13" layer="4" cycle="">
+      <classRef name="classycle.ant.DependencyCheckingTask" type="usedBy"/>
+      <classRef name="classycle.ant.ReportTask" type="usedBy"/>
+      <classRef name="classycle.util.TrueStringPattern" type="usesInternal"/>
+      <classRef name="java.util.LinkedList" type="usesExternal"/>
+      <classRef name="classycle.util.NotStringPattern" type="usesInternal"/>
+      <classRef name="org.apache.tools.ant.BuildException" type="usesExternal"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="org.apache.tools.ant.types.FileSet" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.util.AndStringPattern" type="usesInternal"/>
+      <classRef name="org.apache.tools.ant.Task" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="org.apache.tools.ant.DirectoryScanner" type="usesExternal"/>
+      <classRef name="java.util.Iterator" type="usesExternal"/>
+      <classRef name="classycle.util.WildCardPattern" type="usesInternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="org.apache.tools.ant.Project" type="usesExternal"/>
+    </class>
+    <class name="classycle.GraphBuilder" sources="classycle.jar" type="class" innerClass="false" size="3089" usedBy="1" usesInternal="6" usesExternal="7" layer="5" cycle="">
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.HashMap" type="usesExternal"/>
+      <classRef name="classycle.ClassAttributes" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.UnresolvedNode" type="usesInternal"/>
+      <classRef name="java.util.Iterator" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.util.Arrays" type="usesExternal"/>
+      <classRef name="java.util.Collection" type="usesExternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="classycle.NameAndSourceAttributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.DependencyChecker" sources="classycle.jar" type="class" innerClass="false" size="3283" usedBy="1" usesInternal="8" usesExternal="9" layer="10" cycle="">
+      <classRef name="classycle.ant.DependencyCheckingTask" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyProperties" type="usesInternal"/>
+      <classRef name="classycle.dependency.DependencyProcessor" type="usesInternal"/>
+      <classRef name="classycle.dependency.DependencyCheckerCommandLine" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.Analyser" type="usesInternal"/>
+      <classRef name="java.io.PrintWriter" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="java.io.PrintStream" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.util.Properties" type="usesExternal"/>
+      <classRef name="java.io.OutputStream" type="usesExternal"/>
+    </class>
+    <class name="classycle.ClassNameExtractor" sources="classycle.jar" type="class" innerClass="false" size="3346" usedBy="1" usesInternal="1" usesExternal="6" layer="1" cycle="">
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="java.util.LinkedHashSet" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.Set" type="usesExternal"/>
+      <classRef name="classycle.classfile.UTF8Constant" type="usesInternal"/>
+      <classRef name="java.lang.Character" type="usesExternal"/>
+      <classRef name="java.util.Collections" type="usesExternal"/>
+    </class>
+    <class name="classycle.graph.StrongComponentProcessor" sources="classycle.jar" type="class" innerClass="false" size="4034" usedBy="2" usesInternal="4" usesExternal="9" layer="3" cycle="classycle.graph.StrongComponent et al.">
+      <classRef name="classycle.graph.StrongComponent" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentAnalyser" type="usedBy"/>
+      <classRef name="java.util.Stack" type="usesExternal"/>
+      <classRef name="java.util.Vector" type="usesExternal"/>
+      <classRef name="java.util.Hashtable" type="usesExternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.lang.IllegalArgumentException" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.graph.GraphProcessor" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="java.util.Enumeration" type="usesExternal"/>
+      <classRef name="java.lang.Math" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.Constant" sources="classycle.jar" type="abstract class" innerClass="false" size="2946" usedBy="14" usesInternal="11" usesExternal="4" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.classfile.ClassConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.ConstantPoolPrinter" type="usedBy"/>
+      <classRef name="classycle.classfile.DoubleConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.FieldRefConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.FloatConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.IntConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.InterfaceMethodRefConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.LongConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.MethodRefConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.NameAndTypeConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.RefConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.StringConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.UTF8Constant" type="usedBy"/>
+      <classRef name="classycle.classfile.ClassConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.FieldRefConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.MethodRefConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.InterfaceMethodRefConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.StringConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.IntConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.FloatConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.LongConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.DoubleConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.NameAndTypeConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.UTF8Constant" type="usesInternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.io.DataInputStream" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.NameAndTypeConstant" sources="classycle.jar" type="class" innerClass="false" size="1354" usedBy="2" usesInternal="2" usesExternal="2" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="classycle.classfile.RefConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.UTF8Constant" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.PackageAttributes" sources="classycle.jar" type="class" innerClass="false" size="1257" usedBy="1" usesInternal="2" usesExternal="4" layer="4" cycle="">
+      <classRef name="classycle.PackageVertex" type="usedBy"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.NameAndSourceAttributes" type="usesInternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+      <classRef name="classycle.ClassAttributes" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.util.TrueStringPattern" sources="classycle.jar" type="class" innerClass="false" size="577" usedBy="4" usesInternal="1" usesExternal="2" layer="1" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.CommandLine" type="usedBy"/>
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.ant.ClassycleTask" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.LayeringStatement" sources="classycle.jar" type="class" innerClass="false" size="3173" usedBy="1" usesInternal="9" usesExternal="4" layer="6" cycle="">
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.ResultContainer" type="usesInternal"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.Statement" type="usesInternal"/>
+      <classRef name="classycle.dependency.SetDefinitionRepository" type="usesInternal"/>
+      <classRef name="classycle.dependency.LayerDefinitionRepository" type="usesInternal"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+    </class>
+    <class name="classycle.UnresolvedNode$1" sources="classycle.jar" type="class" innerClass="true" size="1037" usedBy="1" usesInternal="1" usesExternal="4" layer="4" cycle="classycle.UnresolvedNode and inner classes">
+      <classRef name="classycle.UnresolvedNode" type="usedBy"/>
+      <classRef name="java.lang.UnsupportedOperationException" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.util.Iterator" type="usesExternal"/>
+      <classRef name="classycle.UnresolvedNode" type="usesInternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+    </class>
+    <class name="classycle.util.Text" sources="classycle.jar" type="class" innerClass="false" size="1678" usedBy="3" usesInternal="0" usesExternal="8" layer="0" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.ant.DependencyCheckingTask" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyCheckerCommandLine" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.io.BufferedReader" type="usesExternal"/>
+      <classRef name="java.io.FileReader" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="java.io.Reader" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.DependencyResult" sources="classycle.jar" type="class" innerClass="false" size="2189" usedBy="1" usesInternal="7" usesExternal="3" layer="4" cycle="">
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.dependency.DependencyPathsRenderer" type="usesInternal"/>
+      <classRef name="classycle.dependency.PatternVertexCondition" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="classycle.graph.VertexCondition" type="usesInternal"/>
+    </class>
+    <class name="classycle.graph.GraphProcessor" sources="classycle.jar" type="abstract class" innerClass="false" size="1238" usedBy="3" usesInternal="1" usesExternal="1" layer="2" cycle="">
+      <classRef name="classycle.PackageProcessor" type="usedBy"/>
+      <classRef name="classycle.graph.LongestWalkProcessor" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentProcessor" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+    </class>
+    <class name="classycle.XMLPackageStrongComponentRenderer" sources="classycle.jar" type="class" innerClass="false" size="837" usedBy="1" usesInternal="1" usesExternal="1" layer="7" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLStrongComponentRenderer" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.renderer.StrongComponentRenderer" sources="classycle.jar" type="interface" innerClass="false" size="219" usedBy="2" usesInternal="1" usesExternal="2" layer="4" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.PackageProcessor" sources="classycle.jar" type="class" innerClass="false" size="3595" usedBy="3" usesInternal="7" usesExternal="7" layer="6" cycle="classycle.PackageProcessor and inner classes">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.PackageProcessor$Arc" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="java.util.HashMap" type="usesExternal"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.PackageProcessor$Arc" type="usesInternal"/>
+      <classRef name="classycle.ClassAttributes" type="usesInternal"/>
+      <classRef name="classycle.PackageVertex" type="usesInternal"/>
+      <classRef name="classycle.graph.GraphProcessor" type="usesInternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.Iterator" type="usesExternal"/>
+      <classRef name="java.util.Collection" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.classfile.StringConstant" sources="classycle.jar" type="class" innerClass="false" size="1082" usedBy="2" usesInternal="2" usesExternal="2" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="classycle.classfile.UTF8Constant" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.IntConstant" sources="classycle.jar" type="class" innerClass="false" size="868" usedBy="1" usesInternal="1" usesExternal="2" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.DependencyPathsRenderer" sources="classycle.jar" type="class" innerClass="false" size="2581" usedBy="1" usesInternal="4" usesExternal="4" layer="3" cycle="">
+      <classRef name="classycle.dependency.DependencyResult" type="usedBy"/>
+      <classRef name="java.util.HashSet" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.graph.NameAttributes" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="classycle.graph.VertexCondition" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.ResultRenderer" sources="classycle.jar" type="abstract class" innerClass="false" size="736" usedBy="9" usesInternal="3" usesExternal="2" layer="2" cycle="">
+      <classRef name="classycle.ant.DependencyCheckingTask" type="usedBy"/>
+      <classRef name="classycle.dependency.DefaultResultRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyChecker" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyCheckerCommandLine" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyProcessor" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.ShowStatement" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.PreferenceFactory" type="usesInternal"/>
+      <classRef name="classycle.dependency.Preference" type="usesInternal"/>
+      <classRef name="classycle.dependency.Result" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.graph.AtomicVertex" sources="classycle.jar" type="class" innerClass="false" size="1201" usedBy="27" usesInternal="2" usesExternal="0" layer="2" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.GraphBuilder" type="usedBy"/>
+      <classRef name="classycle.PackageProcessor" type="usedBy"/>
+      <classRef name="classycle.PackageProcessor$Arc" type="usedBy"/>
+      <classRef name="classycle.PackageVertex" type="usedBy"/>
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckSetStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CyclesResult" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyChecker" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyProcessor" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyResult" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.ShowStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.Statement" type="usedBy"/>
+      <classRef name="classycle.graph.PathsFinder" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponent" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentAnalyser" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponentProcessor" type="usedBy"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.AtomicVertexRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLAtomicVertexRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.AnalyserCommandLine" sources="classycle.jar" type="class" innerClass="false" size="2321" usedBy="1" usesInternal="1" usesExternal="3" layer="5" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.CommandLine" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.renderer.XMLClassRenderer" sources="classycle.jar" type="class" innerClass="false" size="1084" usedBy="1" usesInternal="3" usesExternal="2" layer="7" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.renderer.XMLAtomicVertexRenderer" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.renderer.AtomicVertexRenderer" type="usesInternal"/>
+    </class>
+    <class name="classycle.dependency.LayerDefinitionRepository" sources="classycle.jar" type="class" innerClass="false" size="1436" usedBy="2" usesInternal="1" usesExternal="3" layer="1" cycle="">
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usedBy"/>
+      <classRef name="java.util.HashMap" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="classycle.graph.Attributes" sources="classycle.jar" type="interface" innerClass="false" size="145" usedBy="20" usesInternal="0" usesExternal="2" layer="0" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.GraphBuilder" type="usedBy"/>
+      <classRef name="classycle.PackageProcessor" type="usedBy"/>
+      <classRef name="classycle.PackageVertex" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckSetStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CyclesResult" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyPathsRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.PatternVertexCondition" type="usedBy"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usedBy"/>
+      <classRef name="classycle.graph.GraphAttributes" type="usedBy"/>
+      <classRef name="classycle.graph.NameAttributes" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponent" type="usedBy"/>
+      <classRef name="classycle.graph.StrongComponent$GeometryAttributes" type="usedBy"/>
+      <classRef name="classycle.graph.Vertex" type="usedBy"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLAtomicVertexRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLStrongComponentRenderer" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Comparable" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.MethodRefConstant" sources="classycle.jar" type="class" innerClass="false" size="650" usedBy="1" usesInternal="2" usesExternal="1" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="classycle.classfile.RefConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.FloatConstant" sources="classycle.jar" type="class" innerClass="false" size="872" usedBy="1" usesInternal="1" usesExternal="2" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.LongConstant" sources="classycle.jar" type="class" innerClass="false" size="868" usedBy="1" usesInternal="1" usesExternal="2" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.util.NotStringPattern" sources="classycle.jar" type="class" innerClass="false" size="899" usedBy="3" usesInternal="1" usesExternal="3" layer="1" cycle="">
+      <classRef name="classycle.CommandLine" type="usedBy"/>
+      <classRef name="classycle.ant.ClassycleTask" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.util.StringPatternSequence" sources="classycle.jar" type="abstract class" innerClass="false" size="1317" usedBy="3" usesInternal="1" usesExternal="4" layer="1" cycle="">
+      <classRef name="classycle.CommandLine" type="usedBy"/>
+      <classRef name="classycle.util.AndStringPattern" type="usedBy"/>
+      <classRef name="classycle.util.OrStringPattern" type="usedBy"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+    </class>
+    <class name="classycle.graph.NameAttributes" sources="classycle.jar" type="abstract class" innerClass="false" size="818" usedBy="9" usesInternal="1" usesExternal="2" layer="1" cycle="">
+      <classRef name="classycle.NameAndSourceAttributes" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckSetStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CyclesResult" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyPathsRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.PatternVertexCondition" type="usedBy"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLAtomicVertexRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLStrongComponentRenderer" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.FieldRefConstant" sources="classycle.jar" type="class" innerClass="false" size="646" usedBy="1" usesInternal="2" usesExternal="1" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="classycle.classfile.RefConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.Parser" sources="classycle.jar" type="class" innerClass="false" size="7602" usedBy="2" usesInternal="12" usesExternal="16" layer="6" cycle="classycle.Parser and inner classes">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.Parser$1" type="usedBy"/>
+      <classRef name="classycle.util.TrueStringPattern" type="usesInternal"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="classycle.Parser$1" type="usesInternal"/>
+      <classRef name="java.util.zip.ZipFile" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.UnresolvedNode" type="usesInternal"/>
+      <classRef name="java.io.FileInputStream" type="usesExternal"/>
+      <classRef name="java.util.zip.ZipEntry" type="usesExternal"/>
+      <classRef name="java.io.DataInputStream" type="usesExternal"/>
+      <classRef name="classycle.classfile.ClassConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.UTF8Constant" type="usesInternal"/>
+      <classRef name="classycle.classfile.StringConstant" type="usesInternal"/>
+      <classRef name="classycle.ClassNameExtractor" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+      <classRef name="java.io.InputStream" type="usesExternal"/>
+      <classRef name="java.util.Enumeration" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="classycle.ClassAttributes" type="usesInternal"/>
+      <classRef name="java.util.Iterator" type="usesExternal"/>
+      <classRef name="java.util.Set" type="usesExternal"/>
+      <classRef name="classycle.GraphBuilder" type="usesInternal"/>
+      <classRef name="java.io.FileFilter" type="usesExternal"/>
+    </class>
+    <class name="classycle.renderer.AbstractStrongComponentRenderer" sources="classycle.jar" type="abstract class" innerClass="false" size="2101" usedBy="5" usesInternal="7" usesExternal="3" layer="5" cycle="">
+      <classRef name="classycle.dependency.CyclesResult" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.graph.GraphAttributes" type="usesInternal"/>
+      <classRef name="classycle.graph.NameAttributes" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.renderer.StrongComponentRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.XMLPackageRenderer" sources="classycle.jar" type="class" innerClass="false" size="1049" usedBy="1" usesInternal="3" usesExternal="2" layer="7" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.renderer.XMLAtomicVertexRenderer" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.renderer.AtomicVertexRenderer" type="usesInternal"/>
+    </class>
+    <class name="classycle.NameAndSourceAttributes" sources="classycle.jar" type="abstract class" innerClass="false" size="1450" usedBy="4" usesInternal="1" usesExternal="7" layer="2" cycle="">
+      <classRef name="classycle.ClassAttributes" type="usedBy"/>
+      <classRef name="classycle.GraphBuilder" type="usedBy"/>
+      <classRef name="classycle.PackageAttributes" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usedBy"/>
+      <classRef name="java.util.TreeSet" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.graph.NameAttributes" type="usesInternal"/>
+      <classRef name="java.util.Set" type="usesExternal"/>
+      <classRef name="java.util.Iterator" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.util.Collection" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.DependencyDefinitionParser" sources="classycle.jar" type="class" innerClass="false" size="12913" usedBy="1" usesInternal="17" usesExternal="15" layer="8" cycle="">
+      <classRef name="classycle.dependency.DependencyProcessor" type="usedBy"/>
+      <classRef name="classycle.dependency.SetDefinitionRepository" type="usesInternal"/>
+      <classRef name="classycle.dependency.LayerDefinitionRepository" type="usesInternal"/>
+      <classRef name="java.util.ArrayList" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.io.BufferedReader" type="usesExternal"/>
+      <classRef name="java.io.StringReader" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="java.lang.IllegalArgumentException" type="usesExternal"/>
+      <classRef name="classycle.dependency.Statement" type="usesInternal"/>
+      <classRef name="java.util.StringTokenizer" type="usesExternal"/>
+      <classRef name="classycle.util.AndStringPattern" type="usesInternal"/>
+      <classRef name="classycle.util.NotStringPattern" type="usesInternal"/>
+      <classRef name="classycle.util.OrStringPattern" type="usesInternal"/>
+      <classRef name="classycle.util.WildCardPattern" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="classycle.dependency.Preference" type="usesInternal"/>
+      <classRef name="classycle.dependency.ShowStatement" type="usesInternal"/>
+      <classRef name="java.lang.NumberFormatException" type="usesExternal"/>
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usesInternal"/>
+      <classRef name="classycle.dependency.CheckSetStatement" type="usesInternal"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usesInternal"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.dependency.DependencyProperties" type="usesInternal"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usesInternal"/>
+      <classRef name="java.lang.Character" type="usesExternal"/>
+      <classRef name="classycle.dependency.PreferenceFactory" type="usesInternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="java.util.Arrays" type="usesExternal"/>
+      <classRef name="java.io.Reader" type="usesExternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.DoubleConstant" sources="classycle.jar" type="class" innerClass="false" size="876" usedBy="1" usesInternal="1" usesExternal="2" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.CommandLine" sources="classycle.jar" type="abstract class" innerClass="false" size="2815" usedBy="2" usesInternal="6" usesExternal="3" layer="4" cycle="">
+      <classRef name="classycle.AnalyserCommandLine" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyCheckerCommandLine" type="usedBy"/>
+      <classRef name="classycle.util.AndStringPattern" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.util.NotStringPattern" type="usesInternal"/>
+      <classRef name="classycle.util.TrueStringPattern" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.util.StringPatternSequence" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="classycle.util.WildCardPattern" type="usesInternal"/>
+    </class>
+    <class name="classycle.renderer.PlainStrongComponentRenderer" sources="classycle.jar" type="class" innerClass="false" size="1550" usedBy="1" usesInternal="5" usesExternal="2" layer="6" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainClassRenderer" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="classycle.renderer.AtomicVertexRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+    </class>
+    <class name="classycle.classfile.UTF8Constant" sources="classycle.jar" type="class" innerClass="false" size="859" usedBy="6" usesInternal="1" usesExternal="2" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.ClassNameExtractor" type="usedBy"/>
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.classfile.ClassConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="classycle.classfile.NameAndTypeConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.StringConstant" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.PatternVertexCondition" sources="classycle.jar" type="class" innerClass="false" size="1112" usedBy="2" usesInternal="5" usesExternal="2" layer="3" cycle="">
+      <classRef name="classycle.dependency.DependencyResult" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="classycle.graph.NameAttributes" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.VertexCondition" type="usesInternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.dependency.Preference" sources="classycle.jar" type="interface" innerClass="false" size="162" usedBy="7" usesInternal="0" usesExternal="2" layer="0" cycle="">
+      <classRef name="classycle.dependency.DefaultPreferenceFactory" type="usedBy"/>
+      <classRef name="classycle.dependency.DefaultPreferenceFactory$DefaultPreference" type="usedBy"/>
+      <classRef name="classycle.dependency.DefaultResultRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.PreferenceFactory" type="usedBy"/>
+      <classRef name="classycle.dependency.ResultRenderer" type="usedBy"/>
+      <classRef name="classycle.dependency.ShowStatement" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.ClassAttributes" sources="classycle.jar" type="class" innerClass="false" size="2310" usedBy="9" usesInternal="1" usesExternal="2" layer="3" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.GraphBuilder" type="usedBy"/>
+      <classRef name="classycle.PackageAttributes" type="usedBy"/>
+      <classRef name="classycle.PackageProcessor" type="usedBy"/>
+      <classRef name="classycle.PackageVertex" type="usedBy"/>
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.UnresolvedNode" type="usedBy"/>
+      <classRef name="classycle.renderer.PlainClassRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.TemplateBasedClassRenderer" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.NameAndSourceAttributes" type="usesInternal"/>
+    </class>
+    <class name="classycle.util.StringPattern" sources="classycle.jar" type="interface" innerClass="false" size="164" usedBy="23" usesInternal="0" usesExternal="2" layer="0" cycle="">
+      <classRef name="classycle.Analyser" type="usedBy"/>
+      <classRef name="classycle.CommandLine" type="usedBy"/>
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.UnresolvedNode" type="usedBy"/>
+      <classRef name="classycle.ant.ClassycleTask" type="usedBy"/>
+      <classRef name="classycle.ant.DependencyCheckingTask" type="usedBy"/>
+      <classRef name="classycle.ant.ReportTask" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckCyclesStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.CheckSetStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyChecker" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyResult" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.LayerDefinitionRepository" type="usedBy"/>
+      <classRef name="classycle.dependency.LayeringStatement" type="usedBy"/>
+      <classRef name="classycle.dependency.PatternVertexCondition" type="usedBy"/>
+      <classRef name="classycle.dependency.SetDefinitionRepository" type="usedBy"/>
+      <classRef name="classycle.util.AndStringPattern" type="usedBy"/>
+      <classRef name="classycle.util.NotStringPattern" type="usedBy"/>
+      <classRef name="classycle.util.OrStringPattern" type="usedBy"/>
+      <classRef name="classycle.util.StringPatternSequence" type="usedBy"/>
+      <classRef name="classycle.util.TrueStringPattern" type="usedBy"/>
+      <classRef name="classycle.util.WildCardPattern" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.classfile.ClassConstant" sources="classycle.jar" type="class" innerClass="false" size="1384" usedBy="3" usesInternal="2" usesExternal="2" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.Parser" type="usedBy"/>
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="classycle.classfile.RefConstant" type="usedBy"/>
+      <classRef name="classycle.classfile.UTF8Constant" type="usesInternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="classycle.graph.GraphAttributes" sources="classycle.jar" type="interface" innerClass="false" size="414" usedBy="3" usesInternal="2" usesExternal="1" layer="2" cycle="">
+      <classRef name="classycle.graph.StrongComponent$GeometryAttributes" type="usedBy"/>
+      <classRef name="classycle.renderer.AbstractStrongComponentRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLStrongComponentRenderer" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+    </class>
+    <class name="classycle.renderer.XMLAtomicVertexRenderer" sources="classycle.jar" type="abstract class" innerClass="false" size="2167" usedBy="2" usesInternal="6" usesExternal="5" layer="5" cycle="">
+      <classRef name="classycle.XMLPackageRenderer" type="usedBy"/>
+      <classRef name="classycle.renderer.XMLClassRenderer" type="usedBy"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.text.MessageFormat" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="classycle.graph.NameAttributes" type="usesInternal"/>
+      <classRef name="classycle.graph.AtomicVertex" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.renderer.AtomicVertexRenderer" type="usesInternal"/>
+      <classRef name="classycle.graph.StrongComponent" type="usesInternal"/>
+      <classRef name="classycle.graph.Vertex" type="usesInternal"/>
+      <classRef name="classycle.graph.Attributes" type="usesInternal"/>
+      <classRef name="java.text.FieldPosition" type="usesExternal"/>
+    </class>
+    <class name="classycle.util.WildCardPattern" sources="classycle.jar" type="class" innerClass="false" size="2412" usedBy="3" usesInternal="2" usesExternal="5" layer="3" cycle="">
+      <classRef name="classycle.CommandLine" type="usedBy"/>
+      <classRef name="classycle.ant.ClassycleTask" type="usedBy"/>
+      <classRef name="classycle.dependency.DependencyDefinitionParser" type="usedBy"/>
+      <classRef name="java.lang.IllegalArgumentException" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="classycle.util.OrStringPattern" type="usesInternal"/>
+      <classRef name="java.util.StringTokenizer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="classycle.util.StringPattern" type="usesInternal"/>
+    </class>
+    <class name="classycle.classfile.InterfaceMethodRefConstant" sources="classycle.jar" type="class" innerClass="false" size="686" usedBy="1" usesInternal="2" usesExternal="1" layer="0" cycle="classycle.classfile.Constant et al.">
+      <classRef name="classycle.classfile.Constant" type="usedBy"/>
+      <classRef name="classycle.classfile.RefConstant" type="usesInternal"/>
+      <classRef name="classycle.classfile.Constant" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+  </classes>
+  <packageCycles>
+    <packageCycle name="classycle.renderer et al." size="2" longestWalk="1" girth="1" radius="1" diameter="1" bestFragmentSize="1">
+      <packages>
+        <packageRef name="classycle.renderer" eccentricity="1" maximumFragmentSize="1"/>
+        <packageRef name="classycle" eccentricity="1" maximumFragmentSize="1"/>
+      </packages>
+      <centerPackages>
+        <packageRef name="classycle.renderer"/>
+        <packageRef name="classycle"/>
+      </centerPackages>
+      <bestFragmenters>
+        <packageRef name="classycle.renderer"/>
+        <packageRef name="classycle"/>
+      </bestFragmenters>
+    </packageCycle>
+  </packageCycles>
+  <packages>
+    <package name="classycle.renderer" sources="classycle.jar"  size="10" usedBy="3" usesInternal="3" usesExternal="2" layer="1" cycle="classycle.renderer et al.">
+      <packageRef name="classycle.renderer" type="usedBy"/>
+      <packageRef name="classycle" type="usedBy"/>
+      <packageRef name="classycle.dependency" type="usedBy"/>
+      <packageRef name="java.text" type="usesExternal"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="classycle.renderer" type="usesInternal"/>
+      <packageRef name="classycle.graph" type="usesInternal"/>
+      <packageRef name="classycle" type="usesInternal"/>
+    </package>
+    <package name="classycle.classfile" sources="classycle.jar"  size="14" usedBy="2" usesInternal="1" usesExternal="2" layer="0" cycle="">
+      <packageRef name="classycle.classfile" type="usedBy"/>
+      <packageRef name="classycle" type="usedBy"/>
+      <packageRef name="classycle.classfile" type="usesInternal"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+    </package>
+    <package name="classycle.ant" sources="classycle.jar"  size="3" usedBy="1" usesInternal="4" usesExternal="5" layer="3" cycle="">
+      <packageRef name="classycle.ant" type="usedBy"/>
+      <packageRef name="org.apache.tools.ant" type="usesExternal"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="classycle" type="usesInternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+      <packageRef name="classycle.ant" type="usesInternal"/>
+      <packageRef name="classycle.util" type="usesInternal"/>
+      <packageRef name="classycle.dependency" type="usesInternal"/>
+      <packageRef name="org.apache.tools.ant.types" type="usesExternal"/>
+    </package>
+    <package name="classycle.graph" sources="classycle.jar"  size="14" usedBy="4" usesInternal="1" usesExternal="2" layer="0" cycle="">
+      <packageRef name="classycle" type="usedBy"/>
+      <packageRef name="classycle.renderer" type="usedBy"/>
+      <packageRef name="classycle.graph" type="usedBy"/>
+      <packageRef name="classycle.dependency" type="usedBy"/>
+      <packageRef name="classycle.graph" type="usesInternal"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+    </package>
+    <package name="classycle.util" sources="classycle.jar"  size="8" usedBy="4" usesInternal="1" usesExternal="3" layer="0" cycle="">
+      <packageRef name="classycle.util" type="usedBy"/>
+      <packageRef name="classycle.dependency" type="usedBy"/>
+      <packageRef name="classycle" type="usedBy"/>
+      <packageRef name="classycle.ant" type="usedBy"/>
+      <packageRef name="classycle.util" type="usesInternal"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+    </package>
+    <package name="classycle.dependency" sources="classycle.jar"  size="26" usedBy="2" usesInternal="5" usesExternal="3" layer="2" cycle="">
+      <packageRef name="classycle.dependency" type="usedBy"/>
+      <packageRef name="classycle.ant" type="usedBy"/>
+      <packageRef name="java.util" type="usesExternal"/>
+      <packageRef name="classycle.dependency" type="usesInternal"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="classycle.graph" type="usesInternal"/>
+      <packageRef name="classycle.util" type="usesInternal"/>
+      <packageRef name="classycle.renderer" type="usesInternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+      <packageRef name="classycle" type="usesInternal"/>
+    </package>
+    <package name="classycle" sources="classycle.jar"  size="17" usedBy="4" usesInternal="5" usesExternal="5" layer="1" cycle="classycle.renderer et al.">
+      <packageRef name="classycle" type="usedBy"/>
+      <packageRef name="classycle.ant" type="usedBy"/>
+      <packageRef name="classycle.renderer" type="usedBy"/>
+      <packageRef name="classycle.dependency" type="usedBy"/>
+      <packageRef name="classycle" type="usesInternal"/>
+      <packageRef name="classycle.graph" type="usesInternal"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="classycle.util" type="usesInternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+      <packageRef name="classycle.renderer" type="usesInternal"/>
+      <packageRef name="java.text" type="usesExternal"/>
+      <packageRef name="classycle.classfile" type="usesInternal"/>
+      <packageRef name="java.util.zip" type="usesExternal"/>
+    </package>
+  </packages>
+</classycle>

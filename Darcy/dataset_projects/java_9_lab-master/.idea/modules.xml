@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/greeter/greeter.iml" filepath="$PROJECT_DIR$/src/greeter/greeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/hello/hello.iml" filepath="$PROJECT_DIR$/src/hello/hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/http_client/http_client.iml" filepath="$PROJECT_DIR$/src/http_client/http_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/old_jar/old_jar.iml" filepath="$PROJECT_DIR$/old_jar/old_jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/othergreeter/othergreeter.iml" filepath="$PROJECT_DIR$/src/othergreeter/othergreeter.iml" />
+    </modules>
+  </component>
+</project>

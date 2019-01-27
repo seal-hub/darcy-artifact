@@ -1,0 +1,27 @@
+<Node
+	type="connective"
+	bhNodeID="idNegExp"
+	name="NegExp"
+	nodeStyleID="NegExp.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<ConnectorSection name="NumberExpSctn">
+		<PrivateConnector
+			bhConnectorID="idNegExp.prvCnctr0"
+			name="mainasu"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idNegExp.prvNode0"
+				name="mainasu"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="マイナス">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idNumExpCnctr" name="primaryExp"/>
+		
+	</ConnectorSection>
+</Node>

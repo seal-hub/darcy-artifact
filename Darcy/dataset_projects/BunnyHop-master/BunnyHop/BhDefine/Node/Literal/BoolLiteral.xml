@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="comboBox"
+	bhNodeID="idBoolLiteral"
+	name="BoolLiteral"
+	nodeStyleID="BoolLiteral.json"
+	nodeInputControl="BoolLiteral.fxml">
+</Node>
+

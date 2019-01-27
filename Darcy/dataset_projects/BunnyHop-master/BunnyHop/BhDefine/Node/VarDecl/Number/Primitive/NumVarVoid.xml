@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="void"
+	bhNodeID="idNumVarVoid"
+	name="NumVarVoid"
+	nodeStyleID="NumExpVoid.json">
+</Node>
+

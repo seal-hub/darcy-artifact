@@ -1,0 +1,41 @@
+<Node type="connective"
+	bhNodeID="idScanExp"
+	name="ScanExp"
+	nodeStyleID="ScanExp.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<ConnectorSection name="StringExpSctn">
+		<PrivateConnector
+			bhConnectorID="idScanExp.prvCnctr0"
+			name="Arg0"
+			fixed="false"
+			defaultBhNodeID="initialBhNodeID"
+			onReplaceabilityChecked="StrExpCnct.js">
+			<Node
+				type="textField"
+				bhNodeID="idScanExp.prvNode0"
+				name="StrLiteral"
+				nodeStyleID="StrLiteral.json"
+				nodeInputControl="TextField.fxml"
+				onTextInput="ParseStr.js"
+				onMovedFromChildToWS="onDefaultLiteralMovedToWS.js"
+				initString="入力待ちです">
+			</Node>
+		</PrivateConnector>
+		
+		<PrivateConnector
+			bhConnectorID="idScanExp.prvCnctr1"
+			name="woShuturyokuShiteNyuryokuWoMatsu"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idScanExp.prvNode1"
+				name="woShuturyokuShiteNyuryokuWoMatsu"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="を出力して入力を待つ">
+			</Node>
+		</PrivateConnector>
+	</ConnectorSection>
+</Node>

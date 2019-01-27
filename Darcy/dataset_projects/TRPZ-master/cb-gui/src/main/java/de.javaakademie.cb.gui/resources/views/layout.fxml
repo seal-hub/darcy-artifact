@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+
+<VBox prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.javaakademie.cb.gui.MainController">
+	<children>
+		<AnchorPane fx:id="contentView" VBox.vgrow="ALWAYS">
+			<children>
+				<BorderPane AnchorPane.bottomAnchor="0.0"
+					AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+					AnchorPane.topAnchor="0.0">
+					<left>
+						<ToolBar fx:id="toolBar" minWidth="120" orientation="VERTICAL" styleClass="toolbarStyle"/>
+					</left>
+					<center>
+						<SplitPane dividerPositions="0.29797979797979796"
+							prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+							<items>
+								<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+									<ListView fx:id="listView" VBox.vgrow="ALWAYS"/>
+									<HBox spacing="0" prefHeight="10">
+										<Button fx:id="deleteButton" onAction="#handleDeleteButtonAction" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+									    <Button fx:id="addButton" onAction="#handleAddButtonAction" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+									</HBox>									
+								</VBox> 
+								<VBox fx:id="details" alignment="CENTER" spacing="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"/>
+							</items>
+						</SplitPane>
+					</center>
+				</BorderPane>
+			</children>
+		</AnchorPane>
+		<AnchorPane id="AnchorPane" minHeight="27.0" prefHeight="27.0"
+			styleClass="statusbar" xmlns:fx="http://javafx.com/fxml">
+			<children>
+				<Label fx:id="statusLabel" minHeight="27.0" prefHeight="27.0"
+					text="" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+					AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+			</children>
+		</AnchorPane>
+	</children>
+</VBox>

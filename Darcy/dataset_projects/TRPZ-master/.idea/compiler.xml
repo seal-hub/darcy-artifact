@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cb-api" />
+        <module name="cb-gui" />
+        <module name="cb-sessions" />
+        <module name="cb-speaker" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cb-api" target="1.9" />
+      <module name="cb-gui" target="1.9" />
+      <module name="cb-sessions" target="1.9" />
+      <module name="cb-speaker" target="1.9" />
+      <module name="parent" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

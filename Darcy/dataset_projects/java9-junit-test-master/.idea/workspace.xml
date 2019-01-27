@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07dc220b-a1cb-4322-975e-818d90e372be" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Check_Consistency/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Check_Consistency/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Check_Consistency/out/production/Check_Consistency/DependenciesChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Check_Consistency/out/production/Check_Consistency/DependenciesChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Check_Consistency/src/DependenciesChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Check_Consistency/src/DependenciesChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class_pkg_graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../class_pkg_graph.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Base/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Base/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Config/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Config/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Http/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Http/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/JavaFX/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/JavaFX/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Mail/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Mail/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaUtils-master/Resources/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaUtils-master/Resources/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../The-Message-v2.x-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../The-Message-v2.x-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../The-Message-v2.x-master/net.leo.message.base/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../The-Message-v2.x-master/net.leo.message.base/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../The-Message-v2.x-master/net.leo.message.client/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../The-Message-v2.x-master/net.leo.message.client/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto-sort-master/autosort/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auto-sort-master/autosort/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto-sort-master/map-converter-service/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auto-sort-master/map-converter-service/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-bookstore-master/src/br.com.casadocodigo.http/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-bookstore-master/src/br.com.casadocodigo.http/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-bookstore-master/src/br.com.casadocodigo.nf/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-bookstore-master/src/br.com.casadocodigo.nf/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-modularity-master/easytext.analysis.service/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-modularity-master/easytext.analysis.service/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-spring-maven-master/admin/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-spring-maven-master/admin/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-spring-maven-master/app/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-spring-maven-master/app/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-9-spring-maven-master/users/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-9-spring-maven-master/users/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Client/sample.client/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Client/sample.client/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Plugin/sample.plugin0/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Plugin/sample.plugin0/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Plugin1/sample.plugin1/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/Plugin1/sample.plugin1/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/api/sample.api/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spi-example-master/Java9SpiExample/api/sample.api/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-demo-master/ModulDemo2BankImpl/src/modul.demo.bank.impl/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-demo-master/ModulDemo2BankImpl/src/modul.demo.bank.impl/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media.movies.model/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/media.movies.model/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media.movies.nfo.test/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/media.movies.nfo.test/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media.movies.nfo/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/media.movies.nfo/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-labs-master/jigsaw/War_Java9_Maven/blog/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-labs-master/jigsaw/War_Java9_Maven/blog/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-labs-master/jigsaw/War_Java9_Maven/cms/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-labs-master/jigsaw/War_Java9_Maven/cms/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-master/java9test/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-master/java9test/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-master/out/production/java9test/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-master/out/production/java9test/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-modules-master-tlb/main-module/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-modules-master-tlb/main-module/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9-modules-master/modulesExample/com.timeteller.main/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java9-modules-master/modulesExample/com.timeteller.main/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_9_lab-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_9_lab-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_9_lab-master/src/http_client/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_9_lab-master/src/http_client/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_9_lab-master/src/othergreeter/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_9_lab-master/src/othergreeter/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javahttpserv-master/app2/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javahttpserv-master/app2/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javahttpserv-master/app3/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javahttpserv-master/app3/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jigsaw-resources-are-not-exported-master/app/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jigsaw-resources-are-not-exported-master/app/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jigsaw-test/src/org.astro/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jigsaw-test/src/org.astro/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtgen-master/generator/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwtgen-master/generator/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtgen-master/testjava/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwtgen-master/testjava/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.be/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.be/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.chr/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.chr/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.en/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../meetup_16-master/jigsaw/by.jprof.impl.en/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-ui-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../music-ui-start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-ui-start/giselle.common/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../music-ui-start/giselle.common/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../number-to-text_jdk9/number_main/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../number-to-text_jdk9/number_main/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/alpha-protocol/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/alpha-protocol/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/banking-server/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/banking-server/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/demo-application/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/demo-application/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/fix-protocol/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practical_security_in_a_modular_world-master/fix-protocol/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/.idea/project_constantin-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/.idea/project_constantin-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/main/java/firemage.constantin.core/firemage.constantin.core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/main/java/firemage.constantin.core/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/main/java/firemage.constantin.core/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/test/java/firemage.constantin.core/firemage/constantin/core/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Core/src/test/java/firemage.constantin.core/firemage/constantin/core/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Database/src/main/java/firemage.constantin.database/firemage.constantin.database.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Database/src/main/java/firemage.constantin.database/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Database/src/main/java/firemage.constantin.database/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/main/java/firemage.constantin.input/firemage.constantin.input.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/main/java/firemage.constantin.input/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/main/java/firemage.constantin.input/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/test/java/firemage/constantin/input/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Input/src/test/java/firemage/constantin/input/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Output/src/main/java/firemage.constantin.output/firemage.constantin.output.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Output/src/main/java/firemage.constantin.output/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Output/src/main/java/firemage.constantin.output/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/Output/src/test/java/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage.constantin.core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/Association.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/AssociationFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/BackgroundAssociationWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/Emotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/EmotionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/Mind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/TextAssociation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/properties/CoreProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/firemage/constantin/core/properties/CorePropertyName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.core/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage.constantin.database.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage/constantin/database/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage/constantin/database/basic/Connector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage/constantin/database/basic/DBEmotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/firemage/constantin/database/basic/DBObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.database/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.input/firemage.constantin.input.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.input/firemage/constantin/input/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.input/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.output/firemage.constantin.output.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.output/firemage/constantin/output/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/firemage.constantin.output/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/TEST-firemage.constantin.core.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/TEST-firemage.constantin.database.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/TEST-firemage.constantin.output.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/firemage.constantin.core.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/firemage.constantin.database.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/surefire-reports/firemage.constantin.output.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/project_constantin-master/target/test-classes/META-INF/jpms.args" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_constantin-master/Projekt_Constantin/target/production/test/firemage/constantin/output/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rahmnathan-utils-master/directory-monitor/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rahmnathan-utils-master/directory-monitor/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rahmnathan-utils-master/http-client/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rahmnathan-utils-master/http-client/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rahmnathan-utils-master/video-converter/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rahmnathan-utils-master/video-converter/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/.idea/modules/com.mechanitis.demo.sense.mood.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/.idea/modules/com.mechanitis.demo.sense.mood.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/.idea/modules/com.mechanitis.demo.sense.twitter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/.idea/modules/com.mechanitis.demo.sense.twitter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.client/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.client/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.mood/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.mood/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.service/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.service/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.twitter/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.twitter/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.user/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sense-nine-start-point/com.mechanitis.demo.sense.user/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sense-nine-start-point/tweetdata60-mins.txt.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-client/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-client/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-model/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-model/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-service/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springuni-java9-master/springuni-chat-service/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vstreamer/pl.azarnow.vstreamer.player.iface/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vstreamer/pl.azarnow.vstreamer.player.iface/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../excessDirectives.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../excessDirectives.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interface_abstract_classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../interface_abstract_classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../memory-usage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../memory-usage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module-infos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../module-infos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../modules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../paths_for_prov_use_analysis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../paths_for_prov_use_analysis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pkg_graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg_graph.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../runAll.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../runAll.sh" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/media.movies.nfo.test/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/media.movies.nfo.test/br/com/phtcosta/media/movie/nfo/test/NfoParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/media.movies.nfo/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/media.movies.model/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/media.movies.model/br/com/phtcosta/media/movie/model/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/media.movies.nfo.test/module-info.java" />
+        <option value="$PROJECT_DIR$/src/media.movies.nfo/module-info.java" />
+        <option value="$PROJECT_DIR$/src/media.movies.model/module-info.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="809" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java9-junit-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="media.movies" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="java9-junit-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="media.movies" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="media.movies.model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546715742107" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07dc220b-a1cb-4322-975e-818d90e372be" name="Default" comment="" />
+      <created>1530181418075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530181418075</updated>
+      <workItem from="1530181422103" duration="273000" />
+      <workItem from="1546715665218" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="369000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="809" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32853025" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/media.movies.nfo.test/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/media.movies.nfo.test/br/com/phtcosta/media/movie/nfo/test/NfoParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/media.movies.model/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/media.movies.nfo/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/media.movies.model/br/com/phtcosta/media/movie/model/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>heros</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>media.movies.nfo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

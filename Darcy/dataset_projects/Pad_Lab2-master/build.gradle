@@ -1,0 +1,19 @@
+group 'md.utm.fcim'
+version '1.0-SNAPSHOT'
+
+allprojects {
+    apply plugin: "java"
+    apply plugin: "idea"
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+    sourceCompatibility = 9
+    targetCompatibility = 9
+}
+
+subprojects {
+
+    dependencies {
+    }
+}

@@ -1,0 +1,17 @@
+<Node type="connective"
+	  bhNodeID="idStrVarDecl"
+	  name="StrVarDecl"
+      canCreateImitManually="true"
+	  nodeStyleID="StrVarDecl.json"
+	  onMovedFromChildToWS="onVarDeclMovedToWS.js"
+	  onMovedToChild="">
+
+    <Imitation imitationID="imitIdManual" imitationNodeID="idStrVar"/>
+    <Imitation imitationID="imitIdVarDeclToArg" imitationNodeID="idStrArg"/>
+    <Imitation imitationID="imitIdVarDeclToOutArg" imitationNodeID="idStrOutArg"/>
+    
+	<ConnectorSection name="VarDeclSctn">
+		<Connector bhConnectorID="idVarNameCnctr" name="VarName" imitationID="imitIdVarName" imitCnctPos="imitPosVarName"/>
+        <Connector bhConnectorID="idVarDeclCnctr" name="NextVarDecl" imitCnctPos="imitPosNextArg"/>
+	</ConnectorSection>
+</Node>

@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ReflectFieldUsageTransformer JavaReflectionFieldExample" type="Application" factoryName="Application">
+    <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <pattern>
+        <option name="PATTERN" value="edu.uci.seal.ics.darcy.reflect.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="MAIN_CLASS_NAME" value="edu.uci.seal.ics.darcy.reflect.ReflectFieldUsageTransformer" />
+    <option name="VM_PARAMETERS" />
+    <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../JavaReflectionFieldExample/out/production/JavaReflectionFieldExample" />
+    <option name="WORKING_DIRECTORY" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="ENABLE_SWING_INSPECTOR" value="false" />
+    <option name="ENV_VARIABLES" />
+    <option name="PASS_PARENT_ENVS" value="true" />
+    <module name="JavaReflectivedFieldUsage" />
+    <envs />
+    <method />
+  </configuration>
+</component>

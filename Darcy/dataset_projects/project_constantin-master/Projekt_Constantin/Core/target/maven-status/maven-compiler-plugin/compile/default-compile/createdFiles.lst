@@ -1,0 +1,11 @@
+firemage\constantin\core\Emotion.class
+firemage\constantin\core\BackgroundAssociationWorker.class
+module-info.class
+firemage\constantin\core\AssociationFinder.class
+firemage\constantin\core\properties\CoreProperties.class
+firemage\constantin\core\EmotionPool.class
+firemage\constantin\core\Main.class
+firemage\constantin\core\TextAssociation.class
+firemage\constantin\core\Association.class
+firemage\constantin\core\Mind.class
+firemage\constantin\core\properties\CorePropertyName.class

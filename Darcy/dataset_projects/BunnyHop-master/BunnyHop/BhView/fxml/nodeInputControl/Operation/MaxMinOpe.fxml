@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import net.seapanda.bunnyhop.view.*?>
+
+<ComboBox xmlns:fx="http://javafx.com/fxml">
+	<items>
+		<FXCollections fx:factory="observableArrayList">
+			<SelectableItem fx:id="idMax" modelText="max" viewText="大きい方"/>
+			<SelectableItem fx:id="idMin" modelText="min" viewText="小さい方"/>
+		</FXCollections>
+	</items>
+</ComboBox>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="textField"
+	bhNodeID="idNumLiteral"
+	name="NumLiteral"
+	nodeStyleID="NumLiteral.json"
+	nodeInputControl="TextField.fxml"
+	onTextInput="ParseNum.js"
+    initString="0">
+</Node>
+

@@ -1,0 +1,38 @@
+plugins {
+    id  'jvm-component'
+    id  'java-lang'
+    id  'java'
+}
+
+
+model {
+    components {
+        Mail(JvmLibrarySpec) {
+            sources {
+                java {
+                    source.srcDir 'src/Mail'
+                }
+            }  
+
+            targetPlatform 'java9'
+        }
+        MailClient(JvmLibrarySpec) {
+            sources {
+                java {
+                    source.srcDir 'src/MailClient'
+                }
+            }
+
+            targetPlatform 'java9'
+        }
+    }
+}
+
+tasks.withType(JavaCompile) { 
+    options.compilerArgs << '-XaddExports:jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED'
+    options.fork = true
+    options.forkOptions.executable = 'javac'
+}
+
+
+

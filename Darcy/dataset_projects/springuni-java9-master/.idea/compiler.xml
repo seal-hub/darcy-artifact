@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springuni-chat-client" />
+        <module name="springuni-chat-model" />
+        <module name="springuni-chat-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springuni-chat-client" target="1.9" />
+      <module name="springuni-chat-model" target="1.9" />
+      <module name="springuni-chat-service" target="1.9" />
+      <module name="springuni-java9" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

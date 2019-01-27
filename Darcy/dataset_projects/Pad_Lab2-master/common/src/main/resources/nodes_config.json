@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "host": "localhost",
+    "port": 9100,
+    "users": [
+      {
+        "id": 1,
+        "name": "vadim",
+        "age": 21
+      }
+    ],
+    "dependencies": [
+      {
+        "id": 3,
+        "host": "localhost",
+        "port": 9102
+      },
+      {
+        "id": 2,
+        "host": "localhost",
+        "port": 9101
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "host": "localhost",
+    "port": 9101,
+    "dependencies": [
+      {
+        "id": 3,
+        "host": "localhost",
+        "port": 9102
+      },
+      {
+        "id": 1,
+        "host": "localhost",
+        "port": 9100
+      }
+    ],
+    "users": [
+      {
+        "id": 2,
+        "name": "vadim2",
+        "age": 22
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "host": "localhost",
+    "port": 9102,
+    "dependencies": [
+      {
+        "id": 1,
+        "host": "localhost",
+        "port": 9100
+      },
+      {
+        "id": 2,
+        "host": "localhost",
+        "port": 9101
+      }
+    ],
+    "users": [
+      {
+        "id": 3,
+        "name": "vadim3",
+        "age": 23
+      },
+      {
+        "id": 4,
+        "name": "vadim4",
+        "age": 24
+      }
+    ]
+  }
+]

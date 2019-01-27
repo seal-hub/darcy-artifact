@@ -1,0 +1,95 @@
+{
+
+	"動作" : {
+		"cssClass" : "action",
+		"contents":[
+			"idMoveStat",
+			"idMeasureDistanceExp",
+			"idSleepStat"]
+	},
+
+	"数値" : {
+		"cssClass":"numOpe",
+		"contents":[
+			"idNumLiteral", 
+			"idFourArithExp",
+			"idModExp",
+			"idNumCompExp",
+			"idNumToStrExp",
+			"idNumRoundExp",
+			"idRandomIntExp",
+			"idAbsExp",
+			"idNegExp",
+			"idMaxMinExp"]
+	},
+
+	"文字列": {
+		"cssClass":"strOpe",
+		"contents":[
+			"idStrLiteral", 
+			"idLineFeed", 
+			"idPrintStat", 
+			"idPrintNumStat" ,
+			"idScanExp", 
+			"idAppendStrExp", 
+			"idStrCompExp",
+			"idStrToNumExp"]
+	},
+	
+	"論理": {
+		"cssClass":"boolOpe",
+		"contents":[
+			"idBoolLiteral", 
+			"idBinaryBoolExp", 
+			"idNotExp", 
+			"idBoolToStrExp"]
+	},
+	
+	"制御" : {
+		"cssClass":"control",
+		"contents":[
+			"idIfStat", 
+			"idIfElseStat",
+			"idRepeatStat",
+			"idWhileStat",
+			"idBreakStat", 
+			"idContinueStat",
+			"idRepeatAndCount",
+			"idCompoundStat"]
+	},
+	
+	"変数 / リスト": {
+		"cssClass":"varAndList",
+		"contents":[
+			"idNumVarDecl",
+			"idNumListDecl",
+			"idStrVarDecl", 
+			"idStrListDecl",
+			"idBoolVarDecl",
+			"idBoolListDecl"
+		]
+	},
+	
+	"変数・リスト操作": {
+		"cssClass":"varAndListOpe",
+		"contents":[
+			"idAnyAssignStat",
+			"idNumAddAssignStat",
+			"idSelectionViewSpace",
+			"idAnyArrayPushStat", 
+			"idAnyArrayGetExp",
+			"idAnyArrayGetLastExp",
+			"idAnyArrayLengthExp",
+			"idAnyArrayPopStat",
+			"idAnyArrayInsertStat",
+			"idAnyArrayRemoveStat",
+			"idAnyArraySetStat",
+			"idAnyArrayAppendStat",
+			"idAnyArrayClearStat"]
+	},
+	
+	"機能作成" : {
+		"cssClass":"funcDef",
+		"contents":["idVoidFuncDef", "idReturnStat"]
+	},
+}

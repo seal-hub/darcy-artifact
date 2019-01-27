@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+
+<Connector 
+	bhConnectorID="idArgCnctr"
+	defaultBhNodeID="idArgVoid"
+	fixed="true"/>

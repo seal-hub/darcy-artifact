@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Check_Consistency.iml" filepath="$PROJECT_DIR$/Check_Consistency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/list_classes/list_classes.iml" filepath="$PROJECT_DIR$/list_classes/list_classes.iml" />
+    </modules>
+  </component>
+</project>

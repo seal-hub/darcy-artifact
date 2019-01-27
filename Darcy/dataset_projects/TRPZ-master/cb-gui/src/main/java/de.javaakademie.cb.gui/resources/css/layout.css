@@ -1,0 +1,72 @@
+.menuBarStyle {
+    -fx-background-color: #FFFFFF;    
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #7E7E7E; /* #4473B7; */
+    -fx-text-fill: #FFFFFF;
+}
+
+.statusbar {
+	-fx-border-width: 1 0 0 0;
+	-fx-border-color: white;
+    -fx-padding: 10 0 0 10;
+    -fx-background-color: gainsboro;    
+}
+
+.mediaView {
+    -fx-border-width: 1 1 1 1;
+	-fx-border-color: white; 
+}
+
+.stopButton {
+	-fx-text-fill: white;
+    -fx-background-color: #b85547, #fe837c, #ff0000;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}
+
+.myTree {
+   -fx-font: 12px Tahoma;
+   -fx-stroke: #eeeeee;
+   -fx-background-color: #0a0a0a;
+   -fx-text-fill: #ffffff;
+   }
+   
+   .myTree .tree-cell {
+    -fx-background-color: #ddd ;
+    -fx-text-fill: #ffffff;
+}
+
+/*
+.tree-cell:hover {
+    -fx-background-color: #337ab7;
+}
+*/
+
+
+.toolbarStyle {
+ 	-fx-background-color: #2B579A; /* #06ae8e; */
+ 	-fx-border-color: #B5B5B5;
+ 	-fx-border-insets: 0;
+ 	-fx-border-width: 0 0 1 0;
+ }
+ 
+.toolbarButton {
+	-fx-min-width: 108;
+ 	-fx-text-fill: #FFFFFF;
+	-fx-background-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 0.333333em 0.666667em 0.333333em  0.666667em; /* 4 8 4 8 */
+}
+
+.toolbarButton:hover{
+ 	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #708EBB; /* #D3F0E0; */
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 0.188em, 0.188em, 0.125em, 0.063em;
+    -fx-padding: 0.333333em 0.666667em 0.333333em  0.666667em; /* 4 8 4 8 */
+    -fx-alignment: CENTER;
+    -fx-content-display: TOP;
+}

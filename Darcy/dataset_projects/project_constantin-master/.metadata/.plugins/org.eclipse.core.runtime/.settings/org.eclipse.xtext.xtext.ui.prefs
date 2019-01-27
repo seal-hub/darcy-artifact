@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+overriddenByCSS=,syntaxColorer.DataTypeIndicator.color,syntaxColorer.NeverCalledRule.color,syntaxColorer.RuleDeclaration.color,syntaxColorer.SpecialFeature.color,syntaxColorer.TypeReference.color,syntaxColorer.TypeReference.style,syntaxColorer.UnusedValue.color,
+syntaxColorer.DataTypeIndicator.color=141,218,248
+syntaxColorer.NeverCalledRule.color=128,128,128
+syntaxColorer.RuleDeclaration.color=18,144,195
+syntaxColorer.SpecialFeature.color=171,48,0
+syntaxColorer.TypeReference.color=102,225,248
+syntaxColorer.TypeReference.style=2
+syntaxColorer.UnusedValue.color=128,128,128

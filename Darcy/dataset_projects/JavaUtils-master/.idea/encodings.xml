@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaFX" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mail" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Resources" charset="UTF-8" />
+  </component>
+</project>

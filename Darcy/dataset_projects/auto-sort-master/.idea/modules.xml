@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/autosort/autosort.iml" filepath="$PROJECT_DIR$/autosort/autosort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autosort-parent.iml" filepath="$PROJECT_DIR$/autosort-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map-converter-service/map-converter-service.iml" filepath="$PROJECT_DIR$/map-converter-service/map-converter-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unification-service/unification-service.iml" filepath="$PROJECT_DIR$/unification-service/unification-service.iml" />
+    </modules>
+  </component>
+</project>

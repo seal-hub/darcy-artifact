@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2016-05-27 18:15:37 - tinyMediaManager 2.7.4 -->
+<movie>
+    <title>Matrix</title>
+    <originaltitle>The Matrix</originaltitle>
+    <set>Matrix</set>
+    <sorttitle>Matrix01</sorttitle>
+    <rating>8.7</rating>
+    <year>1999</year>
+    <top250>18</top250>
+    <votes>1194956</votes>
+    <outline>Thomas Anderson é um jovem programador que fora das horas de serviço dá pelo nome de Neo e é um «hacker». Nas suas buscas informáticas persegue a Matrix e um personagem que dá pelo nome de Morpheus. A...</outline>
+    <plot>Thomas Anderson é um jovem programador que fora das horas de serviço dá pelo nome de Neo e é um «hacker». Nas suas buscas informáticas persegue a Matrix e um personagem que dá pelo nome de Morpheus. A esperança de encontrar as respostas que procura, leva-o a seguir o «coelho branco», uma rapariga que o conduz a outra e a partir daí, a vida dele nunca mais será a mesma.</plot>
+    <tagline>Todos acham que é real.</tagline>
+    <runtime>136</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/aWFDGCINBSG0BQHsxQDJtSEDxx7.jpg</thumb>
+    <fanart>http://assets.fanart.tv/fanart/movies/603/moviebackground/the-matrix-4fdb88f2591d9.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <certification>US:R / United States:R / US:Rated R / United States:Rated R</certification>
+    <id>tt0133093</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">603</value>
+        </entry>
+        <entry>
+            <key>tmdbId</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">603</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0133093</value>
+        </entry>
+        <entry>
+            <key>imdbId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0133093</value>
+        </entry>
+    </ids>
+    <tmdbId>603</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=m8e-FF8MsqU&amp;hd=1</trailer>
+    <country>US</country>
+    <premiered>1999-05-21</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.4</aspect>
+                <width>1920</width>
+                <height>796</height>
+                <durationinseconds>8177</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>6</channels>
+            </audio>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+            <subtitle>
+                <language>swe</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>false</watched>
+    <playcount>0</playcount>
+    <genre>Action</genre>
+    <genre>Science Fiction</genre>
+    <studio>Warner Bros.</studio>
+    <studio>Village Roadshow Pictures</studio>
+    <studio>Groucho II Film Partnership</studio>
+    <studio>Silver Pictures</studio>
+    <credits>Andy Wachowski</credits>
+    <credits>Lana Wachowski</credits>
+    <director>Andy Wachowski</director>
+    <director>Lana Wachowski</director>
+    <actor>
+        <name>Keanu Reeves</name>
+        <role>Neo</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BNjUxNDcwMTg4Ml5BMl5BanBnXkFtZTcwMjU4NDYyOA@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Laurence Fishburne</name>
+        <role>Morpheus</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTc0NjczNDc1MV5BMl5BanBnXkFtZTYwMDU0Mjg1._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carrie-Anne Moss</name>
+        <role>Trinity</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTYxMjgwNzEwOF5BMl5BanBnXkFtZTcwNTQ0NzI5Ng@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Hugo Weaving</name>
+        <role>Agent Smith</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMjAxMzAyNDQyMF5BMl5BanBnXkFtZTcwOTM4ODcxMw@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gloria Foster</name>
+        <role>Oracle</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTQxNjY0NjY5M15BMl5BanBnXkFtZTcwNzU3MjkwOA@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joe Pantoliano</name>
+        <role>Cypher</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTA5NjgwODU4NDZeQTJeQWpwZ15BbWU3MDE0NzUwNDQ@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Marcus Chong</name>
+        <role>Tank</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTM1MjI3MjA0N15BMl5BanBnXkFtZTYwMzgxMTA3._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Julian Arahanga</name>
+        <role>Apoc</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTI3MTg1NzU3OF5BMl5BanBnXkFtZTYwMDI3OTQ3._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matt Doran</name>
+        <role>Mouse</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTY0Mzk0Mjc2M15BMl5BanBnXkFtZTcwNjM3ODU1OA@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Belinda McClory</name>
+        <role>Switch</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BNTI0NzI5NDkyNF5BMl5BanBnXkFtZTgwMTMwMjc0MjE@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anthony Ray Parker</name>
+        <role>Dozer</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BOTIxNjk1MDQwNV5BMl5BanBnXkFtZTcwNTQwMjUxOA@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paul Goddard</name>
+        <role>Agent Brown</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTc1MTIyMTI5OV5BMl5BanBnXkFtZTcwMTc4OTkwOA@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Taylor</name>
+        <role>Agent Jones</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BOTM1NTk5MzA4OF5BMl5BanBnXkFtZTcwMTgwMTA5Nw@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Aston</name>
+        <role>Rhineheart</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMjA2Njc4Nzk2OV5BMl5BanBnXkFtZTcwMjExODIwOA@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Marc Aden Gray</name>
+        <role>Choi</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BNjMxOTQxODQ3OV5BMl5BanBnXkFtZTgwODYzOTA5MTE@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ada Nicodemou</name>
+        <role>Dujour</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BNDc1ODEyOTAxM15BMl5BanBnXkFtZTcwOTI1NTUwOA@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Deni Gordon</name>
+        <role>Priestess</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Rowan Witt</name>
+        <role>Spoon Boy</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTU2NTUzMjc5N15BMl5BanBnXkFtZTgwNzcxMzQ0MTE@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Eleanor Witt</name>
+        <role>Potential</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Tamara Brown</name>
+        <role>Potential</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Janaya Pender</name>
+        <role>Potential</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Adryn White</name>
+        <role>Potential</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Natalie Tjen</name>
+        <role>Potential</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Bill Young</name>
+        <role>Lieutenant</role>
+        <thumb>http://ia.media-imdb.com/images/M/MV5BMTIxNzQ2MzM2MF5BMl5BanBnXkFtZTcwODI4MzYyMQ@@._V1._SX400_.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David O'Connor</name>
+        <role>FedEx Man</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Jeremy Ball</name>
+        <role>Businessman</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Fiona Johnson</name>
+        <role>Woman in Red</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Harry Lawrence</name>
+        <role>Old Man</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Steve Dodd</name>
+        <role>Blind Man</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Luke Quinton</name>
+        <role>Security Guard</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Lawrence Woodward</name>
+        <role>Guard</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Michael Butcher</name>
+        <role>Cop Who Captures Neo</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Bernard Ledger</name>
+        <role>Big Cop</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Robert Simper</name>
+        <role>Cop</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Chris Pattinson</name>
+        <role>Cop</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Nigel Harbach</name>
+        <role>Parking Cop</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Mike Duncan</name>
+        <role>Twin</role>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Rana Morrison</name>
+        <role>Shaylae - Woman in Office</role>
+        <thumb></thumb>
+    </actor>
+    <producer>
+        <name>Bruce Berman</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Dan Cracchiolo</name>
+        <role>co-producer</role>
+    </producer>
+    <producer>
+        <name>Carol Hughes</name>
+        <role>associate producer</role>
+    </producer>
+    <producer>
+        <name>Andrew Mason</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Richard Mirisch</name>
+        <role>associate producer</role>
+    </producer>
+    <producer>
+        <name>Barrie M. Osborne</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Joel Silver</name>
+        <role>producer</role>
+    </producer>
+    <producer>
+        <name>Erwin Stoff</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Andy Wachowski</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Lana Wachowski</name>
+        <role>executive producer (as Larry Wachowski)</role>
+    </producer>
+    <languages>en</languages>
+</movie>

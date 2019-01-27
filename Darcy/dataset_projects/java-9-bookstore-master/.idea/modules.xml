@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/br.com.casadocodigo/br.com.casadocodigo.iml" filepath="$PROJECT_DIR$/src/br.com.casadocodigo/br.com.casadocodigo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/br.com.casadocodigo.domain/br.com.casadocodigo.domain.iml" filepath="$PROJECT_DIR$/src/br.com.casadocodigo.domain/br.com.casadocodigo.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/br.com.casadocodigo.http/br.com.casadocodigo.http.iml" filepath="$PROJECT_DIR$/src/br.com.casadocodigo.http/br.com.casadocodigo.http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/br.com.casadocodigo.logging/br.com.casadocodigo.logging.iml" filepath="$PROJECT_DIR$/src/br.com.casadocodigo.logging/br.com.casadocodigo.logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/br.com.casadocodigo.nf/br.com.casadocodigo.nf.iml" filepath="$PROJECT_DIR$/src/br.com.casadocodigo.nf/br.com.casadocodigo.nf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/br.com.casadocodigo.tracking/br.com.casadocodigo.tracking.iml" filepath="$PROJECT_DIR$/src/br.com.casadocodigo.tracking/br.com.casadocodigo.tracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-9-bookstore-master.iml" filepath="$PROJECT_DIR$/.idea/java-9-bookstore-master.iml" />
+    </modules>
+  </component>
+</project>

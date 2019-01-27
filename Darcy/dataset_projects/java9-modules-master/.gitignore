@@ -1,0 +1,4 @@
+modulesExample/build/
+modulesExample/jars/ 
+
+*.jar

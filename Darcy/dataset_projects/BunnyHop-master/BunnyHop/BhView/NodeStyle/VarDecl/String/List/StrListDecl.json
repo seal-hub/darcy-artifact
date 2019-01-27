@@ -1,0 +1,29 @@
+{
+	"topMargin" : 1.0,
+	"bottomMargin" : 1.0,
+	"leftMargin" : 11.0,
+	"rightMargin" : 2.5,
+	"connectorPos" : "Top",
+	"connectorShift" : 1.0,
+	"connectorWidth" : 3.5,
+	"connectorHeight" : 3.5,
+	"connectorShape" : "CHAR_T",
+	"connectorBoundsRate" : 1.25,
+	"cssClass" : "strType",
+
+	"connective" : {
+		"inner" : {
+			"arrangement" : "Row",
+			"interval" : 2.0,
+			"connectorList" : ["ListName", "ListSign"]
+		},
+		"outer" : {
+			"connectorList" : ["NextVarDecl"]
+		}
+	},
+	
+    "imitation" : {
+		"buttonPosX" : 6.0,
+		"buttonPosY" : 1.0
+	}
+}

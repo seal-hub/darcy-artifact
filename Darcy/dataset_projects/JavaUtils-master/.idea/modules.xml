@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/utils.iml" filepath="$PROJECT_DIR$/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base/utils.base.iml" filepath="$PROJECT_DIR$/Base/utils.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Config/utils.config.iml" filepath="$PROJECT_DIR$/Config/utils.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Http/utils.http.iml" filepath="$PROJECT_DIR$/Http/utils.http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFX/utils.javafx.iml" filepath="$PROJECT_DIR$/JavaFX/utils.javafx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mail/utils.mail.iml" filepath="$PROJECT_DIR$/Mail/utils.mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Resources/utils.resources.iml" filepath="$PROJECT_DIR$/Resources/utils.resources.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="label"
+	bhNodeID="idBreakStat"
+	name="BreakStat"
+	nodeStyleID="BreakStat.json"
+	nodeInputControl="Label.fxml"
+	initString="繰り返しを抜ける"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+</Node>
+

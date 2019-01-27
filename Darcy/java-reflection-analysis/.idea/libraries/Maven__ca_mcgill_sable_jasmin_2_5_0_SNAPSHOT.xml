@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ca.mcgill.sable:jasmin:2.5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/jasmin/2.5.0-SNAPSHOT/jasmin-2.5.0-20171106.170234-163.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/jasmin/2.5.0-SNAPSHOT/jasmin-2.5.0-20171106.170234-163-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/jasmin/2.5.0-SNAPSHOT/jasmin-2.5.0-20171106.170234-163-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,34 @@
+{
+	"topMargin" : 1.0,
+	"bottomMargin" : 1.0,
+	"leftMargin" : 5.5,
+	"rightMargin" : 1.5,
+	"connectorPos" : "Top",
+	"connectorShift" : 1.0,
+	"connectorWidth" : 3.5,
+	"connectorHeight" : 3.5,
+	"connectorShape" : "ARROW",
+	"connectorBoundsRate" : 1.25,
+	"cssClass" : "controlType",
+
+	"connective" : {
+		"inner" : {
+			"arrangement" : "Column",
+			"interval" : 1.5,
+			"subGroup0" : {
+				"arrangement" : "Row",
+				"interval" : 2.0,
+				"connectorList" : ["CondExp", "kaiKurikaesu"]
+			},
+			"subGroup1" : {
+				"arrangement" : "Column",
+				"interval" : 0.0,
+				"connectorList" : ["LoopStat"]
+			}
+		},
+
+		"outer" : {
+			"connectorList" : ["NextStat"]
+		}
+	}
+}

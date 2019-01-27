@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+
+<Node type="connective"
+	bhNodeID="idReturnStat"
+	name="ReturnStat"
+	nodeStyleID="ReturnStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		<PrivateConnector
+			bhConnectorID="idReturnStat.prvCnctr0"
+			name="kinouKaraNukeru"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idReturnStat.prvNode0"
+				name="kinouKaraNukeru"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="機能から抜ける">
+			</Node>
+		</PrivateConnector>
+	</ConnectorSection>
+</Node>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="directory-monitor" />
+        <module name="http-client" />
+        <module name="video-converter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="directory-monitor" target="1.9" />
+      <module name="http-client" target="1.9" />
+      <module name="rahmnathan-utils" target="1.9" />
+      <module name="video-converter" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

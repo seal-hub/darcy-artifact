@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="textField"
+	bhNodeID="idFuncName"
+	name="FuncName"
+	nodeStyleID="Identifier.json"
+	nodeInputControl="TextField.fxml"
+	onTextInput="ParseIdentifier.js"
+    initString="機能名">
+
+    <Imitation imitationID="imitIdFuncName" imitationNodeID="idFuncName"/>
+</Node>

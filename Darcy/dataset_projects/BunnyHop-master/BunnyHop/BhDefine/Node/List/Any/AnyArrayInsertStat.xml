@@ -1,0 +1,27 @@
+<Node type="connective"
+	bhNodeID="idAnyArrayInsertStat"
+	name="AnyArrayInsertStat"
+	nodeStyleID="AnyArrayInsertStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		<Connector bhConnectorID="idAnyListCnctr" name="AnyArray"/>
+		
+		<PrivateConnector
+			bhConnectorID="idAnyArrayInsertStat.prvCnctr0"
+			name="noMaruBanmeNiAtaiWoSonyuSuru"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idAnyArrayInsertStat.prvNode0"
+				name="noMaruBanmeNiAtaiWoSonyuSuru"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="の○番目に値を挿入する">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>

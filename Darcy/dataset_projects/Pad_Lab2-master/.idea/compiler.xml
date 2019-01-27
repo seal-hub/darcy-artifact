@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="client_main" target="1.9" />
+      <module name="client_test" target="1.9" />
+      <module name="common_main" target="1.9" />
+      <module name="common_test" target="1.9" />
+      <module name="gateway_main" target="1.9" />
+      <module name="gateway_test" target="1.9" />
+      <module name="node_main" target="1.9" />
+      <module name="node_test" target="1.9" />
+      <module name="Pad_Lab2_main" target="1.9" />
+      <module name="Pad_Lab2_test" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

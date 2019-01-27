@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pl.azarnow.vstreamer.movies.core/pl.azarnow.vstreamer.movies.core.iml" filepath="$PROJECT_DIR$/pl.azarnow.vstreamer.movies.core/pl.azarnow.vstreamer.movies.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pl.azarnow.vstreamer.movies.iface/pl.azarnow.vstreamer.movies.iface.iml" filepath="$PROJECT_DIR$/pl.azarnow.vstreamer.movies.iface/pl.azarnow.vstreamer.movies.iface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pl.azarnow.vstreamer.people.iface/pl.azarnow.vstreamer.people.iface.iml" filepath="$PROJECT_DIR$/pl.azarnow.vstreamer.people.iface/pl.azarnow.vstreamer.people.iface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pl.azarnow.vstreamer.player.core/pl.azarnow.vstreamer.player.core.iml" filepath="$PROJECT_DIR$/pl.azarnow.vstreamer.player.core/pl.azarnow.vstreamer.player.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pl.azarnow.vstreamer.player.iface/pl.azarnow.vstreamer.player.iface.iml" filepath="$PROJECT_DIR$/pl.azarnow.vstreamer.player.iface/pl.azarnow.vstreamer.player.iface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vstreamer.iml" filepath="$PROJECT_DIR$/vstreamer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vstreamer-app/vstreamer-app.iml" filepath="$PROJECT_DIR$/vstreamer-app/vstreamer-app.iml" />
+    </modules>
+  </component>
+</project>

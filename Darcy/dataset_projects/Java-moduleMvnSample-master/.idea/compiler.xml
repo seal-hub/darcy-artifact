@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base" />
+        <module name="beer" />
+        <module name="customer" />
+        <module name="pub" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base" target="9" />
+      <module name="beer" target="9" />
+      <module name="customer" target="9" />
+      <module name="modulesApp" target="9" />
+      <module name="pub" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

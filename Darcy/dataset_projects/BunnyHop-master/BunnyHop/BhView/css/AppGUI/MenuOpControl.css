@@ -1,0 +1,72 @@
+.menuOpButtons {
+	-fx-font-size: 1.1em;
+	-fx-font-family: "Meiryo UI";
+}
+
+.menuOpFlatButtons{
+	-fx-border-color: transparent;
+	-fx-border-width: 1;
+	-fx-background-radius: 0;
+	-fx-background-color: transparent;
+	-fx-font-family:"Meiryo UI";
+	-fx-font-size: 1.1em;
+}
+
+.menuOpFlatButtons:hover {
+	-fx-border-color: black;
+	-fx-border-width: 1;
+	-fx-border-radius: 0;
+	-fx-border-style: solid;
+}
+
+.menuOpFlatButtons:pressed {
+	-fx-background-color: #D0D0D0;
+}
+
+#menuOpViewUpper {
+	-fx-hgap: 0.2em;
+	-fx-padding: 0.0em 0.0em 0.1em 0.5em;
+}
+
+#menuOpViewLower {
+	-fx-hgap: 0.5em;
+	-fx-padding: 0.0em 0.0em 0.3em 0.5em;
+}
+
+#menuOpViewLower * {
+	-fx-prompt-text-fill: #909090;
+}
+
+#ipAddrTextField {
+	-fx-pref-width: 11em;
+	-fx-font-family: "Meiryo UI";
+	-fx-font-size: 1.1em;
+}
+
+#unameTextField {
+	-fx-pref-width: 11em;
+	-fx-font-family: "Meiryo UI";
+	-fx-font-size: 1.1em;
+}
+
+#passwordTextField {
+	-fx-pref-width: 15em;
+	-fx-font-family: "Meiryo UI";
+	-fx-font-size: 1.1em;
+}
+
+.loginInfoLabel {
+	-fx-font-size: 1.1em;
+	-fx-font-family: "Meiryo UI";
+}
+
+
+#stdInTextField {
+	-fx-pref-width: 18em;
+	-fx-font-family: "Meiryo UI";
+	-fx-font-size: 1.1em;
+}
+
+.menuOpSeparator {
+	-fx-padding:0 0.2em 0 0.2em;
+}

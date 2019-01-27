@@ -1,0 +1,43 @@
+<Node
+	type="connective"
+	bhNodeID="idBoolArrayGetExp"
+	name="BoolArrayGetExp"
+	nodeStyleID="BoolArrayGetExp.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<ConnectorSection name="BooleanExpSctn">
+		<Connector bhConnectorID="idBoolListCnctr" name="Array"/>
+		
+		<PrivateConnector
+			bhConnectorID="idBoolArrayGetExp.prvCnctr0"
+			name="no"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idBoolArrayGetExp.prvNode0"
+				name="no"
+				nodeStyleID="WordLabel2.json"
+				nodeInputControl="Label.fxml"
+				initString="の">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idNumExpCnctr" name="Index"/>
+		
+		<PrivateConnector
+			bhConnectorID="idBoolArrayGetExp.prvCnctr1"
+			name="banmeNoYoso"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idBoolArrayGetExp.prvNode1"
+				name="banmeNoYoso"
+				nodeStyleID="WordLabel2.json"
+				nodeInputControl="Label.fxml"
+				initString="番目の要素">
+			</Node>
+		</PrivateConnector>
+		
+	</ConnectorSection>
+</Node>

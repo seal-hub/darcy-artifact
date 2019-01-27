@@ -1,0 +1,54 @@
+<Node type="connective"
+	bhNodeID="idVoidFuncDef"
+	name="VoidFuncDef"
+	canCreateImitManually="true"
+	nodeStyleID="VoidFuncDef.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<Imitation imitationID="imitIdManual" imitationNodeID="idVoidFuncCall"/>
+
+    <Section name="FuncDefSctn">
+		
+		<ConnectorSection name="FuncNameSctn">
+			<Connector bhConnectorID="idFuncNameCnctr" name="FuncName" imitationID="imitIdFuncName" imitCnctPos="imitPosFuncName"/>
+		</ConnectorSection>
+		
+		<ConnectorSection name="VarScopeSctn">
+			<Connector bhConnectorID="idStatCnctr" name="StatList"/>
+		
+			<PrivateConnector
+				bhConnectorID="idVoidFuncDef.prvCnctr0"
+				name="nyuryoku"
+				fixed="true">
+				<Node
+					type="label"
+					bhNodeID="idVoidFuncDef.prvNode0"
+					name="nyuryoku"
+					nodeStyleID="WordLabel1.json"
+					nodeInputControl="Label.fxml"
+					initString="入力">
+				</Node>
+		
+			</PrivateConnector>
+		
+			<Connector bhConnectorID="idVarDeclCnctr" name="ParamDecl" imitationID="imitIdVarDeclToArg" imitCnctPos="imitPosArg"/>
+		
+			<PrivateConnector
+				bhConnectorID="idVoidFuncDef.prvCnctr1"
+				name="shuturyoku"
+				fixed="true">
+				<Node
+					type="label"
+					bhNodeID="idVoidFuncDef.prvNode1"
+					name="shuturyoku"
+					nodeStyleID="WordLabel1.json"
+					nodeInputControl="Label.fxml"
+					initString="出力">
+				</Node>
+			</PrivateConnector>
+		
+			<Connector bhConnectorID="idVarDeclCnctr" name="OutParamDecl" imitationID="imitIdVarDeclToOutArg" imitCnctPos="imitPosOutArg"/>
+		</ConnectorSection>
+	</Section>
+</Node>

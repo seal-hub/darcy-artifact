@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/media.movies.model/media.movies.model.iml" filepath="$PROJECT_DIR$/src/media.movies.model/media.movies.model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/media.movies.nfo/media.movies.nfo.iml" filepath="$PROJECT_DIR$/src/media.movies.nfo/media.movies.nfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/media.movies.nfo.test/media.movies.nfo.test.iml" filepath="$PROJECT_DIR$/src/media.movies.nfo.test/media.movies.nfo.test.iml" />
+    </modules>
+  </component>
+</project>

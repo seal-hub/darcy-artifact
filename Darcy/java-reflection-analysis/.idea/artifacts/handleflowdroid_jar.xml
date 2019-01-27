@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="handleflowdroid:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/handleflowdroid_jar</output-path>
+    <root id="archive" name="handleflowdroid.jar">
+      <element id="module-output" name="handleflowdroid" />
+    </root>
+  </artifact>
+</component>

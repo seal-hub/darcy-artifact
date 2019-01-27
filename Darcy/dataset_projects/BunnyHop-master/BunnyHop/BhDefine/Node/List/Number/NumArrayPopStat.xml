@@ -1,0 +1,27 @@
+<Node type="connective"
+	bhNodeID="idNumArrayPopStat"
+	name="NumArrayPopStat"
+	nodeStyleID="NumArrayPopStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<ConnectorSection name="StatSctn">
+		<Connector bhConnectorID="idNumListCnctr" name="Arg0"/>
+		
+		<PrivateConnector 
+			bhConnectorID="idNumArrayPopStat.prvCnctr0"
+			name="noMatsubiNoYosoWoKesu"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idNumArrayPopStat.prvNode0"
+				name="noMatsubiNoYosoWoKesu"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="の末尾の要素を消す">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+	</ConnectorSection>
+</Node>

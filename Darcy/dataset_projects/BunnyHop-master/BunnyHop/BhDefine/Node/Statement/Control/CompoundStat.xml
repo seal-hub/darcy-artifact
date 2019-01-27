@@ -1,0 +1,18 @@
+<Node type="connective"
+	bhNodeID="idCompoundStat"
+	name="CompoundStat"
+	nodeStyleID="CompoundStat.json"
+	onMovedFromChildToWS="onStatMovedToWS.js"
+	onMovedToChild="onStatMovedToChild.js">
+
+	<Section name="StatSctn">
+		<ConnectorSection name="VarScopeSctn">
+			<Connector bhConnectorID="idStatCnctr" name="StatList"/>
+			<Connector bhConnectorID="idVarDeclCnctr" name="LocalVarDecl"/>
+		</ConnectorSection>
+		
+		<ConnectorSection>
+			<Connector bhConnectorID="idStatCnctr" name="NextStat"/>
+		</ConnectorSection>
+	</Section>
+</Node>

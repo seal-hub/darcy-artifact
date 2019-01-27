@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/Mail/Mail.iml" filepath="$PROJECT_DIR$/src/Mail/Mail.iml" group="javaspektrum-jigsaw-master" />
+      <module fileurl="file://$PROJECT_DIR$/src/MailAPI/MailAPI.iml" filepath="$PROJECT_DIR$/src/MailAPI/MailAPI.iml" group="javaspektrum-jigsaw-master" />
+      <module fileurl="file://$PROJECT_DIR$/src/MailClient/MailClient.iml" filepath="$PROJECT_DIR$/src/MailClient/MailClient.iml" group="javaspektrum-jigsaw-master" />
+      <module fileurl="file://$PROJECT_DIR$/javaspektrum-jigsaw-master.iml" filepath="$PROJECT_DIR$/javaspektrum-jigsaw-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaspektrum-jigsaw-master_main.iml" filepath="$PROJECT_DIR$/.idea/modules/javaspektrum-jigsaw-master_main.iml" group="javaspektrum-jigsaw-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaspektrum-jigsaw-master_test.iml" filepath="$PROJECT_DIR$/.idea/modules/javaspektrum-jigsaw-master_test.iml" group="javaspektrum-jigsaw-master" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+{
+	"topMargin" : 1.0,
+	"bottomMargin" : 1.0,
+	"leftMargin" : 5.5,
+	"rightMargin" : 2.5,
+	"connectorPos" : "Top",
+	"connectorShift" : 1.0,
+	"connectorWidth" : 3.5,
+	"connectorHeight" : 3.5,
+	"connectorShape" : "ARROW",
+	"connectorBoundsRate" : 1.25,
+	"cssClass" : "voidType",
+
+	"connective" : {
+		"inner" : {
+			"interval" : 1.5,
+			"arrangement" : "Column",
+			"connectorList" : ["FuncName"],
+			"subGroup0" : {
+				"interval" : 1.5,
+				"arrangement" : "Row",
+				"connectorList" : ["nyuryoku", "Arg"]
+			},
+			"subGroup1" : {
+				"interval" : 1.5,
+				"arrangement" : "Row",
+				"connectorList" : ["shuturyoku", "OutArg"]
+			}
+		},
+		
+		"outer" : {
+			"connectorList" : ["NextStat"]
+		}
+	}
+}
+

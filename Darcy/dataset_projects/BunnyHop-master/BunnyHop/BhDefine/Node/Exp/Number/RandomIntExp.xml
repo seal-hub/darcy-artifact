@@ -1,0 +1,42 @@
+<Node type="connective"
+	bhNodeID="idRandomIntExp"
+	name="RandomIntExp"
+	nodeStyleID="RandomIntExp.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<ConnectorSection name="NumberExpSctn">
+		<Connector bhConnectorID="idNumExpCnctr" name="Arg0"/>
+		
+		<PrivateConnector
+			bhConnectorID="idRandomIntExp.prvCnctr0"
+			name="ijyo"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idRandomIntExp.prvNode0"
+				name="ijyo"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="以上">
+			</Node>
+		</PrivateConnector>
+		
+		<Connector bhConnectorID="idNumExpCnctr" name="Arg1"/>
+		
+		<PrivateConnector
+			bhConnectorID="idRandomIntExp.prvCnctr1"
+			name="ikaNoRandamuNaSeisu"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idRandomIntExp.prvNode1"
+				name="ikaNoRandamuNaSeisu"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="以下のランダムな整数">
+			</Node>
+		</PrivateConnector>
+		
+	</ConnectorSection>
+</Node>

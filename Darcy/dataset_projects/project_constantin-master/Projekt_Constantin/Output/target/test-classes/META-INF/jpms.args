@@ -1,0 +1,4 @@
+--patch-module
+firemage.constantin.output=_
+--add-reads
+firemage.constantin.output=ALL-UNNAMED

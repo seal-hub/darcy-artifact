@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+  <title>Classycle: User Guide: 3. What Classycle's Analyser measures</title>
+  <meta name="author" content="Franz-Josef Elmer">
+  <meta name="keywords"
+        content="Java, class dependencies, open-source tool">
+  <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td class="left-column" valign="top">
+<!-- ======== Left column =========================== -->
+<a href="index.html"><img src="images/logo.png" border="0"
+alt="Classycle logo" width="200" height="135"></a>
+<p>
+<ul><li><a href="index.html">Home</a>
+    <li><a href="examples.html">Examples</a>
+    <li><a href="http://sourceforge.net/project/showfiles.php?group_id=79058">Download</a>
+    <li><a href="userGuide.html">User Guide</a><br>
+    	<ol><li><a href="usage.html">Usage</a><br>
+        	<li><a href="works.html">How Classycle works</a><br>
+         	<li><b>What Classycle's Analyser measures</b><br>
+         	<li><a href="ddf.html">Dependency Definition File</a>
+         	<li><a href="design.html">Hints to improve design</a>
+        </ol>
+    <li><a href="apidoc/index.html">API documentation</a>
+    <li><a href="http://sourceforge.net/projects/classycle">SourceForge
+        project page</a>
+</ul>
+<!-- ================================================ -->
+
+</td>
+<td class="right-column" valign="top">
+<!-- ======== Right column =========================== -->
+<h1>3. What Classycle's Analyser measures</h1>
+
+Analyser measures several metrics which are tabulated in the XML report.
+They are divided into two groups: Class/package metrics and cycle metrics.
+
+<h2>3.1 Class/Package Metrics</h2>
+
+For each analysed class/package the following metrics are reported:
+<ul><li>Type of the class. A class is either a
+        <ul><li>interface,<li>abstract class, or<li>concrete class.</ul>
+    <li>Innerclass flag which denotes whether the class is an inner
+        class or not.
+    <li>Size of the class/package measured in bytes of the class file
+        and number of classes in the package, respectively. In the case of
+        merged inner classes the size of a class is the size of its class file
+        plus the sum of the sizes of all its inner classes.
+    <li>Number of classes/packages directly referring this class/package.
+    <li>Number of internal classes/packages directly used by this class/package.
+    <li>Number of external classes/packages directly used by this class/package.
+    <li>Layer index as calculated in the <a href="works.html#2.5">5th step</a>
+        of the analysis.
+    <li>Source or sources of the class/package. A source of a class is either 
+        the root directory of the class file hierarchy or the zip/jar/war/ear 
+        file which contains the class file. Usually there is only one source.
+        Several sources (separated by commas) appear if there are at least 
+        two classes with the same fully qualified name.  
+       
+</ul>
+<p>
+In addition averaged values and maximum values are calculated by the
+XSLT <tt>reportXMLtoHTML.xsl</tt>.
+
+<h2><a name="3.2">3.2 Cycle metrics</a></h2>
+
+Classycle calculates for each class/package vertex of the cycle the so-called
+<em>eccentricity</em>. This is the smallest number of steps which guarantees
+that any other vertex can be reached from this vertex. Classycle calculates
+the eccentricity by first calculating the <em>distance</em> matrix
+using the Floyd-Warshall algorithm. The distance from vertex A to vertex
+B is defined as the shortest path from A to B. Note, that in a directed graph
+the distance from B to A is in general different from the distance from A to B.
+The eccentricity of A is the maximum over all distances measured from A.
+<p>
+In addition Classycle calculates for each vertex of the cycle the
+<em>maximum fragment size</em>. This is the number of vertices in the
+largest strong component (i.e., subcycle, for a more precise definition see
+Chapter&nbsp;<a href="works.html#2.4">2.4</a>) the cycle condenses after 
+removing that vertex. This analysis helps to detected
+the optimal point (i.e., class) in the cycle to start improving a design
+with cyclic dependencies. Chapter&nbsp;<a href="design.html">4</a> gives
+hints for such improvements.
+<p>
+For each cycle Classycle reports the following metrics:
+<ul><li>Number of classes/packages.
+    <li>Best fragment size: The smallest maximum fragment size. A vertex
+        with best fragment size is called a <em>best fragmenter</em>.
+    <li>Girth: This is the length of the shortest possible cyclic path.
+    <li>Radius: The minimum eccentricity. All vertices with the minimum
+        eccentricity form the <em>center</em>.
+    <li>Diameter: The maximum eccentricity.
+    <li>Layer index.
+</ul>
+
+In order to illustrate best fragment size, girth, radius, and diameter 
+a few examples are shown in the table below. 
+Center vertices are drawn with a darker background and best fragmenters with
+a bold border.
+<p>
+<center>
+<table border="1" cellspacing="0" cellpadding="5">
+<tr><th>Example</th><th>Best fragment size</th><th>Girth</th><th>Radius</th>
+    <th>Diameter</th></tr>
+<tr><td><img src="images/cycle1.png"></td><td align="right">1</td>
+    <td align="right">2</td><td align="right">1</td><td align="right">1</td>
+</tr>
+<tr><td><img src="images/cycle2.png"></td><td align="right">1</td>
+    <td align="right">2</td><td align="right">1</td><td align="right">2</td>
+</tr>
+<tr><td><img src="images/cycle3.png"></td><td align="right">1</td>
+    <td align="right">3</td><td align="right">2</td><td align="right">2</td>
+</tr>
+<tr><td><img src="images/cycle4.png"></td><td align="right">2</td>
+    <td align="right">2</td><td align="right">1</td><td align="right">1</td>
+</tr>
+<tr><td><img src="images/cycle5.png"></td><td align="right">1</td>
+    <td align="right">3</td><td align="right">2</td><td align="right">3</td>
+</tr>
+</table>
+</center>
+
+<!-- ================================================ -->
+
+</td>
+</tr>
+<tr class="footer">
+<td colspan="2">
+<center>
+Java and all Java-based trademarks and logos are trademarks or registered
+trademarks of Oracle in the U.S. and other countries.
+<br>
+(C) 2003-2008 <a href="mailto:fjelmer@users.sourceforge.net?subject=Classycle">
+Franz-Josef Elmer</a>. All rights reserved. Last modified: 4/10/2006
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,49 @@
+# Compiles "br.com.casadocodigo.domain" module.
+javac -d mods/br.com.casadocodigo.domain --module-path mods src/br.com.casadocodigo.domain/module-info.java $(find src/br.com.casadocodigo.domain -name "*.java")
+
+# Compiles "br.com.casadocodigo.http" module.
+javac -d mods/br.com.casadocodigo.http --module-path mods src/br.com.casadocodigo.http/module-info.java $(find src/br.com.casadocodigo.http -name "*.java")
+
+# Compiles "br.com.casadocodigo.nf" module.
+javac -d mods/br.com.casadocodigo.nf --module-path mods src/br.com.casadocodigo.nf/module-info.java $(find src/br.com.casadocodigo.nf -name "*.java")
+
+# Compiles "br.com.casadocodigo.logging" module.
+javac -d mods/br.com.casadocodigo.logging --module-path mods src/br.com.casadocodigo.logging/module-info.java $(find src/br.com.casadocodigo.logging -name "*.java")
+
+# Compiles "br.com.casadocodigo.tracking" module.
+javac -d mods/br.com.casadocodigo.tracking --module-path mods src/br.com.casadocodigo.tracking/module-info.java $(find src/br.com.casadocodigo.tracking -name "*.java")
+
+# Compiles "br.com.casadocodigo" module.
+javac -d mods/br.com.casadocodigo --module-path mods src/br.com.casadocodigo/module-info.java $(find src/br.com.casadocodigo -name "*.java")
+
+# Executes the project.
+java --module-path mods -m br.com.casadocodigo/br.com.casadocodigo.Main
+
+# Create a customized JRE execution environment, using only the modules necessary for the app.
+jlink --module-path $JAVA_HOME/jmods --add-modules java.base,jdk.incubator.httpclient --output small-JRE
+
+# List all modules from the newly created small-JRE JRE.
+small-JRE/bin/java --list-modules
+
+# Executes the project uing the newly created small-JRE JRE.
+small-JRE/bin/java --module-path mods -m br.com.casadocodigo/br.com.casadocodigo.Main
+
+# Create a customized JRE image (execution environment) from a existing application, using only the modules needed.
+jlink --module-path $JAVA_HOME/jmods:mods --add-modules br.com.casadocodigo,br.com.casadocodigo.logging --output JRE-bookstore
+
+# Executes the project using the previously create image. We don't need to pass the --module-path as an argument anymore.
+JRE-bookstore/bin/java -m br.com.casadocodigo/br.com.casadocodigo.Main
+
+# Creates a jar file from an existing module.
+jar --create --file=mlib/br.com.casadocodigo.domain-1.0.jar --module-version 1.0 -C mods/br.com.casadocodigo.domain .
+jar --create --file=mlib/br.com.casadocodigo.nf-1.0.jar --module-version 1.0 -C mods/br.com.casadocodigo.nf .
+jar --create --file=mlib/br.com.casadocodigo.http-1.0.jar --module-version 1.0 -C mods/br.com.casadocodigo.http .
+jar --create --file=mlib/br.com.casadocodigo.logging-1.0.jar --module-version 1.0 -C mods/br.com.casadocodigo.logging .
+jar --create --file=mlib/br.com.casadocodigo.tracking-1.0.jar --module-version 1.0 -C mods/br.com.casadocodigo.tracking .
+jar --create --file=mlib/br.com.casadocodigo-1.0.jar --module-version 1.0 --main-class=br.com.casadocodigo.Main -C mods/br.com.casadocodigo .
+
+# Executes a modular JAR.
+java -p mlib -m br.com.casadocodigo
+
+# Creates a JAR with different versions of a class to run n more that one version of Java.
+jar --create --file=mlib/br.com.casadocodigo-1.0.jar --module-version 1.0 --main-class=br.com.casadocodigo.Main -C diretorio-java-8 . --release 9 -C mods/br.com.casadocodigo .

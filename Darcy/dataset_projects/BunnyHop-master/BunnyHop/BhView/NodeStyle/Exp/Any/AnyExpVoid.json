@@ -1,0 +1,13 @@
+{
+	"topMargin" : 1.75,
+	"bottomMargin" : 1.75,
+	"leftMargin" : 2.0,
+	"rightMargin" : 2.0,
+	"connectorPos" : "Left",
+	"connectorShift" : 0.0,
+	"connectorWidth" : 3.5,
+	"connectorHeight" : 3.5,
+	"connectorShape" : "STAR",
+	"connectorBoundsRate" : 1.25,
+	"cssClass" : "voidNode"
+}

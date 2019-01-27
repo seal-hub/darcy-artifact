@@ -1,0 +1,26 @@
+<Node
+	type="connective"
+	bhNodeID="idAnyArrayGetLastExp"
+	name="AnyArrayGetLastExp"
+	nodeStyleID="AnyArrayGetLastExp.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="onAnyExpMovedToChild.js">
+
+	<ConnectorSection name="AnyExpSctn">
+		<Connector bhConnectorID="idAnyListCnctr" name="AnyArray"/>
+		
+		<PrivateConnector
+			bhConnectorID="idAnyArrayGetLastExp.prvCnctr0"
+			name="noSaigoNoYoso"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idAnyArrayGetLastExp.prvNode0"
+				name="noSaigoNoYoso"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="の最後の要素">
+			</Node>
+		</PrivateConnector>
+	</ConnectorSection>
+</Node>

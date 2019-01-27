@@ -1,0 +1,24 @@
+<Node
+	type="connective"
+	bhNodeID="idMeasureDistanceExp"
+	name="MeasureDistanceExp"
+	nodeStyleID="MeasureDistanceExp.json"
+	onMovedFromChildToWS=""
+	onMovedToChild="">
+
+	<ConnectorSection name="NumberExpSctn">
+		<PrivateConnector
+			bhConnectorID="idMeasureDistanceExp.prvCnctr0"
+			name="zenpoKyori"
+			fixed="true">
+			<Node
+				type="label"
+				bhNodeID="idMeasureDistanceExp.prvNode0"
+				name="zenpoKyori"
+				nodeStyleID="WordLabel1.json"
+				nodeInputControl="Label.fxml"
+				initString="前方障害物までの距離 (cm)">
+			</Node>
+		</PrivateConnector>
+	</ConnectorSection>
+</Node>

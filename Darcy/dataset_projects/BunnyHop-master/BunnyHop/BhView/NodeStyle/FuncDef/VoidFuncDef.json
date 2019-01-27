@@ -1,0 +1,45 @@
+{
+	"topMargin" : 1.0,
+	"bottomMargin" : 1.0,
+	"leftMargin" : 6.5,
+	"rightMargin" : 2.5,
+	"connectorPos" : "Left",
+	"connectorShift" : 0.0,
+	"connectorWidth" : 0.0,
+	"connectorHeight" : 0.0,
+	"connectorShape" : "NONE",
+	"connectorBoundsRate" : 1.25,
+	"cssClass" : "voidFuncDefType",
+    
+    "connective" : {
+		"inner" : {
+			"arrangement" : "Column",
+			"interval" : 2.0,
+			"connectorList" : ["FuncName"],
+			"subGroup0" : {
+				"arrangement" : "Row",
+				"interval" : 4.0,
+				"subGroup0" : {
+					"arrangement" : "Column",
+					"interval" : 0.0,
+					"connectorList" : ["StatList"],
+				},
+				"subGroup1" : {
+					"arrangement" : "Column",
+					"interval" : 1.0,
+					"connectorList" : ["nyuryoku", "ParamDecl"]
+				},
+				"subGroup2" : {
+					"arrangement" : "Column",
+					"interval" : 1.0,
+					"connectorList" : ["shuturyoku", "OutParamDecl"]
+				}
+			}
+		}
+	},
+    
+    "imitation" : {
+		"buttonPosX" : 1.5,
+		"buttonPosY" : 1.0
+	}
+}

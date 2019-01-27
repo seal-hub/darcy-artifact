@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jboss:jboss-common-core:2.5.0.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jboss-common-core/2.5.0.Final/jboss-common-core-2.5.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jboss-common-core/2.5.0.Final/jboss-common-core-2.5.0.Final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jboss-common-core/2.5.0.Final/jboss-common-core-2.5.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

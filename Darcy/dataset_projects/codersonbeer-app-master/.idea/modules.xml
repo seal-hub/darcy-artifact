@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/br.com.userapi.controller/br.com.userapi.controller.iml" filepath="$PROJECT_DIR$/br.com.userapi.controller/br.com.userapi.controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/br.com.userapi.data/br.com.userapi.data.iml" filepath="$PROJECT_DIR$/br.com.userapi.data/br.com.userapi.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/br.com.userapi.data.model/br.com.userapi.data.model.iml" filepath="$PROJECT_DIR$/br.com.userapi.data.model/br.com.userapi.data.model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/br.com.userapi.main/br.com.userapi.main.iml" filepath="$PROJECT_DIR$/br.com.userapi.main/br.com.userapi.main.iml" />
+    </modules>
+  </component>
+</project>

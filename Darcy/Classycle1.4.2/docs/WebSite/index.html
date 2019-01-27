@@ -1,0 +1,366 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+  <title>Classycle</title>
+  <meta name="author" content="Franz-Josef Elmer">
+  <meta name="keywords"
+        content="Java, class dependencies, open-source tool">
+  <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td class="left-column" valign="top">
+<!-- ======== Left column =========================== -->
+<a href="index.html"><img src="images/logo.png" border="0"
+alt="Classycle logo" width="200" height="135"></a>
+<p>
+<ul><li><b>Home</b>
+    <li><a href="examples.html">Examples</a>
+    <li><a href="http://sourceforge.net/project/showfiles.php?group_id=79058">Download</a>
+    <li><a href="userGuide.html">User Guide</a>
+    <li><a href="apidoc/index.html">API documentation</a>
+    <li><a href="http://www.sourceforge.net/projects/classycle">SourceForge
+        project page</a>
+</ul>
+<p>
+powered by <A href="http://sourceforge.net">
+<IMG src="http://sflogo.sourceforge.net/sflogo.php?group_id=79058&amp;type=2"
+     width="125" height="37" border="0" alt="SourceForge.net Logo"></A>
+<!-- ================================================ -->
+
+</td>
+<td class="right-column" valign="top">
+<!-- ======== Right column =========================== -->
+<h1>Classycle: Analysing Tools for Java Class and Package Dependencies</h1>
+
+Classycle's <b>Analyser</b> analyses the static class and package dependencies 
+in Java applications or libraries. It is especially helpful for finding cyclic 
+dependencies between classes or packages. Classycle is similar to
+<a href="http://www.clarkware.com/software/JDepend.html">
+JDepend</a> which does also a dependency analysis but only on the package level.
+<p>
+Classycle's <b>Dependency Checker</b> searchs for 
+unwanted class dependencies described in a dependency definition file. 
+Dependency checking helps to monitor whether certain architectural constrains
+(e.g. in a layered architecture) are fulfilled or not.
+<p>
+For an Eclipse plugin see Alain Graf's 
+<a href="http://classycleplugin.graf-tec.ch">ClassyclePlugin</a>
+
+<h2>Purpose and Features</h2>
+
+Static cyclic dependencies of classes or packages can be a sign of bad 
+object-oriented design. A <em>static</em> dependency is a dependency 
+between classes or packages. It can already be detected by the compiler. 
+This has to be distinguished from <em>dynamic</em> dependency
+which is a dependency between <em>objects</em>.
+Figuring out static cyclic dependency is the main purpose of Classycle.
+<p>
+Classycle does not need the Java source files because it analyses the
+compiled class files. Since version 1.3 it also evaluates Java Generics 
+signatures.
+<p>
+From the analysis of the class files directed graphs of
+class and package dependencies are calculated. These graphs are 
+further analysed in order
+to detect cyclic dependencies. For more details, see the
+<a href="userGuide.html">User Guide</a>
+Chapter&nbsp;<a href="works.html">2. How Classycle works</a>.
+<p>
+Classycle's <b>Analyser</b> produces a report (in XML) which contains
+<ul><li>the complete directed class/package graph
+    <li>all strong components of the class/package graph 
+        with more than one vertex
+        (i.e. cycles of class/package dependencies)
+</ul>
+In addition it groups the classes/packages into layers. 
+For each class/package the layer
+index is reported. For more details, see the
+<a href="userGuide.html">User Guide</a>
+Chapter&nbsp;<a href="measures.html">3. What Classycle measures</a>.
+There is also an XSL transformation for rendering the XML report
+into an HTML page.
+<p>
+Based on the class graph Classycle's <b>Dependency Checker</b> 
+allows to search for unwanted dependencies between two sets of classes. 
+An unwanted dependency between the start set and the end set can be either
+<ul><li>a direct one (a class of the start set uses a class of the end set) or
+	<li>an indirect one where a path goes via intermediate classes from 
+		a class of the start set to a class of the end set.
+</ul>  
+If such dependencies are found
+all or only the shortest paths are reported. 
+Instead of unwanted dependencies also allowed dependencies can be defined.
+<p>
+In addition the Dependency
+Checker can check the absence of large class cycles or package cycles.
+<p>
+Classycle tools can be run on the command line as well as an
+<a href="http://ant.apache.org">Ant</a> task. Command line options
+and Ant task attributes are explained
+in the <a href="usage.html">first</a> chapter of the User Guide.
+
+<h2>Release History </h2>
+
+<h3>Classycle 1.4.2</h3>
+
+This is a minor release from 11/1/2014.
+<p>
+<dl><dt>Bug fixes:</dt>
+    <dd><ul>
+        <li>Java 8 lambda expressions are supported.
+        </ul>
+    </dd>
+</dl>
+
+<h3>Classycle 1.4.1</h3>
+
+This is a minor release from 9/10/2012.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul>
+        <li>In Classycle Ant tasks zipfilesets can be used. This feature is partially based on
+            a patch by Tom Denley.
+        </ul>
+    </dd>
+    <dt>Bug fixes:</dt>
+    <dd><ul>
+        <li>Bug #3562457 fixed: Checking with 'dependentOnlyOn' printed expanded 
+            set definitions in the output. Now it prints only the set definitions 
+            as in the other check commands.
+        </ul>
+    </dd>
+</dl>
+
+<h3>Classycle 1.4</h3>
+
+This is a major release from 4/10/2011.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul>
+        <li>New Dependency Checker command: 
+          <a href="ddf.html#checkDependency">dependentOnlyOn</a>
+        <li>New renderer of dependency checking result: 
+          <a href="apidoc/classycle/dependency/XMLResultRenderer.html">
+          classycle.dependency.XMLResultRenderer</a> 
+        <li>New attribute <tt>reportFile</tt> of 
+            <a href="apidoc/classycle/ant/DependencyCheckingTask.html">
+            <tt>DependencyCheckingTask</tt></a> allows to write the dependency checking result into a file. 
+        </ul>
+    </dd>
+</dl>
+
+<h3>Classycle 1.3.3</h3>
+
+This is a minor release from 5/24/2008.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul>
+        <li>The source of an analyzed classes and packages are added to the report.
+        <li>All zip/jar/war/ear files in folders are also analyzed.
+        </ul>
+        Both features are based on a patch provided by Dietmar Wolz.
+    </dd>
+</dl>
+
+<h3>Classycle 1.3.2</h3>
+
+This is a minor release from 3/17/2008.
+<p>
+<dl><dt>Bug fixes:</dt>
+    <dd><ul><li>Bug #1892622 fixed: The bug appeared in the package dependency
+    		graph if a package contains external and internal classes. 
+    		<ul><li>Now a package classifies as an internal package if it 
+    		    contains at least one internal class. 
+    		    <li>An arc in the class graph from an internal class to 
+    		   	an external class do not imply a corresponding arc between 
+    		   	their packages if the package of the external class is
+				an internal package.
+			</ul>   
+        </ul>
+    </dd>
+</dl>
+
+<h3>Classycle 1.3.1</h3>
+
+This is a minor release from 5/12/2007.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul><li>File attributes in ant tasks can also specify absolute paths.
+    		Thanks to Tim Vernum for the patch.
+        </ul>
+    </dd>
+</dl>
+
+<h3>Classycle 1.3</h3>
+
+This is a major release from 9/30/2006.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul><li>Evaluates Java Generics signatures.
+            <li>Better syntax checking concerning miss-spelled keywords 
+                in dependency definition files.
+        </ul><br>
+    </dd>
+</dl>
+
+<h3>Classycle 1.2</h3>
+
+This is a major release from 4/10/2006.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul><li>Merging inner classes: All inner classes vertices can be
+                merged with their outer class vertex.
+            <li>New commands for the Dependency Checker: 
+                <ul><li>Property definition and use
+                    <li>Checking sets
+                    <li>Checking absence of large class or package cycles
+                </ul>
+        </ul><br>
+    </dd>
+</dl>
+
+<h3>Classycle 1.1.1</h3>
+
+This is a minor release from 6/5/2005.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul><li>XML report: 
+                <ul><li>Date attribute in root element filled with current date.
+                    <li>Class/package element: Attribute cycle which denotes
+                        the cycle to which the class/package belongs.
+                </ul>
+            <li>reportXMLtoHTML.xsl: 
+                <ul><li>Sorts the cycles lists in accordance to their size.
+                    <li>Links to cycles for classes/packages belonging to a cycle.
+                </ul>
+        </ul><br>
+    </dd>
+</dl>
+
+<h3>Classycle 1.1</h3>
+
+This is a major release from 11/28/2004.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul><li>Ordinary string constants in Java code can be used as
+                class references if they are valid fully-qualified class names
+                and match certain patterns
+                (see <a href="usage.html">first</a> chapter of 
+                the User Guide).
+            <li>Dependency Checker.
+        </ul><br>
+    </dd>
+    <dt>Documentation:</dt>
+    <dd><ul><li>Adapted to the new feature
+        </ul><br>
+    </dd>
+</dl>
+
+<h3>Classycle 1.0</h3>
+
+This is a major release from 7/2/2004.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul><li>Ant Task 
+                <a href="apidoc/classycle/ant/ReportTask.html"><tt>ReportTask</tt></a>.
+                Thanks to Boris Gruschko for its 
+                <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=977610&group_id=79058&atid=555375">
+                initial version</a>!
+            <li>Many methods of class <tt>Analyser</tt> become public
+                in order to be used by other Java classes 
+                (e.g. <tt>ReportTask</tt>).
+            <li>New command line option: 
+                <tt>-includingClasses</tt> and <tt>-excludingClasses</tt>
+                (see <a href="usage.html">first</a> chapter of 
+                the User Guide).
+        </ul><br>
+    </dd>
+    <dt>Bugfixes:</dt>
+    <dd><ul><li>XML escaping of the title of the XML report
+        </ul><br>
+    </dd>
+    <dt>Documentation:</dt>
+    <dd><ul><li>Adapted to the new feature
+            <li>New with API documentation
+        </ul><br>
+    </dd>
+</dl>
+
+<h3>Classycle 0.9999</h3>
+
+This is a major release from 6/11/2004.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul><li>Package dependencies and cycles
+            <li>Improved <tt>reportXMLtoHTML.xsl</tt> generates
+                class/package links in popup windows.
+        </ul><br>
+    </dd>
+    <dt>Documentation:</dt>
+    <dd><ul><li>Adapted to the new feature
+        </ul><br>
+    </dd>
+</dl>
+
+<h3>Classycle 0.999</h3>
+
+This is a major release from 5/24/2003.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul><li>Calculates and reports maximum fragmentation size for all
+                classes of a cycle.
+         </ul><br>
+    </dd>
+    <dt>Documentation:</dt>
+    <dd><ul><li>Adapted to the new feature
+            <li>New chapter: Hints to improve design
+        </ul><br>
+    </dd>
+</dl>
+
+<h3>Classycle 0.99</h3>
+
+This is a major release from 5/11/2003.
+<p>
+<dl><dt>New Features:</dt>
+    <dd><ul><li>Reports layer index for all classes
+            <li>Improved <tt>reportXMLtoHTML.xsl</tt>
+         </ul><br>
+    </dd>
+    <dt>Bugfixes:</dt>
+    <dd><ul><li>Analysis of the constant pool
+        </ul><br>
+    </dd>
+    <dt>Documentation:</dt>
+    <dd><ul><li>New chapters of the User Guide explain how Classycle
+                works and what it measures
+        </ul><br>
+    </dd>
+</dl>
+
+
+<h3>Classycle 0.9</h3>
+
+This is the initial release from 4/18/2003.
+
+
+<!-- ================================================ -->
+
+</td>
+</tr>
+<tr class="footer">
+<td colspan="2">
+<center>
+Java and all Java-based trademarks and logos are trademarks or registered 
+trademarks of Oracle in the U.S. and other countries.
+<br>
+(C) 2003-2014 <a href="mailto:fjelmer@users.sourceforge.net?subject=Classycle">
+Franz-Josef Elmer</a>. All rights reserved. Last modified: 11/1/2014
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>

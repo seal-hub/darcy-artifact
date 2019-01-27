@@ -1,0 +1,24 @@
+.defaultLabel{
+	-fx-text-fill: black;
+	-fx-font-family: "Meiryo UI";
+	-fx-font-size: 1.5em;
+	-fx-padding: 0.0em, 0.0em, 0.0em, 0.0em;
+	-fx-text-overrun: clip;
+}
+
+.labelStyle2{
+	-fx-text-fill: white;
+	-fx-font-family: "Meiryo UI";
+	-fx-font-size: 1.5em;
+	-fx-padding: 0.0em, 0.0em, 0.0em, 0.0em;
+	-fx-text-overrun: clip;
+}
+
+.signLabel{
+	-fx-text-fill: black;
+	-fx-font-family: "Meiryo UI";
+	-fx-font-size: 2.0em;
+	-fx-padding: 0.0em, 0.0em, 0.0em, 0.0em;
+	-fx-text-overrun: clip;
+}
+

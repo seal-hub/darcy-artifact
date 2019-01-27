@@ -1,0 +1,24 @@
+package firemage.constantin.core.properties;
+
+import java.io.File;
+
+
+public final class CoreProperties {
+
+	private static UserProperties INSTANCE;
+	private static final File PROPERTIE_FILE = new File("core.con");
+	
+	//private static final Logger LOG = LogManager.
+	
+	public static synchronized UserProperties getInstance() {
+		if(INSTANCE == null)
+			INSTANCE = new UserProperties();
+		
+		return INSTANCE;
+	}
+	
+	private UserProperties() {
+		
+	}
+
+}

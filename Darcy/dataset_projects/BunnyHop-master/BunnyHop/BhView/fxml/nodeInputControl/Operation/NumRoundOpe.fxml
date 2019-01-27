@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import net.seapanda.bunnyhop.view.*?>
+
+<ComboBox xmlns:fx="http://javafx.com/fxml">
+	<items>
+		<FXCollections fx:factory="observableArrayList">
+			<SelectableItem fx:id="idFloor" modelText="floor" viewText="切り捨て"/>
+			<SelectableItem fx:id="idCeil" modelText="ceil" viewText="切り上げ"/>
+			<SelectableItem fx:id="idRound" modelText="round" viewText="四捨五入"/>
+		</FXCollections>
+	</items>
+</ComboBox>

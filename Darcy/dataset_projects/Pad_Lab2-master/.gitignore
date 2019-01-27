@@ -1,0 +1,14 @@
+# IntelliJ
+.idea/
+out/
+build/
+
+# Gradle
+.gradle/
+gradlew.bat
+gradlew
+gradle/
+
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+  <title>Classycle: User Guide: 5. Hints to improve design</title>
+  <meta name="author" content="Franz-Josef Elmer">
+  <meta name="keywords"
+        content="Java, class dependencies, open-source tool">
+  <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td class="left-column" valign="top">
+<!-- ======== Left column =========================== -->
+<a href="index.html"><img src="images/logo.png" border="0"
+alt="Classycle logo" width="200" height="135"></a>
+<p>
+<ul><li><a href="index.html">Home</a>
+    <li><a href="examples.html">Examples</a>
+    <li><a href="http://sourceforge.net/project/showfiles.php?group_id=79058">Download</a>
+    <li><a href="userGuide.html">User Guide</a><br>
+    	<ol><li><a href="usage.html">Usage</a><br>
+        	<li><a href="works.html">How Classycle works</a><br>
+         	<li><a href="measures.html">What Classycle's Analyser measures</a><br>
+         	<li><a href="ddf.html">Dependency Definition File</a>
+         	<li><b>Hints to improve design</b>
+        </ol>
+    <li><a href="apidoc/index.html">API documentation</a>
+    <li><a href="http://sourceforge.net/projects/classycle">SourceForge
+        project page</a>
+</ul>
+<!-- ================================================ -->
+
+</td>
+<td class="right-column" valign="top">
+<!-- ======== Right column =========================== -->
+
+<h1>5. Hints to improve design</h1>
+
+Some hints for removing cyclic dependencies can be extracted from
+the analysis Classycle performs. As explained in
+Chapter&nbsp;<a href="measures.html#3.2">3.2</a> Classycle calculates for
+each class/package in the cycle its potential to fragmentize the cycle into
+smaller subcycles when it is removed from the cycle. 
+Classycle lists the <em>maximum fragment size</em> for each
+class. The <em>best fragmenters</em> are those classes/packages in the cycle
+leading to the smallest maximum fragment size. The optimum (best fragment
+size = 1) is reached when a vertex is found whose removal would turn
+the cycle into a complete acyclic graph.
+
+<h2>4.1 Resolving Class Cycles</h2>
+
+Of course removing a class does not make sense from the point of view
+of a Java application because it needs this class. Fortunately, the same
+effect can be obtained by replacing the vertex by two vertices in the
+following way:
+
+<center><img src="images/replaceVertex.png" width="303" height="96"></center>
+
+All classes in the cycle who depend on A will now depend on A'. Class A'
+does not depend on any class in the cycle. Of course it can depend on other 
+classes outside the cycle. Class A'' depends on the same classes as the original
+class A. But other classes in the cycle do not depend on A''. Again
+classes outside the cycle can still depend on A''. Because the original class
+A is splitted into A' and A'' there should be a dependency between both. But
+only A'' depends on A' and not vice versa. Otherwise we would have still the
+original cyclic dependency.
+<p>
+A general and widely used recipes for splitting of a class A into A' and A'' 
+is the <b>introduction of an interface</b>: Here A' is an interface which is
+implemented by A''. Sometimes it is possible to split A into two
+independent concrete classes A' and A''. But this is a rare case.
+
+<h2>4.2 Resolving Package Cycles</h2>
+
+Package cycles are cured in three or four steps:
+<ol>
+  <li>Join the packages of a cycle into a big package containing all classes
+      of the original packages.
+  <li>Detect the strong components (i.e. cycles) of classes in this monster package.
+  <li>Break up cycles which are large or dealing with different concerns (e.g. view classes
+      and data classes). This is an optional step.
+  <li>Build new packages which package the strong components.
+</ol>
+
+<!-- ================================================ -->
+
+</td>
+</tr>
+<tr class="footer">
+<td colspan="2">
+<center>
+Java and all Java-based trademarks and logos are trademarks or registered
+trademarks of Oracle in the U.S. and other countries.
+<br>
+(C) 2003-2008 <a href="mailto:fjelmer@users.sourceforge.net?subject=Classycle">
+Franz-Josef Elmer</a>. All rights reserved. Last modified: 11/21/2004
+</center>
+</td>
+</tr>
+</table>
+</body>
+</html>

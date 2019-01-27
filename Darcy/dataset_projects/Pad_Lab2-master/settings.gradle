@@ -1,0 +1,6 @@
+rootProject.name = 'Pad_Lab2'
+include 'client'
+include 'node'
+include 'gateway'
+include 'common'
+

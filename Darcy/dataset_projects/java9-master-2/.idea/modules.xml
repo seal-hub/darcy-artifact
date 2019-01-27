@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modularity/hello-module/hello-module.iml" filepath="$PROJECT_DIR$/modularity/hello-module/hello-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java9.iml" filepath="$PROJECT_DIR$/java9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modularity/main-app/main-app.iml" filepath="$PROJECT_DIR$/modularity/main-app/main-app.iml" />
+    </modules>
+  </component>
+</project>

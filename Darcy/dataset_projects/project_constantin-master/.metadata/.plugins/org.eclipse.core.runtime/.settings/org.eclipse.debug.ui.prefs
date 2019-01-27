@@ -1,0 +1,22 @@
+eclipse.preferences.version=1
+org.eclipse.debug.ui.Color=225,30,70
+org.eclipse.debug.ui.MemoryHistoryKnownColor=235,235,235
+org.eclipse.debug.ui.MemoryHistoryUnknownColor=170,175,185
+org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND=150,80,115
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
+org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
+org.eclipse.debug.ui.changedDebugElement=255,128,128
+org.eclipse.debug.ui.consoleBackground=28,31,34
+org.eclipse.debug.ui.errorColor=255,139,255
+org.eclipse.debug.ui.inColor=224,226,228
+org.eclipse.debug.ui.outColor=224,226,228
+org.eclipse.debug.ui.switch_perspective_on_suspend=always
+overriddenByCSS=,org.eclipse.debug.ui.Color,org.eclipse.debug.ui.MemoryHistoryKnownColor,org.eclipse.debug.ui.MemoryHistoryUnknownColor,org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND,org.eclipse.debug.ui.changedDebugElement,org.eclipse.debug.ui.consoleBackground,org.eclipse.debug.ui.errorColor,org.eclipse.debug.ui.inColor,org.eclipse.debug.ui.outColor,
+predarkestdark.org.eclipse.debug.ui.consoleBackground=28,31,34
+predarkestdark.org.eclipse.debug.ui.errorColor=255,139,255
+predarkestdark.org.eclipse.debug.ui.inColor=140,175,210
+predarkestdark.org.eclipse.debug.ui.outColor=233,235,237
+pref_state_memento.org.eclipse.debug.ui.DebugVieworg.eclipse.debug.ui.DebugView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<DebugViewMemento org.eclipse.debug.ui.BREADCRUMB_DROPDOWN_AUTO_EXPAND\="false"/>
+pref_state_memento.org.eclipse.debug.ui.VariableView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<VariablesViewMemento org.eclipse.debug.ui.SASH_DETAILS_PART\="315" org.eclipse.debug.ui.SASH_VIEW_PART\="684">\r\n<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id\="org.eclipse.debug.ui.VariableView">\r\n<BOOLEAN BOOLEAN\="true" IMemento.internal.id\="PRESENTATION_SHOW_LOGICAL_STRUCTURES"/>\r\n</PRESENTATION_CONTEXT_PROPERTIES>\r\n</VariablesViewMemento>
+preferredDetailPanes=DefaultDetailPane\:DefaultDetailPane|
+preferredTargets=default\:default|

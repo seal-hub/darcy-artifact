@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+org.eclipse.cdt.make.ui.editor.comment=125,140,147
+org.eclipse.cdt.make.ui.editor.default=224,226,228
+org.eclipse.cdt.make.ui.editor.function=103,140,177
+org.eclipse.cdt.make.ui.editor.keyword=147,199,99
+org.eclipse.cdt.make.ui.editor.macro_def=232,226,183
+org.eclipse.cdt.make.ui.editor.macro_ref=232,226,183
+overriddenByCSS=,org.eclipse.cdt.make.ui.editor.comment,org.eclipse.cdt.make.ui.editor.macro_ref,org.eclipse.cdt.make.ui.editor.macro_def,org.eclipse.cdt.make.ui.editor.default,org.eclipse.cdt.make.ui.editor.function,org.eclipse.cdt.make.ui.editor.keyword,
+predarkestdark.org.eclipse.cdt.make.ui.editor.comment=125,140,147
+predarkestdark.org.eclipse.cdt.make.ui.editor.default=224,226,228
+predarkestdark.org.eclipse.cdt.make.ui.editor.function=103,140,177
+predarkestdark.org.eclipse.cdt.make.ui.editor.keyword=147,199,99
+predarkestdark.org.eclipse.cdt.make.ui.editor.macro_def=232,226,183
+predarkestdark.org.eclipse.cdt.make.ui.editor.macro_ref=232,226,183

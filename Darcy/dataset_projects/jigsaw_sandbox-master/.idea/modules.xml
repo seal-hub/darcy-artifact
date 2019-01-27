@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jigsaw-sandbox-4.iml" filepath="$PROJECT_DIR$/jigsaw-sandbox-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keinmodul/keinmodul.iml" filepath="$PROJECT_DIR$/keinmodul/keinmodul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mainmodule/mainmodule.iml" filepath="$PROJECT_DIR$/mainmodule/mainmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reporting/reporting.iml" filepath="$PROJECT_DIR$/reporting/reporting.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/directory-monitor/directory-monitor.iml" filepath="$PROJECT_DIR$/directory-monitor/directory-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http-client/http-client.iml" filepath="$PROJECT_DIR$/http-client/http-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rahmnathan-utils.iml" filepath="$PROJECT_DIR$/rahmnathan-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/video-converter/video-converter.iml" filepath="$PROJECT_DIR$/video-converter/video-converter.iml" />
+    </modules>
+  </component>
+</project>

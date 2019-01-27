@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<Node
+	type="textField"
+	bhNodeID="idStrLiteral"
+	name="StrLiteral"
+	nodeStyleID="StrLiteral.json"
+	nodeInputControl="TextField.fxml"
+	onTextInput="ParseStr.js"
+    initString="テキスト">
+</Node>
+

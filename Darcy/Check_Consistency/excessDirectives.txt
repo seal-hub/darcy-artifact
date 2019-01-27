@@ -1,0 +1,21 @@
+net.seapanda.bhprogramexecenv:requires#jdk.scripting.nashorn
+net.seapanda.bhprogramexecenv:exports#net.seapanda.bunnyhop.programexecenv
+net.seapanda.bunnyhop:requires#java.scripting
+net.seapanda.bunnyhop:requires#javafx.controls
+net.seapanda.bunnyhop:requires#jdk.scripting.nashorn
+net.seapanda.bunnyhop:requires#java.desktop
+net.seapanda.bunnyhop:requires#java.xml
+net.seapanda.bunnyhop:requires#javafx.graphics
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.model.templates
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.modelprocessor
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.message
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.model.connective
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.common.tools
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.common
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.root
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.model
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.model.imitation
+net.seapanda.bunnyhop:exports#net.seapanda.bunnyhop.modelhandler
+net.seapanda.bunnyhop:opensto#net.seapanda.bunnyhop.control to [javafx.fxml]
+net.seapanda.bunnyhop:opensto#net.seapanda.bunnyhop.root to [javafx.fxml]
+net.seapanda.bunnyhop:opensto#net.seapanda.bunnyhop.view to [javafx.fxml]

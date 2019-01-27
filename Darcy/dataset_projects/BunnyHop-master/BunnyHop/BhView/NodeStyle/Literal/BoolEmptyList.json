@@ -1,0 +1,17 @@
+{
+	"topMargin" : 1.25,
+	"bottomMargin" : 1.25,
+	"leftMargin" : 2.0,
+	"rightMargin" : 2.0,
+	"connectorPos" : "Left",
+	"connectorShift" : 0.0,
+	"connectorWidth" : 6.5,
+	"connectorHeight" : 6.5,
+	"connectorShape" : "CROSS",
+	"connectorBoundsRate" : 1.0,
+	"cssClass" : "voidNode",
+	
+	"label" : {
+		"cssClass" : "defaultLabel"
+	}
+}

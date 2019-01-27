@@ -1,0 +1,12 @@
+package firemage.constantin.core;
+
+import firemage.constantin.core.properties.CoreProperties;
+import firemage.constantin.core.properties.CorePropertyName;
+
+public class Main {
+
+	public static void main(final String[] args) {
+		CoreProperties.getInstance().getProperty(CorePropertyName.MAX_TIME_IN_MIND);
+	}
+
+}

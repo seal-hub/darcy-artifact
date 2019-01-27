@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="soot-infoflow" />
+        <module name="soot-infoflow-android" />
+        <module name="soot-j9" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="soot-infoflow" target="1.7" />
+      <module name="soot-infoflow-android" target="1.7" />
+      <module name="soot-j9" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

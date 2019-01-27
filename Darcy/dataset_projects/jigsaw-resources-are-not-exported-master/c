@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -e -x
+
+rm -rf classes modules
+mkdir -p classes/{lib,app} modules
+
+# Compile module 'lib'
+javac lib/module-info.java lib/foo/Foo.java -d classes/lib
+# Pack module classes and sources to lib.jar
+jar cf modules/lib.jar -C classes/lib . -C lib .
+
+# Compile module 'app'
+javac app/module-info.java app/bar/Bar.java -p modules -d classes/app
+# Pack module classes to app.jar
+jar cf modules/app.jar -C classes/app .
+
+# Run 'app'
+java -p modules -m app/bar.Bar
