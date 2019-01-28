@@ -4,6 +4,8 @@ This repository contains:
 * The input data needed for running this tool
 * The materials used in evaluating it
 
+The DOI for this repository is [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2550901.svg)](https://doi.org/10.5281/zenodo.2550901)
+
 In the following sections, we explain all the materials contained in this repository.
 
 ## 1. Darcy: Detection and Repair of Architectural Inconsistencies in Java ##
