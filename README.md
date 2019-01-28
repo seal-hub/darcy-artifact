@@ -18,11 +18,7 @@ Darcy’s main goal is to detect and repair architectural inconsistencies that m
 * Module-Info Transformer: This component leverages ANTLR [3] and deletes or modifies the explicit dependencies defined in the module-info files to repair the identified inconsistencies within Java applications. This component is implemented in Java (`ModuleInfoTransformer.jar`).
 
 The `runAll.sh` script, located in the _Darcy_ directory, runs all these components in the explained order. After running this script, it asks for a Java project path as an input, runs Darcy’s components, and reports its output. The output contains all the reports regarding each component. The identified inconsistencies are reported as "_FOUND INCONSISTENCIES_", and also saved in a text file `excessDirectives.txt` in the `Darcy` directory. The identified inconsistencies of type _opens_  are reported in the Java reflection analysis output and also saved in `excessOpenDirectives.txt` in the `Darcy` directory. The inconsistencies of type _uses_ are reported as "_Excess Uses_", and also saved in `excessUsesDirectives.txt` in the `Darcy` directory. Finally, in the output of the repair section, the modified module-info files are printed after Darcy’s repair. The original module-info files within the target Java project is also modified and saved.
-You can leverage the virtual machine image we provide [here](https://drive.google.com/file/d/1JYc39S89OSM6FIC_6gjmMdNUsrYiEdQ6/view?usp=sharing). The username and password for logging into the VM image are:
-```
-Username: negar
-password : "1"
-```
+
 In this repository, all the source files and the `runAll.sh` script are located in `Darcy` directoy.
 
 ## 2. Input Data ##
